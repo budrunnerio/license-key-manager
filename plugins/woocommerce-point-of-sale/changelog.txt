@@ -1,0 +1,509 @@
+*** Point of Sale for WooCommerce Changelog ***
+2023-09-09 - version 6.1.1
+Fix - disable the option for Interac cards for non-Canadian stores.
+
+2023-09-05 - version 6.1.0
+Feature	- implement an option for hiding the 'Uncategorized' product category within the product grid interface.
+Feature	- activate background data synchronization as a default configuration.
+Feature	- add support for the new custom orders table (HPOS).
+Feature - introduce functionalities for the cancellation and deletion of orders via the POS system.
+Feature - enable compatibility for Interac debit card transactions within the Canadian market.
+Feature - implement an option for conditional printing of receipt copies, filtered by category, individual product items, or purchase quantity.
+Fix - resolve discrepancies in the calculation of discount amounts as presented on printed receipts.
+Fix - the persistent printing of original item pricing on receipts generated for online orders.
+Fix - the issue of the refund issuer identifier not being saved to the database.
+Fix - the CSS styling of the order details section within printed receipts.
+Fix - the display of price data within product search results.
+Fix - the visibility of stock status icons for products with variable attributes.
+Fix - instances where the customer name appears as null within the order card interface.
+Fix - errors triggered during the deletion process of grid tiles.
+Fix - exceptions that arise when the default customer record is deleted from the database.
+Fix - to ensure that products exclusive to the POS system are searchable within analytics platforms.
+Fix - the orders card to display aggregated product quantities as opposed to the count of individual items.
+Misc - optimize the rendering and interaction speed of the product grid interface.
+Tweak - configure the default outlet to synchronize with the online product stock database.
+Tweak - enhance the verbosity and clarity of error messages generated during failed API requests.
+Tweak - imlpement an error notification when the specified cash register configuration is unavailable.
+Tweak - enable the printing of customer-specific notes on transactional receipts.
+Tweak - facilitate the inclusion of item-specific notes within the printed receipt documentation.
+
+2023-06-08 - version 6.0.5
+Feature - ability to print the end-of-day (EoD) report.
+Fix - custom grid product ordering was not being respected.
+Fix - issue when scrolling through customers after searching for a customer.
+Fix - product quantity was doubled when added using the search bar.
+Tweak - icon to change the product sorting order between asc/desc.
+
+2023-05-31 - version 6.0.4
+Feature - customer information dialogue when loading a customer to the POS.
+Feature - configuration added under product settings to define the value to increment by when entering measured quantities.
+Feature - configuration to log out from the WordPress session after closing the register.
+Fix - use keyboard arrow keys to navigate products in the search results.
+Fix - refactor components responsible for scanning products through the device camera.
+Fix - only initialise active payment gateways.
+Fix - error when scanning variations with custom barcode field.
+Fix - display the unit of measurement in quantity fields within the cart and order details.
+Fix - products with measured quantity were not added to cart when reordering.
+Fix - load only supported product types into the register when POS is loading.
+Fix - identified plugin confict with Elementor and POS API calls.
+Fix - automatically connects to the default Stripe Terminal reader assigned.
+Fix - grid tab for order and customer notes was not behaving as expected during order state changes.
+Fix - error related to id was called incorrectly when creating and sending POS order related emails.
+Fix - plugin compatibility issues, get store currency unfiltered.
+Tweak - only show available Stripe Terminal reader when a default reader is assigned. Otherwise, show all connected and available readers.
+Tweak - reorganise order fields related to order notes and payment method.
+Tweak - improved loading performance through loading only necessary product data.
+Tweak - allow orders placed with a zero total balance to be placed and paid for through the POS.
+Tweak - plus and minus buttons to increase and decrease mesaured quantity when adding products to the POS cart.
+
+2023-04-15 - version 6.0.3
+Tweak - end of sale email address assigned as billing email address if none set.
+Tweak - auto-close the checkout dialog after end of sale process is complete.
+Tweak - orders can be displayed as lists as well as cards.
+Fix - fatal error after upgrading to WooCommerce 7.6.0.
+Fix - product SKU option from receipt templates when configured.
+Fix - reset and remove notes between the order placing and selecting.
+Fix - stock status is not applied when outlet stock is enabled globally and managing stock is disabled for a product.
+Fix - customer information changes were not saved in the backend when updating through POS.
+Fix - register fails to load on some stores with limited server resources.
+Fix - error when deleting a product that belongs to a deleted grid.
+
+2023-04-03 - version 6.0.2
+Feature - option to skip the review screen when paying using Stripe Terminal.
+Feature - ability to hide the order status from the receipt when placing orders and payments.
+Fix - username and password generating options were not respected.
+Fix - updated receipt CSS selectors to correct issue with custom styling.
+Fix - shipping method and rate not inlcuded when shipping tax class is based on cart items.
+Fix - resetting of cart quantity when adjusted using UoM settings.
+Fix - rephrase error message when registering a customer with an existing email address.
+Fix - register session totals not returned for some users.
+Fix - prompt user to take over register if force logout is enabled.
+Fix - orders were not filtering and displaying correctly for some users.
+Fix - hide tax totals if not included in the order.
+Fix - enhance performance when fetching POS data.
+Fix - email notification sent to customer when placing order on-hold.
+Fix - display the correct shipping method name in the cart and order page.
+Fix - display payment method in the printed POS receipt.
+Fix - address formatting for outlet, billing and shipping address on receipt and order details.
+
+
+2023-03-15 - version 6.0.1
+Feature - ability to add and remove discount reasons.
+Fix - searching SKU code when in scan mode was not working as expected.
+Fix - receipt clarity and scale improved and corrected, respectively.
+Fix - receipt template CSS not being applied to the receipt.
+Fix - product search results behaviour when scrolling through results.
+Fix - end of sale email notifications when holding orders.
+
+2023-03-13 - version 6.0.0
+Feature - loading pending or on-hold orders to complete or process them.
+Feature - web orders include an order note indicating that a cashier loaded an online order into a POS register.
+Feature - search and filter orders based on customer, type, status and date.
+Feature - separators to group orders based on day, week, month, quarter or year.
+Feature - product grid includes additional information, such as stock count.
+Feature - global and local configurations to manage product levels for each outlet.
+Feature - loading available coupons based on global permissions.
+Refactor - upgraded library and classes of the POS application.
+Refactor - codebase improved to include support for TypeScript.
+Refactor - payments to cater for 3rd party integrations.
+Refactor - receipt performance improvements and support for printing existing orders and from the cart.
+Tweak - improvements to authentication, data syncing, API requests and barcode scanning.
+Tweak - show or hide the selected attributes column on variable product.
+Tweak - rounding is now implemented as a custom fee and is rounded based on configured setting.
+
+2021-10-29 - version 5.5.4
+Feature - option to disable the order status selector when fulfilling orders.
+Feature - support for custom status selection (Order Status Manager by SkyVerge) for parked and fulfilled orders.
+Feature - ability to scan barcodes using device camera.
+Feature - option to restock out of stock products when scanned through the register.
+Feature - global setting for loading of coupons on register load.
+Fix - unexpected behaviour when regular products have parents.
+Fix - PHP warnings related to SSL certificates.
+Fix - plugin conflict that broke receipt template functionality within POS.
+Fix - respect visiblity settings when displaying related products.
+Fix - variation selection fails under specific circumstances.
+Fix - orders with no billing first name were shown as “Walk-in Customer”.
+Fix - product preview panel did not show data.
+Misc - bumped the minimum required version of WC to 4.1.0.
+Tweak - display SKU and image on variable product option tiles.
+Tweak - search and show billing company information.
+
+2021-08-26 - version 5.5.3
+Feature - ability to define margins when printing barcodes in a continuous format.
+Fix - style conflict with Avada theme.
+Fix - custom product grid did not load all products.
+Fix - card reader selection issue with Stripe Terminal.
+Tweak - complete refactor and redesign of processing refunds through the register.
+Tweak - display terminal ID along with label in register settings page.
+Tweak - dispaly additional terminal info under Payments > Stripe Terminal > Available Terminals.
+Tweak - display meaningful error message if no readers available.
+Tweak - update setting defaults for indexing, scanning, searching and fetch order settings.
+Tweak - increased number of additional payment methods to 20.
+
+2021-06-30 - version 5.5.2
+Feature - generate a payment link when holding orders that require payment.
+Feature - option to display product attributes within search results.
+Feature - option to only display orders for logged in POS user.
+Feature - support for evaluated shipping costs through default core shipping rates.
+Fix - remove unnecessary decoding on API responses.
+Fix - receipt CSS was affecting back-end order details page. 
+Fix - receipt URL corrupted due to escaping characters.
+Fix - updating quantity for custom products created new cart line item.
+Fix - barcodes not showing when printing barcode labels.
+Fix - register did not load due to third party conflict.
+Fix - skip stock validations when adding custom products.
+Fix - first page of products loading twice after adding variable product.
+Fix - orders page loading when no matches found.
+Fix - variations with optional attributes are added to the same cart as separate item.
+Fix - labels when discount applied are included in receipt.
+Fix - display formatted product prices in search results.
+Fix - conflict with WP Recipe Maker plugin.
+Fix - display order number generated by third-party plugins.
+Fix - cart item toggle icon did not animate when expanded.
+Tweak - send order number as metadata when processing through Stripe Terminal.
+Tweak - reset grid view after checkout process is complete.
+Tweak - remove service worker setup.
+Tweak - customer details required before processing downloadable products.
+Tweak - product preview tweaks to text and styling.
+Tweak - validate and save email address on End of Sale for walk-in customers.
+Tweak - clerk role cannot edit product name and attributes.
+Tweak - improvement to order processing when previous order has failed.
+
+2021-05-26 - version 5.5.1
+Feature - shipping method, payment method, subtotal and fees are listed in order details table.
+Feature - ability to include billing address in the receipt template.
+Feature - ability to add more than one fee to the cart.
+Feature - support for shipping class costs when adding shipping through POS.
+Feature - ability to disable the middle check digit in UPC-A barcodes.
+Fix - products could not be added from search bar if not on products tab
+Fix - disable product scan if not on products grid.
+Fix - styling for back-end metaboxes on register settings.
+Fix - customer card scanning not working as expected on POS.
+Fix - display correct register on order details panel.
+Fix - remove the uniqueness constraint for slug in categories.
+Fix - discount would not work if coupon is disabled storewide.
+Fix - end of day report includes float details and counted total.
+Tweak - default quantity when adding custom products.
+Tweak - user experience tweaks when adding coupons, fees and discounts.
+Tweak - improvement to responsive layouts for the product preview panel.
+Tweak - user experience improvements to grid when using on tablet and mobile devices.
+Tweak - remove ability to add and display cart on login page.
+
+2021-05-07 - version 5.5.0
+Feature - end of sale option to set order status before confirming the order.
+Feature - set tax class and status when adding custom product.
+Feature - image resolution of products can be set from global settings.
+Feature - product preview panel now includes table for variable products.
+Feature - product grid and cart width can be adjusted using slider.
+Feature - add fallback for full text search when searching for products.
+Fix - incorrect customer last name was showing when loading existing customer.
+Fix - product data panel on touch devices would close when clicking on Update.
+Fix - incorrect total when replicating previously ordered item.
+Fix - support for search terms includes white spaces at the end.
+Fix - icon was not displaying correctly on product data meta box.
+Fix - prompt user with error notice when scanning barcode for out of stock products.
+Fix - cart items count was not considering each cart items multiple quantities.
+Fix - populate customer information when re-ordering.
+Fix - console error was displaying when manifest.json could not be loaded.
+Fix - product POS visibilty was not saving when quickly editing product.
+Fix - cart was not scrolling to bottom when cart items have reached viewport height.
+Fix - removed deprecated database query to enhance performance.
+Fix - respect money separators when adding a custom product price.
+Fix - support for backward compatibiltiy when using WC < 4.1.0.
+Fix - hold button stops functioning after closing payment panel.
+Tweak - product grid stability when switiching between grid layouts.
+Tweak - dedicated product preview and stock indicators on product card.
+Tweak - product search improvements including less required characters.
+Tweak - auto save counted cash value when closing register.
+Tweak - improvements to shipping options including limiting countries as per global settings and hiding methods until address is entered.
+Tweak - include stock status on variable products variation tiles.
+
+2021-04-06 - version 5.4.2
+Fix - remove obsolete database query.
+Fix - incorrect price when applying discount on sale items.
+Fix - in-store bank transfer and check payments appearing on online checkout.
+Fix - update deperected WC functions.
+Fix - scanning coupon barcodes conflicted with product barcode scan.
+Fix - disable navigation if not supported by the installed WC.
+Fix - discount tab freezes if less than 4 keypad presets are selected.
+Tweak - respect global tax settings when displaying prices and totals.
+
+2021-03-22 - version 5.4.1
+Fix - receipt emails were sending to original default customer.
+Fix - cancelling orders when re-ordering them was not working.
+Fix - customer scanner prompt was not displaying.
+Fix - issue with validating coupons with minimum and maximum requirement.
+Fix - cannot select variations if selected an out of stock variation first.
+Fix - refund not working if order contains out of stock products.
+Fix - receipt template not loading correctly on some HTTPS sites.
+Tweak - support for WC dashbaord navigation.
+Feature - added filters to remove product fields from API responses.
+Feature - advanced filters added to Analytics > Orders to filter orders by register or outlet.
+Feature - filters added to Analytics > Order to filter orders by POS or web.
+
+2021-03-01 - version 5.4.0
+* Fix - major refactoring to improve complex cart calculations of tax, fees, discounts, shipping and coupons.
+* Fix - intermittent issue where generated chip & PIN order ID was not used when placing some new orders.
+* Fix - error when updating the database.
+* Fix - incorrect tendered/change amounts when non-default currency options used.
+
+2021-02-11 - version 5.3.7
+* Fix - downloadable product links were broken.
+* Fix - some variations cannot be added to cart.
+* Fix - timeout error while fetching customers data.
+
+2021-01-20 - version 5.3.6
+* Fix - products with no POS visibility did not show on web store.
+* Fix - cannot open some registers from My Account page.
+* Fix - login screen shows duplicate users when using custom roles.
+* Fix - error while loading coupons with duplicate codes.
+* Fix - issue with non-Latin product attribute slugs.
+* Fix - save customer billing name to the WordPress user profile.
+* Fix - cannot change / add or remove register logo.
+* Fix - disable keyboard shortcuts on input elements.
+* Fix - error if a register post has no date of creation in DB.
+* Fix - hold button is always showing.
+* Fix - product variations with 0 price were not displaying on grid.
+* Fix - remove 'http://' from outlet website URL on reciepts.
+* Fix - barcode on receipt was only generated for the first copy when multiple copies are set.
+* Fix - console error if shipping is disabled.
+* Tweak - WC 4.9.0 compatibility.
+* Tweak - tweak to email validation when entering customer details.
+
+2020-11-24 - version 5.3.5
+* Fix - keyboard shortcuts not working when scan mode is enabled.
+* Fix - cashier tender options affected after database updates.
+* Fix - unused attribute not hidden if its the first one.
+* Fix - cannot add non-published custom products from the register.
+* Fix - products with stock quantity less than 1 cannot be added to cart.
+* Tweak	 - improve product grid scrolling behaviour.
+* Feature - set custom logo for the register screen.
+* Feature - option to set maximum concurrent requests.
+* Feature - set default search or scan mode for the register.
+* Feature - option to include product attributes in product search parameters.
+
+2020-11-17 - version 5.3.4
+* Fix - remove obsolete init hook that affected performance.
+* Fix - product search did not return all matches.
+* Fix - order contact details links were not working on the registers order details page.
+* Fix - logo size is not respected when configuring receipt template.
+* Fix - tax rates and shipping methods could not be loaded when logged in as clerk.
+* Fix - cannot reset user outlets.
+* Tweak - add transient to cache product meta keys.
+* Tweak - highlight product card if item is already in the registers basket.
+* Feature - set suggested amounts when adding UoM products.
+* Feature - scan EAN-13 and UPC-A weight or price embedded barcodes from the register.
+* Feature - scan product SKU code when adding new product from the register.
+
+2020-10-27 - version 5.3.3
+* Fix - loading shipping zones consecutively.
+* Fix - scanned variations with one attribute not handled correctly.
+* Tweak - product grid styling enhancements and change of default view.
+* Tweak - option to reset database and reload regsiter upon failed initialisaiton.
+* Tweak - hide unused product attributes from the product grid variation selector. 
+* Tweak - global setting for loading of customers on register load.
+* Tweak - register setting for grid layout.
+
+2020-10-23 - version 5.3.2
+* Fix - register clerks were not able to login to register.
+* Tweak - product grid list view enhancements.
+
+2020-10-22 - version 5.3.1
+* Feature - grid layouts including rectangular tiles and list view.
+* Fix - out of stock products are validated before order is processed.
+* Fix - update product stock after ordering.
+* Fix - cart does not auto-scroll after adding many items.
+* Tweak - loading of customer data upon register initialisation.
+* Tweak - enhanced customer search.
+* Tweak - global coupon settings respected on register.
+* Tweak - always display stock indicators on product tiles.
+* Tweak - option to set required fields for adding custom products.
+
+2020-10-15 - version 5.3.0
+* Feature - support for quick response (QR) barcode on store receipt.
+* Feature - cache products data in browser for faster access.
+* Feature - introduce splash screen to load POS data.
+* Feature - continue loading data in background.
+* Feature - enhanced product search.
+* Feature - option to refresh data on register load.
+* Fix - customer search results were not showing all customers.
+* Fix - product variations were not showing correctly.
+* Fix - refund link was not working for tablet users.
+* Fix - tendered option validated after user input.
+* Fix - cart item price does not change.
+* Fix - shipping and billing options not displayed correctly.
+* Fix - fix product grid sorting and loading issues.
+* Tweak - WC 4.6.0 compatibility.
+* Tweak - set default publishing of products when adding products through register.
+* Tweak - login screen no longer shows register data.
+* Tweak - cart actions enhancement for mobile users.
+* Tweak - product attributes when adding to the cart.
+* Tweak - additional choice of behaviour of grid when adding product to cart.
+* Tweak - closing register screen rearrangement.
+* Tweak - add SKU field to the custom product form.
+
+2020-09-07 - version 5.2.12
+* Tweak - ability to select Stripe terminal from register page.
+* Tweak - allow HTML tags in receipt header/footer.
+* Tweak - trigger customer new account email notification.
+* Tweak - grant POS access by capabilities instead of user role.
+* Fix - include opening cash float value to expected total of cash sales.
+* Fix - show error message if shipping method is not supported.
+* Fix - misleading notification that REST API is blocked. 
+* Fix - stock controller not updating correctly.
+* Fix - issue when loading nested sub categories.
+* Fix - fix compatibility issue with WC < 3.6.0.
+* Fix - product and category images loading failure for some users.
+* Fix - applying certain coupon configs causes register to crash.
+
+2020-08-11 - version 5.2.11
+* Tweak - WC 4.3.2 compatibility.
+* Tweak - delayed timer for printing of receipt.
+* Tweak - show spinner until users are loaded in the login screen.
+* Fix - certain cashiers were not showing in login screen.
+* Fix - front-end access does not work if "My Account" page is set to homepage.
+* Fix - enable currency rounding not working.
+* Fix - check_wc_rest_api() fails if User-Agent is not set.
+* Fix - fatal errors if registers deleted from the database directly.
+* Fix - signature pad not working.
+
+2020-07-06 - version 5.2.10
+* Feature - support WC Sequential Order Numbers Pro by SkyVerge.
+* Feature - add BACS and Check payment methods.
+* Tweak - allow adding free products.
+* Fix - products not loading correctly.
+* Fix - login screen not showing users.
+* Fix - error when adding variable products.
+* Fix - print modal does not appear in some cases.
+
+2020-05-27 - version 5.2.9
+* Tweak - indicators when fetching coupons from store.
+* Fix - refactor security permissions for Clerk and Outlet Manager roles.
+* Fix - refactor cash tendering payment method.
+* Fix - calling incorrect function for receipt header.
+* Fix - refactor settings for customer required fields.
+
+2020-05-11 - version 5.2.8
+* Tweak - user interface changes to the panels and cart actions.
+* Fix - product modals not loading for some users.
+* Fix - issue with blank page being rendered for the register page.
+* Fix - payment method not showing.
+
+2020-04-09 - version 5.2.7
+* Fix - some receipt template settings were not being applied when generating receipt.
+* Fix - error when viewing POS reports and there is no register found.
+* Tweak - print receipt from order details page on register.
+* Tweak - set a default for saving customer details when adding new customers
+* Tweak - show or hide cash suggestions when tendering cash through register.
+* Integration - partial support for WooCommerce Min / Max Quantity extensio (only product-level support).
+* Localisation - French, Italian, Dutch, Finnish, Greek, Norweigian, Romanian, Russian, Swedish, Hebrew, Japanese and Turkish.
+
+2020-03-30 - version 5.2.6
+* Feature - ability to apply filter to the header and footer of the receipt.
+* Tweak - barcode scanning disables search entry when enabled.
+* Tweak - add option to modify time format in receipt.
+* Tweak - add option to decrease text size in receipt.
+* Tweak - auto add product variation if single variation available.
+* Tweak - include scanning options when performing product search.
+* Fix - meta fields displaying from third-party plugins.
+* Fix - timezone was not being respected for cashier login screen.
+
+2020-03-25 - version 5.2.5
+* Feature - ability to set the colour theme of the register.
+* Tweaks - decimal unit rules applied to tender box.
+* Tweaks - user roles have been renamed, more info in docs.
+* Misc - German localisation added.
+
+2020-03-20 - version 5.2.4
+* Tweak - adding existing custom products fetch existing prices set.
+* Tweak - printing of receipts is now enabled and disabled from invidivual register settings.
+* Tweak - if no payment methods are set, notice is shown.
+* Feature - ability to have multiple Chip & PIN payment methods. 
+
+2020-03-18 - version 5.2.3
+* Tweak - to user experience when adding custom products and using cart.
+* Tweak - to refunding orders that have multiple discount, tax and fee lines.
+* Tweak - to handling of tax rates for variable products.
+
+2020-03-10 - version 5.2.2
+* Tweak - WC 4.0 compatibility.
+* Feature - support WooCommerce Sequential Order Numbers by SkyVerge.
+* Tweak - option to print refund receipt.
+* Fix - refunding orders with product stock at 0 was not working.
+* Fix - refunding orders and not restoring stock was not working.
+
+2020-03-03 - version 5.2.1
+* Fix - holding orders final panel would not dismiss.
+* Fix - country would not appear in outlet page.
+* Fix - opening float amount only appears if note was left.
+
+2020-03-02 - version 5.2.0
+* Tweak - actions are disabled when refund is being processed in the register.
+* Tweak - product and customer search feedback reduced.
+* Tweak - ignore spaces in barcode scanning.
+* Fix - unit of measurement not calculating values less than 1.
+* Fix - backordered stock status is now considered.
+* Fix - variable products with custom attributes were not loading correctly.
+* Fix - tax rates were not applied correctly when outlet and shop base rates are different.
+* Fix - Stripe Terminal was not passing correct total for some users.
+* Fix - end of day report emails were not sending.
+
+2020-02-21 - version 5.1.6
+* Fix - encode special characters in product categories on the product grid.
+* Fix - orders that are refunded will have updated status in orders tab.
+* Fix - when refunding custom products product value was incorrect.
+* Tweak - prompt if basket has product when user is closing register or switching users.
+* Tweak - ability to go back and close payment capturing from screen.
+* Tweak - button to copy billing address to shipping address.
+
+2020-02-17 - version 5.1.5
+* Fix - product visiblity option error with variable products.
+* Fix - product grid disappearing after adding product for some users.
+* Fix - product search filtering returning error with variable parent product.
+* Fix - error when applying multiple compound tax rates.
+* Fix - error with product grid metabox on product edit page.
+* Fix - error when saving post types.
+
+2020-02-13 - version 5.1.4
+* Fix - product SKU label not showing when enabling this through barcode printing.
+* Fix - refund total rounding when processing refunds through the register.
+* Fix - rounding differences between regsiter total and receipt total.
+* Fix - receipt font not rednering correctly on print preview.
+* Tweak - discount presets display defaults if value left blank.
+* Tweak - rectangular product images were not rendering correctly in the tiles on the grid.
+* Tweak - thousand and decimal separator respected on register.
+* Tweak - mask password field when creating customer and password is required.
+* Feature - option to choose behaviour when adding products to cart - return to home or stay in browsing category.
+* Feature - ability to enter a custom cash amount on payment screen.
+
+2020-02-10 - version 5.1.3
+* Tweak - notices to show if WC Endpoint is blocked.
+* Tweak - translation for Spanish included.
+* Tweak - customer search requests has increased debounce rate for slow performing servers.
+* Tweak - rename usermeta for tendering orders capability.
+* Fix - cash change was not showing in receipts.
+* Fix - login screen was showing no users for sites with non-standard DB prefix.
+
+2020-02-07 - version 5.1.2
+* Fix - user accounts were not appearing due to role conflicts.
+* Fix - Point of Sale menu not showing for My Account page when modified.
+* Fix - coupon with restrictions were not bein respected when applied.
+* Fix - reordering an order was not loading quantities of previous order.
+* Fix - only administrators were showing on the register login screen.
+* Tweak - localisation template has been updated to reflect missing strings.
+
+2020-02-05 - version 5.1.1
+* Fix - payment fulfillment process was failing for users upgrading from 4.5.X.
+* Tweak - global store currency position and decimal places are now respected.
+* Tweak - variable products will only show attributes that are part of the variations.
+* Tweak - search requests have increased debounce rate for slow performing servers.
+* Tweak - payment modal will automatically close when making sale immediately after one is finalised.
+
+2020-01-31 - version 5.1.0
+* Feature - support to install the web application directly from browser.
+* Feature - ability to process full or partial refunds when loading order through the register.
+* Feature - ability to define dining method from the register. Default setting can also be defined in register settings.
+* Fix - conflicted class WC_POS declared causing activation error.
+
+2020-01-08 - version 5.0.0
+* Major release of the new version of WooCommerce Point of Sale for WooCommerce marketplace.

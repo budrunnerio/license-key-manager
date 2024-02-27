@@ -1,0 +1,1 @@
+import{j as t,aL as n,o as r,l as s,w as e,m as a,aM as l,aN as _}from"../index.js";const m=t({name:"AppLayoutBlank",__name:"blank",setup(c){return(u,p)=>{const o=n("router-view");return r(),s(_,{style:{backgroundColor:"#fff"}},{default:e(()=>[a(l,null,{default:e(()=>[a(o)]),_:1})]),_:1})}}});export{m as default};

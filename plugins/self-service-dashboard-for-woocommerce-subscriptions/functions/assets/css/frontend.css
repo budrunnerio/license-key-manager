@@ -1,0 +1,213 @@
+a.wpr-quantity-update,
+a.wpr-subscription-update,
+a.wpr-add-product {
+    margin: 2px;
+}
+
+a.wpr-add-product {
+    margin-bottom: 10px;
+}
+
+#wpr-subscription-pause-submit,
+#wpr-subscription-pause-cancel,
+a.wpr-quantity-save,
+a.wpr-cancel-qty {
+    margin: 2px 2px 2px 0;
+}
+
+#wpr-subscription-pause-submit {
+    margin-right: 0;
+}
+
+#wpr-subscription-pause-cancel {
+    margin-left: 0;
+}
+
+.wpr-subscription-update-submit,
+.wpr-subscription-cancel-submit {
+    margin: 2px;
+}
+
+.wpr-subscription-update-submit {
+    margin-right: 0;
+}
+
+.wpr-subscription-cancel-submit {
+    margin-left: 0;
+}
+
+.wpr-add-new-subscription {
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+    /*    overflow: auto;*/
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+}
+
+.wpr-add-new-subscription > div {
+    margin-bottom: 20px;
+    flex: 0 0 330px;
+    width: 30%;
+}
+
+.wpr-add-new-subscription .wpr-product-image img {
+    display: inline-block;
+}
+
+.wpr-subscription-cancel-add {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    float: right;
+    padding: 7px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ssd-display-notification {
+    border: 1px solid rgba(0, 124, 75, 1);
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: rgba(0, 124, 75, 1);
+    display: block;
+    clear: both;
+}
+
+.wpr-add-new-form-content .ssd-display-notification {
+    margin-top: 100px;
+}
+
+.ssd-error-display-notification {
+    border: 1px solid rgba(255, 0, 0, 1);
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: rgba(255, 0, 0, 1);
+    display: block;
+    clear: both;
+}
+
+
+.ssd-modal-wrapper {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    overflow-x: scroll;
+    background: #EEEEEE;
+}
+
+#ssd-modal-content {
+    padding-top: 90px;
+    height: 100%;
+    background: #EEEEEE;
+}
+
+.ssd-hide {
+    display: none;
+}
+
+.ssd-show {
+    display: block !important;
+}
+
+.ssd-modal {
+    position: relative;
+    padding: 20px 15px;
+    background: #EEEEEE;
+    color: #000000;
+    text-align: center;
+    height: 100vh;
+}
+
+.ssd-close-modal {
+    display: inline-block;
+    float: right;
+    margin-right: 45px;
+}
+
+.ssd-close-modal-link {
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ssd-search-modal {
+    display: inline-block;
+}
+
+.ssd-search-modal-header {
+    position: fixed;
+    background: #EEEEEE;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#ssd-modal-content .bos4w-or-subscribe {
+    display: none;
+}
+
+.disable-click {
+    pointer-events: none;
+    opacity: .7;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+    .wpr-add-new-subscription {
+        flex-wrap: wrap;
+    }
+
+    .wpr-add-new-subscription > div {
+        flex: 45%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wpr-add-new-subscription {
+        flex-wrap: wrap;
+    }
+
+    .wpr-add-new-subscription > div {
+        flex: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #wpr-subscription-pause-submit,
+    #wpr-subscription-pause-cancel,
+    .pause_subscription {
+        margin-bottom: 4px !important;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    div[class^="wpr-variable-form-"] td.label,
+    div[class^="wpr-variable-form-"] td.value {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    a.wpr-quantity-save,
+    a.wpr-cancel-qty {
+        width: 100%;
+        margin: 2px 0 2px;
+    }
+}
+
+.wpr-subscription-add-submit {
+    margin-bottom: 10px;
+}

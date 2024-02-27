@@ -1,0 +1,12 @@
+.ssd-message-wrap {
+	display: flex;
+	align-items: center;
+}
+
+.ssd-message-wrap > div {
+	padding: 10px;
+}
+
+.ssd-dismiss-notice i {
+	color: #EEBD01;
+}

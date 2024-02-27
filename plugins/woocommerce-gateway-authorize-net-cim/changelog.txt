@@ -1,0 +1,399 @@
+*** WooCommerce Authorize.Net Gateway Changelog ***
+
+2023.12.14 - version 3.10.0
+ * Feature - Add support for the WooCommerce Checkout Block
+ * Fix - Ensure that eCheck orders can be placed also if the merchant name (website name) contains spaces
+ * Fix - Throw an exception instead of triggering a PHP error when a payment token is not found for an order that contains a payment token ID
+
+2023.11.16 - version 3.9.5
+ * Misc - Add admin notice to help merchants reverting to the checkout shortcode if the checkout block is used
+ * Localization - Improve the plugin localization of components that are part of the underlying framework dependency
+
+2023.10.02 - version 3.9.4
+ * Fix - Ensure order item descriptions on transaction receipts do not include internal/prefixed metadata
+
+2023.06.13 - version 3.9.3
+ * Fix - Save the transaction ID without setting the order meta data directly
+
+2023.06.01 - version 3.9.2
+ * Fix - Ensure that the transaction ID is correctly persisted on orders while saving transaction data
+
+2023.05.30 - version 3.9.1
+ * Fix - Remove `AllowDynamicProperties` attribute at method level causing a fatal error in PHP 8.2
+
+2023.05.24 - version 3.9.0
+ * Misc - Add compatibility for WooCommerce High Performance Order Storage (HPOS)
+
+2023.02.14 - version 3.8.1
+ * Fix - Resolve bug when deleting a saved credit card
+ * Misc - Update SkyVerge Plugin Framework to 5.10.15
+
+2022.12.05 - version 3.8.0
+ * Misc - Require PHP 7.4 and WordPress 5.6
+
+2022.09.03 - version 3.7.4
+ * Fix - Resolve bug when transacting with a saved echeck payment method
+ * Fix - Ensure customer shipping information is included in the merchant transaction receipt email
+
+2022.08.30 - version 3.7.3
+ * Fix - Resolve bug introduced with version 3.7.2 when running on PHP < 7.3
+ * Fix - Resolve error code E00015 when cart contains more than 30 individual line items
+
+2022.06.27 - version 3.7.2
+ * Fix - Correct compliance with COF (card on file) and MIT (merchant initiated transactions) mandates
+ * Fix - Resolve issue with failed eCheck renewals when name on account is missing
+
+2022.05.09 - version 3.7.1
+ * Fix - Revert COF/MIT changes from version 3.7.0
+
+2022.04.25 - version 3.7.0
+ * Misc - Compliance with COF (card on file) and MIT (merchant initiated transactions) mandates
+
+2022.02.08 - version 3.6.3
+ * Fix - Replace deprecated `is_ajax()` calls with `wp_doing_ajax()`
+ * Misc - Require WooCommerce 3.9.4 or greater
+
+2021.07.15 - version 3.6.2
+ * Fix - Ensure stored payment methods are removed from customer account when a customer profile is removed from Authorize.Net CIM
+
+2021.06.23 - version 3.6.1
+ * Tweak - Add the zip code and full name optional fields to card payment requests
+ * Fix - Address potential payment form JavaScript errors when customer reaches checkout with a $0 order
+
+2021.04.06 - version 3.6.0
+ * Tweak - Remove Authorize.Net Emulation gateway support
+
+2021.03.02 - version 3.5.0
+ * Misc - Allow merchants to connect and process payments via the emulation gateway using the standalone plugin Authorize.Net Emulation for WooCommerce
+ * Fix - Prevent a Fatal error while editing the Checkout page using Elementor
+
+2020.12.09 - version 3.4.0
+ * Misc - Add compatibility for WooCommerce 4.7
+ * Misc - Require PHP 7.0 or newer
+
+2020.10.28 - version 3.3.2
+ * Fix - Prevent orders with zeroed totals from triggering a capture charge event
+
+2020.09.29 - version 3.3.1
+ * Misc - Remove the SkyVerge help menu item as part of the plugin assets
+
+2020.08.20 - version 3.3.0
+ * Tweak - Migrate payment tokens to be compatible with WooCommerce core payment tokens
+ * Fix - Unblock the UI when removing a token from the admin token editor that was just added but not saved yet
+ * Dev - Deprecate some filter hooks in the payment methods table
+
+2020.06.09 - version 3.2.7
+ * Fix - Prevent JavaScript error triggered when different versions of the SkyVerge plugin framework are used at the same time
+ * Fix - Address possible JavaScript errors at checkout originating from a previous version of the payment form handler script being cached
+
+2020.05.07 - version 3.2.6
+ * Tweak - Update the SkyVerge Plugin Framework to ensure payment gateway scripts can be used when certain script optimization plugins are delaying load
+ * Tweak - Improve the payment form display on mobile devices
+
+2020.05.05 - version 3.2.5
+ * Misc - Make sure Apple Pay remains available only for USD
+
+2020.05.05 - version 3.2.4
+ * Misc - Add support for WooCommerce 4.1
+
+2020.03.10 - version 3.2.3
+ * Fix - Prevent PHP errors on admin pages when the gateway is misconfigured in WordPress 5.2 and lower
+ * Fix - Ensure enhanced admin notes for gateway misconfiguration are removed on plugin deactivation
+
+2020.03.05 - version 3.2.2
+ * Fix - Don't validate payment fields on page load in WooCommerce 3.9.2+
+ * Misc - Add support for WooCommerce 4.0
+
+2020.02.18 - version 3.2.1
+ * Fix - Send the taxable status of order items in API transactions
+
+2020.01.24 - version 3.2.0
+ * Fix - Add a link to the site's terms and conditions page below Apple Pay buttons when available
+ * Fix - On WooCommerce 3.9, prevent required credit card fields from being marked as invalid when the page loads (On WooCommerce 3.8 or older, required credit card fields will continue to be marked is invalid if they are empty when the page loads)
+ * Fix - Fix a JavaScript error when instantiating a class that hasn't been loaded
+ * Dev - Deprecate `WC_Authorize_Net_CIM_API::require_tls_1_2()`
+
+2020.01.02 - version 3.1.3
+ * Misc - Add support for WooCommerce 3.9
+
+2019.12.11 - version 3.1.2
+ * Fix - Ensure checkout can be completed after initial declines for eChecks
+
+2019.11.18 - version 3.1.1
+ * Fix - Do not reduce twice the stock level of a product when the order is held and payment is not completed
+
+2019.10.30 - version 3.1.0
+ * Fix - Fix a JavaScript error which occurs on the My Account page when the Emulation gateway is enabled
+ * Misc - Add support for WooCommerce 3.8
+
+2019.09.11 - version 3.0.7
+ * Misc - Add an admin notice when a gateway is enabled but is not configured and is unable to take payments
+
+2019.08.12 - version 3.0.6
+ * Fix - Ensure emulation gateways are not processed via webhooks
+ * Misc - Add support for WooCommerce 3.7
+
+2019.07.09 - version 3.0.5
+ * Tweak - Retrieve remote transaction details before processing refunds
+ * Fix - Fix errors processing Apple Pay transactions
+ * Misc - Adjust the migration routine from Authorize.Net DPM
+
+2019.06.12 - version 3.0.4
+ * Tweak - Hide lightbox on Escape keypress and background click
+ * Tweak - Improve lightbox accessibility for screen readers and keyboard navigation
+ * Tweak - Remove authorization message from My Payment Methods page where it is not applicable
+ * Fix - Prevent a duplicate transaction error when the CSC is entered incorrectly as a guest
+
+2019.05.07 - version 3.0.3
+ * Fix - Ensure checkout can be completed after initial declines
+ * Fix - Ensure a payment method's last four are saved to the order when paying with a saved method
+
+2019.04.16 - version 3.0.2
+ * Misc - Add support for WooCommerce 3.6
+ * Misc - Require PHP 5.4+
+
+2019.03.27 - version 3.0.1
+ * Fix - Clear cached Client Keys when saving settings to prevent stale keys from being used
+ * Fix - Ensure the CSC field is passed to Accept.JS when enabled
+
+2019.03.18 - version 3.0.0
+ * Feature - Unify the functionality of Authorize.Net AIM, SIM, and DPM into a single plugin
+ * Feature - Add an optional lightbox hosted credit card payment
+ * Feature - Add Accept.js support and an optional hosted payment form for eChecks
+ * Feature - Streamline setup to use Accept.js by default with no extra configuration required
+ * Feature - Add migration support for settings and data from AIM, SIM, and DPM
+ * Tweak - Send order address fields with refunds to decrease the chance of errors
+ * Fix - Prevent errors when product names or descriptions contain HTML and exceed the length limit
+ * Misc - Remove support for WooCommerce 2.6
+ * Misc - Require PHP 5.6+
+
+2018.10.23 - version 2.10.2
+ * Tweak - Add an admin notice when debug logging is enabled in production mode
+ * Fix - Ensure orders are automatically captured when the status is changed via the REST API if enabled
+ * Fix - Use the order currency for the capture order note
+ * Misc - Add support for WooCommerce 3.5
+
+2018.05.23 - version 2.10.1
+ * Fix - Handle 2-character shipping profile country codes returned by Authorize.Net
+ * Tweak - Add payment details to the customer data export and remove it for erasure requests
+ * Tweak - Remove payment tokens for customer data erasure requests
+ * Misc - Add support for WooCommerce 3.4
+
+2018.04.04 - version 2.10.0
+ * Feature - Customers can now label their saved payment methods for easier identification when choosing how to pay
+ * Feature - Add support for auto-capturing orders when changed to a paid status
+ * Tweak - Improve the My Account Payment Methods table on desktop and mobile
+ * Tweak - Add a more descriptive error for partially refunding unsettled transactions
+ * Tweak - Always force TLS 1.2 regardless of cURL version
+ * Fix - Ensure American Express cards are stored with the correct name and icon
+ * Fix - Always pass user email to gateways when adding a payment method
+ * Misc - Remove support for PHP 5.2
+ * Dev - Update the SkyVerge Plugin Framework to use namespaces and move it to the /vendor directory
+
+2018.01.23 - version 2.9.0
+ * Misc - Add support for WooCommerce 3.3
+ * Misc - Remove support for WooCommerce 2.5
+
+2017.12.12 - version 2.8.0
+ * Feature - Add support for Authorize.Net customer and payment profile webhooks to help keep tokens synced
+ * Tweak - Notify subscriptions when customer profiles are deleted from the merchant account
+ * Tweak - Add an extra order note to orders that were held due to fraud filter rules
+ * Fix - Ensure failed order token meta is only copied to the parent subscription when a successful payment has occurred
+ * Fix - Don't reset the checkout password field if it's already visible
+ * Fix - Fix Apple Pay compatibility with WooCommerce 3.2+
+
+2017.09.13 - version 2.7.1
+ * Fix - Ensure failed Pre-Orders can be paid with a new method
+ * Tweak - Adjust the TLS 1.2 admin notice wording and allow it to be dismissed
+
+2017.07.25 - version 2.7.0
+ * Fix - Ensure the admin Shipping Address ID user fields are labelled for their environment when needed
+ * Tweak - Fill a payment method's card type when returned by the API
+ * Dev - Added Apple Pay framework
+
+2017.06.28 - version 2.6.4
+ * Tweak - Force TLS 1.2 for API requests when available
+ * Misc - Add an admin notice for hosting environments that are not compatible with Authorize.Net's upcoming security requirements
+ * Misc - Update the SkyVerge plugin framework
+
+2017.05.23 - version 2.6.3
+ * Tweak - Add an admin user field for updating customer shipping address IDs if necessary
+ * Fix - Ensure subscriptions are not affected if Change Payment fails due to declines or other problems
+ * Fix - Ensure old payment methods can be removed after changing subscription payment to a new method
+
+2017.04.26 - version 2.6.2
+ * Fix - Prevent some deprecated notices when processing subscriptions in WooCommerce 3.0+
+
+2017.04.11 - version 2.6.1
+ * Fix - Set a relevant "Billing State" label at checkout when requiring billing state for EU payment processors
+
+2017.03.28 - version 2.6.0
+ * Misc - Added support for WooCommerce 3.0
+ * Misc - Removed support for WooCommerce 2.4
+
+2017.01.11 - version 2.5.1
+ * Fix - Disable the default CSC validation for saved credit cards when using Accept.js
+ * Fix - Ensure Curaçao country code is properly formatted to avoid invalid country errors
+
+2016.11.09 - version 2.5.0
+ * Feature - Orders with only virtual items can now force a charge instead of authorization
+ * Feature - Enhanced payment form is now mobile-friendly (well, friendlier!) with `tel` type inputs
+ * Tweak - Update Mastercard payment icon and add BIN 2 series support
+ * Fix - Missing shipping profile data is now properly set
+ * Fix - Subscription payment method changes following a failed renewal were not saved properly if transaction type was set to "authorization"
+ * Misc - Update SkyVerge plugin framework to 4.5
+
+2016.10.25 - version 2.4.1
+ * Fix - Fixes transaction failures on orders with $0 fees
+
+2016.09.28 - version 2.4.0
+ * Feature - Add Accept.js support for reduced PCI compliance scope
+ * Feature - Add an optional eCheck authorization confirmation message at checkout
+
+2016.08.02 - version 2.3.2
+ * Tweak - Correctly capitalize "Authorize.Net"
+
+2016.07.27 - version 2.3.1
+ * Misc - WordPress 4.6 compatibility
+
+2016.06.02 - version 2.3.0
+ * Misc - Added support for WooCommerce 2.6
+ * Misc - Removed support for WooCommerce 2.3
+
+2016.05.04 - version 2.2.1
+ * Fix - Fix an error when a guest attempts to process a transaction with a pre-order
+
+2016.04.20 - version 2.2.0
+ * Feature - View saved payment methods for customers on the Edit User screen
+ * Feature - Customers are now prevented from deleting a payment method that's associated with an active subscription
+ * Tweak - Uses new Akamai API endpoints in production
+
+2016.03.08 - version 2.1.2
+ * Fix - Fix a rare fatal error for new installs when old profile data exists
+
+2016.01.26 - version 2.1.1
+ * Fix - Fix a PHP warning that could be logged during payment processing
+
+2016.01.14 - version 2.1.0
+ * Tweak - Use 3 character billing/shipping country codes for improved compatibility with European processors
+ * Misc - Added support for WooCommerce 2.5
+ * Misc - Removed support for WooCommerce 2.2
+
+2015.12.11 - version 2.0.8
+ * Fix - Fix address errors when AVS fraud filters are enabled
+
+2015.11.25 - version 2.0.7
+ * Tweak - Temporarily revert to legacy Authorize.net API endpoint pending Akamai endpoint fix
+
+2015.11.04 - version 2.0.6
+ * Fix - Fix most remaining E00039 errors related to legacy payment profiles
+
+2015.10.19 - version 2.0.5
+ * Fix - Fix shipping profile issues when an order does not contain a shipping address
+ * Fix - Improved handling for invalid UTF-8 characters in order descriptions
+
+2015.10.16 - version 2.0.4
+ * Fix - Fix failing subscription renewals in certain cases
+
+2015.09.10 - version 2.0.3
+ * Tweak - Add specific width/height styling for payment method icons
+ * Misc - WooCommerce Subscriptions 2.0 Compatibility
+ * Misc - Update SkyVerge Payment Gateway Framework
+
+2015.08.05 - version 2.0.2
+ * Fix - Fix issue with refunding non-profile transactions
+
+2015.07.29 - version 2.0.1
+ * Fix - Fix issue preventing saved cards from being used in certain cases
+ * Tweak - Adjust payment gateway icon styling to play better with certain themes
+
+2015.07.28 - version 2.0.0
+ * Feature - Simplified responsive payment form with new retina payment method icons and live inline validation
+ * Feature - Customers can add new payment methods from the My Account area
+ * Feature - Unified My Payment Methods section in the My Account area shows both credit cards and eChecks. Bonus: it's now responsive too :)
+ * Feature - Refund/Void/Capture transactions directly from the WooCommerce admin!
+ * Feature - You can now opt to show detailed decline messages to your customers, no more "an error occurred" error messages!
+ * Feature - Customer Billing/Shipping information is now set correctly for every order
+ * Feature - Completely rewritten from the ground-up for massively improved reliability and performance
+ * Feature - Uses new Akamai API endpoints in production
+ * Fix - Permanently exorcised all the E00039/E00040 errors we could find
+ * Misc - Many other small tweaks, fixes, and improvements
+ * Misc - WooCommerce 2.4 Compatibility
+ * Misc - Update SkyVerge Plugin Framework
+
+2015.02.09 - version 1.4.1
+ * Fix - Fix failed subscription renewals with free trials
+
+2015.02.09 - version 1.4.0
+ * Misc - WooCommerce 2.3 Compatibility
+
+2014.10.28 - version 1.3.5
+ * Fix - Fix failed subscription renewals in some cases
+ * Fix - Don't delete profile IDs on failed payment to avoid most "duplicate record" errors
+ * Fix - Use the correct text domain, 'woocommerce-gateway-authorize-net-cim'
+
+2014.09.10 - version 1.3.4
+ * Fix - Fix potential error in admin when CIM is not available for your Authorize.net account
+
+2014.09.07 - version 1.3.3
+ * Fix - Prevent phone number from being sent to Authorize.net to avoid failed payments
+ * Fix - Limit line items to 30 for profile transactions
+ * Misc - WooCommerce 2.2 Compatibility
+
+2014.08.19 - version 1.3.2
+ * Fix - Fix incorrect line item totals for Subscriptions
+ * Fix - Fix duplicate line item description
+ * Fix - Fix line item encoding issue
+
+2014.07.14 - version 1.3.1
+ * Fix - Allow deleting profiles that no longer exist in CIM
+ * Fix - Limit transaction line items to 30
+
+2014.05.27 - version 1.3
+ * Feature - Tax and Shipping information is now included in transactions
+ * Fix - $0 Subscription renewals are now processed correctly
+ * Fix - Fix transaction failures when an order contains fees
+
+2014.04.25 - version 1.2
+ * Feature - Line item information is now included in transactions
+
+2014.01.20 - version 1.1
+ * Misc - WooCommerce 2.1 compatibility
+ * Misc - Uses SkyVerge Plugin Framework
+ * Localization - Text domain changed from `wc-gateway-authorize-net-cim` to `woocommerce-gateway-authorize-net-cim`
+
+2013.09.24 - version 1.0.9
+ * Feature - Add support for WooCommerce Subscriptions 1.4 "Change Payment Method" feature
+ * Fix - Correctly store payment profile ID on subscription orders when initial total is $0
+ * Tweak - The Bill To State/Province is now properly displayed when required at checkout if using a European payment processor
+
+2013.08.23 - version 1.0.8
+ * Tweak - All billing fields are now required at checkout when using a European payment processor
+ * Tweak - Prevent a potential "duplicate transaction" error when a customer is re-entering an incorrect CVV
+ * Tweak - Update plugin action links
+
+2013.08.09 - version 1.0.7
+ * Fix - When the CVV is set as required, customers must enter it even when using a saved card. This ensures any CVV filters set with the Authorize.net control panel will flag mismatched/invalid CVV codes.
+
+2013.07.26 - version 1.0.6
+ * Tweak - You can now delete the CIM customer profile ID stored for the customer from the Edit User page
+
+2013.07.12 - version 1.0.5
+ * Tweak - Strip non-digits from credit card and CVV fields before processing, kudos Brian D.
+
+2013.06.18 - version 1.0.4
+ * Tweak - Display a notice if the CIM Add-On is not enabled for your Authorize.net account
+
+2013.05.31 - version 1.0.3
+ * Tweak - Increase the range of valid credit card expiration dates to 10 years
+
+2013.05.17 - version 1.0.2
+ * Feature - You can now change the CIM customer profile ID stored for the customer from the Edit User page
+ * Tweak - Added `wc_authorize_net_cim_transaction_description` filter so the default transaction description can be changed
+ * Tweak - Added `wc_authorize_net_cim_transaction_po_number` filter so PO Numbers can be provided for transactions
+
+2013.05.03 - version 1.0.1
+ * Tweak - Include shipping information in CIM profile transactions
+
+2013.04.11  - version 1.0
+ * Initial Release :)

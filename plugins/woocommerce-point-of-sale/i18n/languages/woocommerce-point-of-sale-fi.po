@@ -1,0 +1,5376 @@
+# Copyright (C) 2020 WooCommerce Point of Sale
+# This file is distributed under the same license as the WooCommerce Point of Sale package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Point of Sale\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: fi_FI\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: 1. URL link.
+#: woocommerce-point-of-sale.php:38
+msgid ""
+"Point of Sale for WooCommerce requires WooCommerce to be installed and "
+"active. You can download %s here."
+msgstr ""
+
+#: woocommerce-point-of-sale.php:49
+msgid ""
+"Point of Sale for WooCommerce requires the “WooCommerce POS” plugin to be "
+"deactivated to avoid conflicts."
+msgstr ""
+
+#: i18n/app.php:11
+msgid "Product doesn't exist"
+msgstr "Tuotetta ei ole olemassa"
+
+#. translators: %s product name
+#: i18n/app.php:13
+msgid "You cannot add another %s to your cart."
+msgstr "Et voi lisätä toista %s kuitille."
+
+#: i18n/app.php:14
+msgid "Sorry, this product cannot be purchased."
+msgstr ""
+
+#. translators: %s product name
+#: i18n/app.php:16
+msgid "You cannot add %s to the cart because the product is out of stock."
+msgstr "Et voi lisätä tuotetta %s, koska tuote on loppunut varastosta."
+
+#. translators: %1$s product name %2$s left in stock
+#: i18n/app.php:18
+msgid ""
+"You cannot add that amount of %1$s to the cart because there is not enough "
+"stock (%2$s remaining)."
+msgstr ""
+"Et voi lisätä antamaasi määrää tuotetta %1$s , koska varastoa ei ole "
+"tarpeeksi (%2$s jäljellä)."
+
+#. translators: %1$s qty in stock %2$s qty added
+#: i18n/app.php:20
+msgid ""
+"You cannot add that amount to the cart &mdash; we have %1$s in stock and you "
+"already have %2$s in your cart."
+msgstr ""
+"Et voi lisätä antamaasi määrää &mdash; meillä on %1$s varastossa ja olet jo "
+"lisännyt %2$s ."
+
+#: i18n/app.php:21
+msgid "Product added successfully"
+msgstr ""
+
+#: i18n/app.php:22
+msgid "Please choose product options&hellip;"
+msgstr "Valitse tuotteen vaihtoehdoista&hellip;"
+
+#: i18n/app.php:23
+msgid "Are you sure you want to clear all fields and start from scratch?"
+msgstr ""
+
+#: i18n/app.php:24
+msgid "Please add products."
+msgstr ""
+
+#: i18n/app.php:25
+msgid "Please select Payment method."
+msgstr ""
+
+#: i18n/app.php:26
+msgid "Please enter correct amount."
+msgstr ""
+
+#: i18n/app.php:27
+msgid "Order successful."
+msgstr "Ostos onnistui."
+
+#: i18n/app.php:28
+msgid "Successfully voided."
+msgstr ""
+
+#: i18n/app.php:29
+msgid "Order successfully saved."
+msgstr "Ostos on tallennettu onnistuneesti."
+
+#: i18n/app.php:30
+msgid "Please enter billing details for this order."
+msgstr ""
+
+#: i18n/app.php:31
+msgid "Please enter shipping details for this order."
+msgstr ""
+
+#: i18n/app.php:32
+msgid "Please fill Additional Information."
+msgstr ""
+
+#: i18n/app.php:33
+msgid "Shipping title is required."
+msgstr ""
+
+#: i18n/app.php:34
+msgid "Shipping price is required."
+msgstr ""
+
+#: i18n/app.php:35
+msgid "Product title is required."
+msgstr ""
+
+#: i18n/app.php:36
+msgid "Product price is required."
+msgstr ""
+
+#: i18n/app.php:37
+msgid "Quantity is required."
+msgstr ""
+
+#: i18n/app.php:38
+msgid "Free shipping coupon"
+msgstr "Ilmainen toimitus -koodi"
+
+#: i18n/app.php:39
+msgid "Can't load order"
+msgstr ""
+
+#: i18n/app.php:41
+msgid "item"
+msgstr "kohde"
+
+#: i18n/app.php:42
+msgid "items"
+msgstr "kohdetta"
+
+#: i18n/app.php:44
+msgid "All"
+msgstr "Kaikki"
+
+#: i18n/app.php:45
+msgid "Please enter the password."
+msgstr "Anna salasana."
+
+#: i18n/app.php:46
+msgid "Incorrect password."
+msgstr "Virheellinen salasana."
+
+#: i18n/app.php:47
+msgid "Free!"
+msgstr "Ilmainen!"
+
+#: i18n/app.php:48
+msgid "Note successfully added."
+msgstr ""
+
+#: i18n/app.php:49
+msgid "Note successfully updated."
+msgstr ""
+
+#: i18n/app.php:50
+msgid "Note deleted."
+msgstr ""
+
+#: i18n/app.php:51
+msgid "Card not recognized."
+msgstr "Korttia ei tunnistettu."
+
+#: i18n/app.php:52
+msgid "Please enter correct data."
+msgstr ""
+
+#: i18n/app.php:53
+msgid "Please fill Custom Fields."
+msgstr ""
+
+#: i18n/app.php:54
+msgid "Invalid Barcode Scan"
+msgstr "Viivakoodin luku epäonnistui"
+
+#: i18n/app.php:55
+msgid "You have logged in successfully."
+msgstr ""
+
+#: i18n/app.php:56
+msgid "In Stock"
+msgstr "Varastossa"
+
+#: i18n/app.php:57, includes/admin/settings/wc-pos-settings-tiles.php:79
+msgid "Out of Stock"
+msgstr "Loppu varastosta"
+
+#: i18n/app.php:58
+msgid "Back-order"
+msgstr "Jälkitoimitus"
+
+#: i18n/app.php:59
+msgid "Passwords don't match"
+msgstr "Salasanat eivät täsmää"
+
+#: i18n/app.php:60
+msgid "Please choose a customer."
+msgstr ""
+
+#: i18n/app.php:61
+msgid "Offline order successful."
+msgstr "Offline ostos onnistui."
+
+#: i18n/app.php:62
+msgid "Please enter Fee Name"
+msgstr "Anna maksun nimi"
+
+#: i18n/app.php:63
+msgid "Item Note"
+msgstr "Tuotteen huomautus"
+
+#: i18n/app.php:64
+msgid "Chose tab"
+msgstr ""
+
+#. translators: %s spend limit
+#: i18n/app.php:66
+msgid "Spend limit for this tab is %s"
+msgstr ""
+
+#: i18n/app.php:67
+msgid ""
+"You are about to close this register. All sales will be logged for this "
+"session."
+msgstr "Olet sulkemassa tätä kassaa. Kaikki myynnit kirjataan tähän istuntoon."
+
+#: i18n/app.php:68
+msgid "This tab already opened"
+msgstr ""
+
+#: i18n/app.php:69, i18n/app.php:254
+msgid "Opened"
+msgstr "Avattu"
+
+#: i18n/app.php:70
+msgid "Available"
+msgstr "Saatavilla"
+
+#: i18n/app.php:71
+msgid "Minimum title length 3 symbols"
+msgstr "Otsikon vähimmäispituus 3 merkkiä"
+
+#: i18n/app.php:72, includes/admin/class-wc-pos-admin.php:319
+msgid "Discount"
+msgstr "Alennus"
+
+#: i18n/app.php:73
+msgid "Add customer"
+msgstr ""
+
+#: i18n/app.php:74
+msgid "Save customer"
+msgstr ""
+
+#: i18n/app.php:75
+msgid "Sign is required"
+msgstr ""
+
+#: i18n/app.php:76
+msgid "Searching for"
+msgstr ""
+
+#: i18n/app.php:77
+msgid ""
+"Offline function is enabled and products are being downloaded in background"
+msgstr ""
+
+#: i18n/app.php:78
+msgid "Please generate an order ID"
+msgstr ""
+
+#: i18n/app.php:79, includes/views/html-print-receipt.php:610
+msgid "SKU:"
+msgstr "Tuotetunnus (SKU):"
+
+#: i18n/app.php:80
+msgid "Stock:"
+msgstr "Varasto:"
+
+#: i18n/app.php:81
+msgid "Product data could not be loaded"
+msgstr ""
+
+#: i18n/app.php:82
+msgid "Full Screen"
+msgstr "Kokonäyttö"
+
+#: i18n/app.php:83
+msgid "Lock Register"
+msgstr "Lukitse kassa"
+
+#: i18n/app.php:84, includes/admin/class-wc-pos-admin-menus.php:72,
+#: includes/admin/class-wc-pos-admin-menus.php:73,
+#: includes/admin/class-wc-pos-admin.php:359,
+#: includes/admin/views/notices/html-notice-install.php:16
+msgid "Settings"
+msgstr "Asetukset"
+
+#: i18n/app.php:85
+msgid "Load"
+msgstr "Lataa"
+
+#: i18n/app.php:86
+msgid "Orders"
+msgstr "Tilaukset"
+
+#: i18n/app.php:87
+msgid "Tabs"
+msgstr "Välilehdet"
+
+#: i18n/app.php:88
+msgid "Closing Register"
+msgstr "Kassan sulkeminen"
+
+#: i18n/app.php:89
+msgid "Show Tiles"
+msgstr "Näytä ruudut"
+
+#: i18n/app.php:90
+msgid "Your device is connected to the internet."
+msgstr ""
+
+#: i18n/app.php:91
+msgid ""
+"This device is not connected to the internet and orders will not be "
+"synchronised with the shops database until an internet connection is "
+"available. This device will store orders locally until the connection is "
+"resumed."
+msgstr ""
+"Tämä laite ei ole yhteydessä Internetiin, eikä tilauksia synkronoida "
+"myymäkää koskevan tietokannan kanssa, ennen kuin internet-yhteys on "
+"käytettävissä. Tämä laite tallentaa tilaukset paikallisesti, kunnes yhteyttä "
+"jatketaan."
+
+#. translators: %s time
+#: i18n/app.php:93
+msgid "Register opened %s"
+msgstr "Kassa avattu %s"
+
+#. translators: %s version
+#: i18n/app.php:95
+msgid "Version %s"
+msgstr "Versio %s"
+
+#: i18n/app.php:96
+msgid "Register Closed"
+msgstr "Kassa suljettu"
+
+#: i18n/app.php:97
+msgid "Sorry, we could not locate this order number."
+msgstr ""
+
+#: i18n/app.php:98, includes/class-wc-pos-post-types.php:44,
+#: includes/views/html-my-account-tab.php:15,
+#: includes/views/html-my-account-tab.php:37,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:94,
+#: includes/admin/settings/wc-pos-settings-register.php:25,
+#: includes/admin/settings/wc-pos-settings-register.php:40
+msgid "Register"
+msgstr "Rekisteri"
+
+#: i18n/app.php:99
+msgid "Till Screen"
+msgstr "Kassan näyttö"
+
+#: i18n/app.php:100
+msgid "Help & Feedback"
+msgstr ""
+
+#: i18n/app.php:101
+msgid "Close Register"
+msgstr "Sulje kassa"
+
+#: i18n/app.php:102, includes/class-wc-pos-post-types.php:91,
+#: includes/views/html-my-account-tab.php:16,
+#: includes/views/html-my-account-tab.php:48,
+#: includes/views/html-my-account-tab.php:51,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:96,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:93,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:21
+msgid "Outlet"
+msgstr "Myyntipiste"
+
+#: i18n/app.php:103, includes/views/html-print-receipt.php:245,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:98
+msgid "Sales"
+msgstr "Myynti"
+
+#: i18n/app.php:104
+msgid "Cart"
+msgstr "Ostoskori"
+
+#: i18n/app.php:105
+msgid "Increase Quantity"
+msgstr "Lisää määrää"
+
+#: i18n/app.php:106
+msgid "Delete"
+msgstr "Poista"
+
+#: i18n/app.php:107
+msgid "Sale"
+msgstr "Ale"
+
+#: i18n/app.php:108,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:169
+msgid "Subtotal"
+msgstr "Välisumma"
+
+#: i18n/app.php:109
+msgid "Discounts"
+msgstr "Alennukset"
+
+#: i18n/app.php:110
+msgid "Coupon"
+msgstr "Kuponki"
+
+#: i18n/app.php:111
+msgid "Fees"
+msgstr "Maksut"
+
+#: i18n/app.php:112, includes/views/html-print-receipt.php:218,
+#: includes/views/html-print-receipt.php:592,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:117,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:123,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:190
+msgid "Total"
+msgstr "Yhteensä"
+
+#: i18n/app.php:113, i18n/app.php:194,
+#: includes/views/html-print-receipt.php:563,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:89
+msgid "Shipping"
+msgstr "Toimitus"
+
+#: i18n/app.php:114, i18n/app.php:218,
+#: includes/admin/settings/wc-pos-settings-general.php:108
+msgid "Dining"
+msgstr "Syöminen"
+
+#: i18n/app.php:115
+msgid "Login"
+msgstr "Kirjaudu"
+
+#: i18n/app.php:116, includes/admin/class-wc-pos-admin-assets.php:196,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:36
+msgid "Note"
+msgstr "Huomautus"
+
+#: i18n/app.php:117
+msgid "Fee"
+msgstr "Maksu"
+
+#: i18n/app.php:118, includes/admin/settings/wc-pos-settings-customer.php:90
+msgid "Hold"
+msgstr "Pidossa"
+
+#: i18n/app.php:119,
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:645,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:619,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:616,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:616
+msgid "Reset"
+msgstr "Tyhjennä"
+
+#: i18n/app.php:120
+msgid "Clear"
+msgstr "Tyhjennä"
+
+#: i18n/app.php:121
+msgid "Print"
+msgstr "Tulosta"
+
+#: i18n/app.php:122, includes/admin/settings/wc-pos-settings-customer.php:89
+msgid "Pay"
+msgstr "Maksa"
+
+#. translators: %s user name
+#: i18n/app.php:124
+msgid "Add %s as new customer"
+msgstr ""
+
+#: i18n/app.php:125
+msgid "Please add items to the cart."
+msgstr "Lisää tuotteita kuitille."
+
+#: i18n/app.php:126
+msgid "Please select a customer"
+msgstr ""
+
+#: i18n/app.php:127, includes/admin/class-wc-pos-admin-orders-page.php:229
+msgid "Signature"
+msgstr "Allekirjoitus"
+
+#: i18n/app.php:128, includes/admin/class-wc-pos-admin.php:119,
+#: includes/views/html-admin-barcode-options.php:55
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: i18n/app.php:129
+msgid "Done"
+msgstr "Valmis"
+
+#: i18n/app.php:130
+msgid "State"
+msgstr "Osavaltio"
+
+#: i18n/app.php:131
+msgid "Signature required to fulfill this order."
+msgstr ""
+
+#: i18n/app.php:132
+msgid "Shipping Method"
+msgstr "Toimitustapa"
+
+#: i18n/app.php:133
+msgid "First Name"
+msgstr "Etunimi"
+
+#: i18n/app.php:134
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: i18n/app.php:135
+msgid "Company"
+msgstr "Yritys"
+
+#: i18n/app.php:136
+msgid "Street Address"
+msgstr "Katuosoite"
+
+#: i18n/app.php:137
+msgid "Apartment, Suite, Unit, Etc. (Optional)"
+msgstr ""
+
+#: i18n/app.php:138
+msgid "Town / City"
+msgstr "Kaupunki/Kunta"
+
+#: i18n/app.php:139
+msgid "Postcode / ZIP"
+msgstr "Postinumero"
+
+#: i18n/app.php:140,
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:72
+msgid "Country"
+msgstr "Maa"
+
+#: i18n/app.php:141
+msgid "County"
+msgstr "Piirikunta"
+
+#: i18n/app.php:142,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:65,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:124,
+#: includes/gateways/paymentsense/includes/views/html-admin-register-options-paymentsense.php:16
+msgid "None"
+msgstr "Ei mitään"
+
+#: i18n/app.php:143
+msgid "Standard Delivery"
+msgstr ""
+
+#: i18n/app.php:144
+msgid "Express Delivery"
+msgstr ""
+
+#: i18n/app.php:145
+msgid "International Delivery"
+msgstr ""
+
+#: i18n/app.php:146
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: i18n/app.php:147, includes/class-wc-pos-post-types.php:141,
+#: includes/class-wc-pos-post-types.php:143
+msgid "Grids"
+msgstr "Ruudukot"
+
+#: i18n/app.php:148
+msgid "Sort by product name"
+msgstr ""
+
+#: i18n/app.php:149
+msgid "Sort by price"
+msgstr ""
+
+#: i18n/app.php:150
+msgid "Sort by date added"
+msgstr "Lajittele päivämäärän mukaan"
+
+#: i18n/app.php:151
+msgid "Sort by popularity"
+msgstr "Lajittelu: ostetuin ensin"
+
+#. translators: %s number of products
+#: i18n/app.php:153
+msgid "%s products"
+msgstr "%s. tuotetta"
+
+#: i18n/app.php:154
+msgid "Payment"
+msgstr "Maksu"
+
+#: i18n/app.php:155
+msgid "Amount Due"
+msgstr "Erääntyvä määrä"
+
+#: i18n/app.php:156
+msgid "Tendered"
+msgstr "Saatu asiakkaalta"
+
+#: i18n/app.php:157
+msgid "Tender"
+msgstr "Maksu"
+
+#: i18n/app.php:158,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-register-options.php:51,
+#: includes/admin/settings/wc-pos-settings-customer.php:38
+msgid "End of Sale"
+msgstr ""
+
+#: i18n/app.php:159
+msgid "Thank You"
+msgstr "Kiitos"
+
+#: i18n/app.php:160, includes/views/html-print-receipt.php:254,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:194
+msgid "Change"
+msgstr "Vaihtoraha"
+
+#: i18n/app.php:161
+msgid "Present Card"
+msgstr ""
+
+#: i18n/app.php:162
+msgid "Pending"
+msgstr "Odottaa"
+
+#: i18n/app.php:163
+msgid "Failed"
+msgstr "Epäonnistui"
+
+#. translators: %s number of seconds
+#: i18n/app.php:165
+msgid "Changing user in %s seconds"
+msgstr ""
+
+#: i18n/app.php:166, includes/views/html-print-receipt.php:555,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:81
+msgid "Email"
+msgstr "Sähköposti"
+
+#: i18n/app.php:167, includes/admin/views/html-admin-receipt-customize.php:37
+msgid "Close"
+msgstr "Sulje"
+
+#: i18n/app.php:168, i18n/app.php:323
+msgid "Continue"
+msgstr "Jatka"
+
+#: i18n/app.php:169
+msgid "Email address is required"
+msgstr ""
+
+#: i18n/app.php:170
+msgid "Customer note is required"
+msgstr "Ostokselle tarvitaan kommentti"
+
+#: i18n/app.php:171
+msgid "Order successfully completed."
+msgstr "Ostos suoritettu onnistuneesti."
+
+#: i18n/app.php:172
+msgid "Order has failed."
+msgstr "Ostos epäonnistui."
+
+#: i18n/app.php:173
+msgid "Please enter or select an amount to tender."
+msgstr ""
+
+#: i18n/app.php:174
+msgid "Outlet Information"
+msgstr "Myyntipiste tiedot"
+
+#: i18n/app.php:175,
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:59
+msgid "Website"
+msgstr "Verkkosivu"
+
+#: i18n/app.php:176, includes/views/html-print-receipt.php:559,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:85
+msgid "Phone"
+msgstr "Puhelin"
+
+#: i18n/app.php:177,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:48
+msgid "Address"
+msgstr "Osoite"
+
+#: i18n/app.php:178
+msgid "Wireless"
+msgstr "WiFi:n tunnukset"
+
+#: i18n/app.php:179
+msgid "Social Networks"
+msgstr "Sosiaaliset verkostot"
+
+#: i18n/app.php:180
+msgid "Search"
+msgstr "Hae"
+
+#: i18n/app.php:181
+msgid "Sort by order number"
+msgstr ""
+
+#: i18n/app.php:182, includes/class-wc-pos-barcodes.php:102,
+#: includes/class-wc-pos-stocks.php:77,
+#: includes/views/html-print-receipt.php:591,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:116
+msgid "Price"
+msgstr "Hinta"
+
+#: i18n/app.php:183
+msgid "Sort by date placed"
+msgstr "Lajittele ostopäivämäärän mukaan"
+
+#: i18n/app.php:184
+msgid ""
+"Orders that are placed by this register will appear here. If there are no "
+"orders, please check the status loading options are correctly set by your "
+"shop manager."
+msgstr ""
+"Ostokset jotka on tehty tällä kassalla listataan tähän. Jos tämä näyttö on "
+"tyhjä ota yhteyttä tukeen."
+
+#: i18n/app.php:185
+msgid "Processing"
+msgstr "Käsittelyssä"
+
+#: i18n/app.php:186
+msgid "Completed"
+msgstr "Valmis"
+
+#: i18n/app.php:187
+msgid "On-Hold"
+msgstr ""
+
+#: i18n/app.php:188, includes/admin/class-wc-pos-admin-orders-page.php:44
+msgid "Walk-in Customer"
+msgstr "Satunnainen asiakas"
+
+#: i18n/app.php:189
+msgid "(No Name)"
+msgstr "ei nimeä"
+
+#: i18n/app.php:190
+msgid "No billing address set."
+msgstr "Laskutusosoitetta ei ole annettu."
+
+#: i18n/app.php:191
+msgid "The receipt is being generated."
+msgstr "Luodaan kuitti."
+
+#: i18n/app.php:192
+msgid "Reorder"
+msgstr "Järjestä uudelleen"
+
+#: i18n/app.php:193
+msgid "Billing"
+msgstr "Laskutus"
+
+#: i18n/app.php:195
+msgid "Website Order"
+msgstr ""
+
+#: i18n/app.php:196
+msgid "Products"
+msgstr "Tuotteet"
+
+#: i18n/app.php:197
+msgid "Customer Note"
+msgstr "Asiakkaan viesti"
+
+#: i18n/app.php:198, includes/views/html-print-receipt.php:590,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:115,
+#: includes/admin/meta-boxes/views/html-grid-tile.php:12,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:74
+msgid "Product"
+msgstr "Tuote"
+
+#: i18n/app.php:199, includes/views/html-admin-barcode-options.php:19
+msgid "Cost"
+msgstr "Hinta"
+
+#: i18n/app.php:200, includes/views/html-admin-barcode-options.php:20,
+#: includes/views/html-print-receipt.php:588,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:113
+msgid "Qty"
+msgstr "Kpl"
+
+#: i18n/app.php:201, includes/views/html-print-receipt.php:680,
+#: includes/admin/settings/wc-pos-settings-tax.php:25,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:176,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:209
+msgid "Tax"
+msgstr "Vero"
+
+#: i18n/app.php:202,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:34,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:99
+msgid "Guest"
+msgstr "Vieras"
+
+#: i18n/app.php:203
+msgid "No shipping address set."
+msgstr "Toimitusosoitetta ei ole annettu."
+
+#: i18n/app.php:204
+msgid "Open Register"
+msgstr "Avaa kassa"
+
+#: i18n/app.php:205
+msgid "Float"
+msgstr "Pohjakassa"
+
+#: i18n/app.php:206, includes/api/class-wc-pos-api.php:371,
+#: includes/api/class-wc-pos-api.php:395
+msgid "Yes"
+msgstr "Kyllä"
+
+#: i18n/app.php:207
+msgid "Order Note"
+msgstr "Ostoksen kommentti"
+
+#: i18n/app.php:208, includes/views/html-admin-barcode-options.php:56
+msgid "Save"
+msgstr "Tallenna"
+
+#: i18n/app.php:209, includes/class-wc-pos-post-types.php:49,
+#: includes/class-wc-pos-post-types.php:96,
+#: includes/class-wc-pos-post-types.php:147,
+#: includes/class-wc-pos-post-types.php:198,
+#: includes/class-wc-pos-post-types.php:249,
+#: includes/admin/class-wc-pos-admin.php:107
+msgid "Edit"
+msgstr "Muokkaa"
+
+#. translators: %s cart action
+#: i18n/app.php:211
+msgid "You have items in the cart. Are you sure you want to %s the cart?"
+msgstr "Sinulla on tavaroita kuitilla. Haluatko varmasti %s kuitin?"
+
+#: i18n/app.php:212,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:46
+msgid "No"
+msgstr "Ei"
+
+#: i18n/app.php:213
+msgid "Scan or enter card number"
+msgstr ""
+
+#: i18n/app.php:214,
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:25
+msgid "Product Image"
+msgstr "Tuotekuva"
+
+#: i18n/app.php:215, includes/class-wc-pos-stocks.php:76,
+#: includes/admin/class-wc-pos-admin-menus.php:62,
+#: includes/admin/class-wc-pos-admin-menus.php:63
+msgid "Stock"
+msgstr "Varasto"
+
+#: i18n/app.php:216, includes/class-wc-pos-barcodes.php:99,
+#: includes/class-wc-pos-stocks.php:61,
+#: includes/admin/meta-boxes/views/html-grid-tile.php:29
+msgid "SKU"
+msgstr "SKU"
+
+#: i18n/app.php:217, includes/gateways/class-wc-pos-gateway-cash.php:107,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:94,
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:66,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:56,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:65
+msgid "Description"
+msgstr "Kuvaus"
+
+#: i18n/app.php:219, i18n/app.php:245
+msgid "Password"
+msgstr "Salasana"
+
+#: i18n/app.php:220
+msgid "Password is required"
+msgstr "Salasana on pakollinen"
+
+#: i18n/app.php:221
+msgid "Invalid credentials"
+msgstr "Virheelliset käyttäjätiedot"
+
+#: i18n/app.php:222
+msgid "Fee Name"
+msgstr "Maksun nimi"
+
+#: i18n/app.php:223
+msgid "Taxable"
+msgstr "Verotettava"
+
+#: i18n/app.php:224
+msgid "Apply"
+msgstr "Käytä"
+
+#: i18n/app.php:225
+msgid "Fee name is required."
+msgstr "Maksun nimi on pakollinen."
+
+#: i18n/app.php:226
+msgid "Discount Reason"
+msgstr ""
+
+#: i18n/app.php:227
+msgid "Wastage"
+msgstr "Hävikki"
+
+#: i18n/app.php:228
+msgid "Damaged"
+msgstr "Vioittunut"
+
+#: i18n/app.php:229
+msgid "Managed Approved"
+msgstr "Esimiehen hyväksymä"
+
+#: i18n/app.php:230
+msgid "General Discount"
+msgstr ""
+
+#: i18n/app.php:231
+msgid "Student Discount"
+msgstr "Opiskelija-alennus"
+
+#: i18n/app.php:232
+msgid "Member Discount"
+msgstr "Jäsenalennus"
+
+#. translators: %s something off
+#: i18n/app.php:234
+msgid "%s off"
+msgstr "- %s "
+
+#: i18n/app.php:235, includes/views/html-print-receipt.php:104,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:125
+msgid "Eat In"
+msgstr ""
+
+#: i18n/app.php:236, includes/views/html-print-receipt.php:107,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:105,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:126
+msgid "Take Away"
+msgstr ""
+
+#: i18n/app.php:237, includes/views/html-print-receipt.php:110,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:127
+msgid "Delivery"
+msgstr "Toimitus"
+
+#: i18n/app.php:238
+msgid "Add Product"
+msgstr "Lisää tuote"
+
+#: i18n/app.php:239
+msgid "Quantity"
+msgstr "Määrä"
+
+#: i18n/app.php:240
+msgid "Quantity required"
+msgstr "Määrä on pakollinen tieto"
+
+#: i18n/app.php:241
+msgid "Update Customer"
+msgstr "Päivitä asiakas"
+
+#: i18n/app.php:242
+msgid "Company Name"
+msgstr "Yrityksen nimi"
+
+#: i18n/app.php:243,
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:20
+msgid "Email Address"
+msgstr "Sähköpostiosoite"
+
+#: i18n/app.php:244,
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:111
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: i18n/app.php:246
+msgid "First Name, Last Name, Email Address will also be updated."
+msgstr ""
+
+#: i18n/app.php:247, includes/class-wc-pos-barcodes.php:101
+msgid "Product Name"
+msgstr "Tuotteen nimi"
+
+#: i18n/app.php:248
+msgid "Product Attributes"
+msgstr "Tuotteen Ominaisuudet"
+
+#: i18n/app.php:249
+msgid "Label"
+msgstr "Kentän nimi"
+
+#: i18n/app.php:250,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:18
+msgid "Value"
+msgstr "Arvo"
+
+#: i18n/app.php:251
+msgid "Publish Product"
+msgstr ""
+
+#: i18n/app.php:252
+msgid "Add Attribute"
+msgstr "Lisää Ominaisuus"
+
+#: i18n/app.php:253
+msgid "Coupon Code"
+msgstr "Kuponkikoodi"
+
+#: i18n/app.php:255
+msgid "Closing"
+msgstr "Koulutuksen päättäminen"
+
+#: i18n/app.php:256
+msgid "Closing Notes"
+msgstr "Sulkemisen kommentit"
+
+#: i18n/app.php:257
+msgid "Expected"
+msgstr "Odotettavissa"
+
+#: i18n/app.php:258
+msgid "Counted"
+msgstr "Laskettu"
+
+#: i18n/app.php:259
+msgid "Difference"
+msgstr "Ero"
+
+#: i18n/app.php:260, includes/gateways/class-wc-pos-gateway-cash.php:23,
+#: includes/gateways/class-wc-pos-gateway-cash.php:103
+msgid "Cash"
+msgstr "Käteinen"
+
+#: i18n/app.php:261
+msgid "Chip & Pin"
+msgstr "Korttimaksu"
+
+#. translators: %s opening cash amount
+#: i18n/app.php:263
+msgid "Opening cash amount: %s"
+msgstr "Alkukassan summa: %s"
+
+#. translators: %s note
+#: i18n/app.php:265
+msgid "Note: %s"
+msgstr "Viesti: %s"
+
+#. translators: %s cash
+#: i18n/app.php:267
+msgid "Cash: %s"
+msgstr ""
+
+#. translators: %s cash in
+#: i18n/app.php:269
+msgid "Cash In: %s"
+msgstr "Käteistä kassassa: %s"
+
+#. translators: %s total
+#: i18n/app.php:271
+msgid "Total: %s"
+msgstr "Loppusumma: %s"
+
+#: i18n/app.php:272
+msgid "Edit Product"
+msgstr "Muokkaa tuotetta"
+
+#: i18n/app.php:273
+msgid "Update Product"
+msgstr "Päivitä Tuote"
+
+#: i18n/app.php:274
+msgid "Tax Class"
+msgstr "Veroluokka"
+
+#: i18n/app.php:275,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:101
+msgid "Reference Number"
+msgstr "Viite- numero"
+
+#: i18n/app.php:276, includes/class-wc-pos-post-types.php:193,
+#: includes/views/html-print-receipt.php:13,
+#: includes/views/html-print-receipt.php:303,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:95,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:28
+msgid "Receipt"
+msgstr "Kuitti"
+
+#: i18n/app.php:277
+msgid "Printing..."
+msgstr "Tulostetaan..."
+
+#: i18n/app.php:278
+msgid "No product results"
+msgstr ""
+
+#. translators: %1$s product name %2$s left in stock
+#: i18n/app.php:280
+msgid "You cannot add %1$s to the cart because there are only %2$s in stock."
+msgstr "Ei voida lisätä %1$s, koska varastossa on vain %2$s."
+
+#. translators: %1$s numer of products cached %2$s total number of products
+#: i18n/app.php:282
+msgid "%1$s out of %2$s products cached"
+msgstr ""
+
+#. translators: %1$s numer of orders cached %2$s total number of orders
+#: i18n/app.php:284
+msgid "%1$s out of %2$s orders cached"
+msgstr ""
+
+#: i18n/app.php:285
+msgid "Search customer"
+msgstr "Hae asiakas"
+
+#: i18n/app.php:286
+msgid "pcs"
+msgstr "kpl"
+
+#: i18n/app.php:287
+msgid "View"
+msgstr "Näytä"
+
+#: i18n/app.php:288
+msgid "Counted Value"
+msgstr ""
+
+#: i18n/app.php:289
+msgid "Minimum 1"
+msgstr ""
+
+#: i18n/app.php:290, includes/class-wc-pos-ajax.php:547,
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense-api.php:167
+msgid "An error occurred"
+msgstr "Virhe esiintyi"
+
+#: i18n/app.php:291, includes/views/html-print-receipt.php:539,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:65
+msgid "Order"
+msgstr "Tilaus"
+
+#. translators: %s product name
+#: i18n/app.php:293
+msgid "Product %s not found"
+msgstr ""
+
+#. translators: %s amount
+#: i18n/app.php:295
+msgid "Free shipping needs min.%s of cart total or coupon with free shipping"
+msgstr ""
+
+#. translators: %s amount
+#: i18n/app.php:297
+msgid "Free shipping needs min.%s of cart total and coupon with free shipping`"
+msgstr ""
+
+#: i18n/app.php:298
+msgid "Free shipping needs coupon with free shipping`"
+msgstr ""
+
+#. translators: %s amount
+#: i18n/app.php:300
+msgid "Free shipping needs min.%s of cart total"
+msgstr ""
+
+#: i18n/app.php:301
+msgid "Invalid requirement for free shipping`"
+msgstr ""
+
+#: i18n/app.php:302
+msgid "Invalid cost value`"
+msgstr ""
+
+#: i18n/app.php:303
+msgid "Refund"
+msgstr "Hyvitys"
+
+#: i18n/app.php:304
+msgid "Refund Reason"
+msgstr "Hyvityksen syy"
+
+#: i18n/app.php:305
+msgid "Select items to refund"
+msgstr ""
+
+#: i18n/app.php:306
+msgid "Recover Stock"
+msgstr ""
+
+#: i18n/app.php:307
+msgid "Scan SKU barcode"
+msgstr "Skannaa viivakoodi"
+
+#: i18n/app.php:308
+msgid "Search products"
+msgstr "Etsi palvelua"
+
+#: i18n/app.php:309
+msgid "Search Orders"
+msgstr "Etsi ostoksia"
+
+#: i18n/app.php:310
+msgid "Copy Billing Address"
+msgstr "Kopioi laskutusosoite"
+
+#: i18n/app.php:311
+msgid "Edit Shipping"
+msgstr ""
+
+#: i18n/app.php:312
+msgid "Shipping Title"
+msgstr ""
+
+#: i18n/app.php:313
+msgid "Shipping Price"
+msgstr "Toimituskulut"
+
+#: i18n/app.php:314
+msgid "Cancel Saved Order"
+msgstr ""
+
+#: i18n/app.php:315
+msgid "Do you want to cancel this saved order?"
+msgstr ""
+
+#: i18n/app.php:316
+msgid "Yes, cancel it"
+msgstr ""
+
+#: i18n/app.php:317
+msgid "No, keep it as is"
+msgstr ""
+
+#: i18n/app.php:318
+msgid "Order cancelled sucessfully."
+msgstr "Ostos peruutettiin sadollisesti."
+
+#: i18n/app.php:319
+msgid "Order could not be cancelled."
+msgstr ""
+
+#: i18n/app.php:320
+msgid "Cancelled"
+msgstr "Peruutettu"
+
+#: i18n/app.php:321
+msgid "Order Status"
+msgstr "Tilauksen tila"
+
+#: i18n/app.php:322
+msgid ""
+"There are products in the basket that will be cleared when you close the "
+"register. Do you want to continue?"
+msgstr ""
+"Kassassa on tuotteita joita ei ole vielä maksettu. Tuotteet häviävät "
+"kuitilta, kun kassa suljetaan. Haluatko jatkaa?"
+
+#: i18n/app.php:324
+msgid "Switch User?"
+msgstr "Vaihda käyttäjää?"
+
+#: i18n/app.php:325
+msgid ""
+"There are products in the basket, do you want to keep them for later or "
+"clear them?."
+msgstr ""
+"Kassassa on tuotteita haluatko säästää ne myöhemmäksi vai tyhjentää kuitin?"
+
+#: i18n/app.php:326
+msgid "Keep"
+msgstr "Säilytä"
+
+#: i18n/app.php:327
+msgid "Refunded"
+msgstr "Hyvitetty"
+
+#: i18n/app.php:328
+msgid "Tender amount should be equal or greater than cart total"
+msgstr ""
+
+#: i18n/app.php:329
+msgid "Unauthorized"
+msgstr "Luvaton"
+
+#: i18n/app.php:330
+msgid "You are not assigned or have access to the outlet."
+msgstr ""
+
+#: i18n/app.php:331
+msgid ""
+"A custom prouct with the same name is added to the cart. Would you like to "
+"increase the quantity instead?"
+msgstr ""
+
+#: i18n/app.php:332
+msgid "Yes, increase quantity"
+msgstr ""
+
+#: i18n/app.php:333
+msgid "No, create a new item"
+msgstr ""
+
+#: i18n/app.php:334
+msgid "Sorry, this order has already been refunded."
+msgstr ""
+
+#: i18n/app.php:335, includes/views/html-print-receipt.php:14,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:29
+msgid "Gift Receipt"
+msgstr ""
+
+#: i18n/app.php:336
+msgid ""
+"If you want a different price, please add a variation or change product name"
+msgstr ""
+
+#: i18n/app.php:337
+msgid "Receipt could not be printed"
+msgstr ""
+
+#. translators: %1$s product name %2$s quantity
+#: i18n/app.php:339
+msgid "The minimum quantity for %1$s is %2$s."
+msgstr ""
+
+#. translators: %1$s product name %2$s quantity
+#: i18n/app.php:341
+msgid "The maximum quantity for %1$s is %2$s."
+msgstr ""
+
+#. translators: %1$s product name %2$s quantity
+#: i18n/app.php:343
+msgid "%1$s must be bought in groups of %2$s."
+msgstr ""
+
+#: i18n/app.php:344
+msgid "There are no variations matching this selection."
+msgstr ""
+
+#: i18n/app.php:345
+msgid "Choose an option"
+msgstr "Valitse malli tästä"
+
+#: i18n/app.php:346, includes/class-wc-pos-barcodes.php:103
+msgid "Variation"
+msgstr "Koko"
+
+#: i18n/app.php:347
+msgid "Choose the dining option for this order."
+msgstr ""
+
+#: i18n/app.php:348
+msgid "Choose the type of note to record for this order."
+msgstr ""
+
+#: i18n/app.php:349
+msgid "More"
+msgstr "Lisää"
+
+#: i18n/app.php:350
+msgid "Less"
+msgstr "Vähemmän"
+
+#: i18n/app.php:351
+msgid "Choose a shipping method and enter the shipping details for this order."
+msgstr ""
+
+#: i18n/app.php:352
+msgid "Enter the coupon code to apply to this order."
+msgstr ""
+
+#: i18n/app.php:353
+msgid "Apply Coupon"
+msgstr "Syötä alennus/koodi"
+
+#: i18n/app.php:354
+msgid ""
+"Signature verification will be gone through after 80 seconds of inactivity"
+msgstr ""
+
+#: i18n/coupon.php:13
+msgid "Coupon is not valid."
+msgstr ""
+
+#. translators: %s coupon code
+#: i18n/coupon.php:15
+msgid ""
+"Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
+"your order."
+msgstr ""
+
+#. translators: %s coupon code
+#: i18n/coupon.php:17
+msgid ""
+"Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
+"from your order."
+msgstr ""
+
+#: i18n/coupon.php:18
+msgid "Coupon code already applied!"
+msgstr ""
+
+#. translators: %s coupon code
+#: i18n/coupon.php:20
+msgid ""
+"Sorry, coupon \"%s\" has already been applied and cannot be used in "
+"conjunction with other coupons."
+msgstr ""
+
+#. translators: %s coupon code
+#: i18n/coupon.php:22
+msgid "Coupon \"%s\" does not exist!"
+msgstr ""
+
+#: i18n/coupon.php:23
+msgid "Coupon usage limit has been reached."
+msgstr ""
+
+#: i18n/coupon.php:24
+msgid "This coupon has expired."
+msgstr ""
+
+#. translators: %s minimum spend
+#: i18n/coupon.php:26
+msgid "The minimum spend for this coupon is %s."
+msgstr "Alennuskoodin minimiostos on %s."
+
+#: i18n/coupon.php:27
+msgid "Sorry, this coupon is not applicable to your cart contents."
+msgstr ""
+
+#: i18n/coupon.php:28
+msgid "Sorry, this coupon is not valid for sale items."
+msgstr ""
+
+#: i18n/coupon.php:29
+msgid "Please enter a coupon code."
+msgstr "Kirjoita kupongin koodi, ole hyvä."
+
+#. translators: %s maximum spend
+#: i18n/coupon.php:31
+msgid "The maximum spend for this coupon is %s."
+msgstr ""
+
+#. translators: %s products
+#: i18n/coupon.php:33
+msgid "Sorry, this coupon is not applicable to the products: %s."
+msgstr ""
+
+#. translators: %s categories
+#: i18n/coupon.php:35
+msgid "Sorry, this coupon is not applicable to the categories: %s."
+msgstr "Pahoittelemme, kuponkia ei voi käyttää tuoteryhmän %s tuotteille."
+
+#: i18n/coupon.php:36
+msgid "Coupon code applied successfully."
+msgstr ""
+
+#: i18n/coupon.php:37
+msgid "Coupon code removed successfully."
+msgstr ""
+
+#: i18n/coupon.php:38
+msgid "Discount added successfully."
+msgstr ""
+
+#: i18n/coupon.php:39
+msgid "Discount updated successfully."
+msgstr ""
+
+#: i18n/product-addons.php:11
+msgid "Options total"
+msgstr ""
+
+#: i18n/product-addons.php:12
+msgid "Grand total"
+msgstr "Loppusumma"
+
+#: i18n/product-addons.php:13
+msgid "characters remaining"
+msgstr "merkkiä jäljellä"
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:15
+msgid "The minimum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:17
+msgid "The maximum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:19
+msgid "The minimum allowed amount for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:21
+msgid "The maximum allowed amount for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s
+#: i18n/product-addons.php:23
+msgid "Please enter a value greater than 0 for \"%1$s - %2$s\"."
+msgstr ""
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:25
+msgid "Only letters are allowed for \"%1$s - %2$s\"."
+msgstr ""
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:27
+msgid "Only digits are allowed for \"%1$s - %2$s\"."
+msgstr ""
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:29
+msgid "Only letters and digits are allowed for \"%1$s - %2$s\"."
+msgstr ""
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:31
+msgid "A valid email address is required for \"%1$s - %2$s\"."
+msgstr ""
+
+#: i18n/subscriptions.php:11
+msgid ""
+"A subscription renewal has been removed from your cart. Multiple "
+"subscriptions can not be purchased at the same time."
+msgstr ""
+"Uusittu tilaus on poistettu ostoskorista. Useita tilauksia ei voi hankia "
+"samalla kertaa."
+
+#: i18n/subscriptions.php:12
+msgid ""
+"A subscription has been removed from your cart. Due to payment gateway "
+"restrictions, different subscription products can not be purchased at the "
+"same time."
+msgstr ""
+"Tilaus on poistettu ostoskorista. Maksuväylien rajoituksista johtuen, "
+"erilaisia tilaus tuotteita ei voi ostaa samalla kertaa."
+
+#: i18n/subscriptions.php:13
+msgid ""
+"A subscription has been removed from your cart. Products and subscriptions "
+"can not be purchased at the same time."
+msgstr ""
+"Tilaus on poistettu ostoskorista. Tuotteita ja tilauksia ei voi ostaa "
+"samalla kertaa."
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:15
+msgid "%1$s every %2$s"
+msgstr "%1$s joka %2$s"
+
+#. translators: %1$s number %2$s number %3$s day
+#: i18n/subscriptions.php:17
+msgid "%1$s every %2$s on %3$s"
+msgstr "%1$s joka %2$s, %3$s:sin"
+
+#. translators: %s number
+#: i18n/subscriptions.php:19
+msgid "%s on the last day of each month"
+msgstr "%s kunkin kuukauden viimeisenä päivänä"
+
+#. translators: %1$s number %2$s nth
+#: i18n/subscriptions.php:21
+msgid "%1$s on the %2$s of each month"
+msgstr "%1$s joka kuukauden %2$s. päivä"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:23
+msgid "%1$s on the last day of every %2$s month"
+msgstr "%1$s joka %2$s kuukauden viimeisenä päivänä"
+
+#. translators: %1$s number %2$s nth %1$s number
+#: i18n/subscriptions.php:25
+msgid "%1$s on the %2$s day of every %3$s month"
+msgstr "%1$s joka %2$s päivä joka %3$s kuukausi"
+
+#. translators: %1$s number %2$s number %3$s number
+#: i18n/subscriptions.php:27
+msgid "%1$s on %2$s %3$s each year"
+msgstr "%1$s joka %3$s %2$s joka vuosi"
+
+#. translators: %1$s number %2$s number %3$s number %4$s nth
+#: i18n/subscriptions.php:29
+msgid "%1$s on %2$s %3$s every %4$s year"
+msgstr "%1$s joka %3$s %2$s joka %4$s vuosi"
+
+#: i18n/subscriptions.php:31
+msgid "day"
+msgstr "päivä"
+
+#. translators: number of days %s
+#: i18n/subscriptions.php:33
+msgid "%s days"
+msgstr "%s päivää"
+
+#: i18n/subscriptions.php:34
+msgid "week"
+msgstr "viikko"
+
+#. translators: %s number of weeks
+#: i18n/subscriptions.php:36
+msgid "%s weeks"
+msgstr "%s viikkoa"
+
+#: i18n/subscriptions.php:37
+msgid "month"
+msgstr "kuukausi"
+
+#. translators: %s number of months
+#: i18n/subscriptions.php:39
+msgid "%s months"
+msgstr "%s kuukautta"
+
+#: i18n/subscriptions.php:40
+msgid "year"
+msgstr "vuosi"
+
+#. translators: %s number of years
+#: i18n/subscriptions.php:42
+msgid "%s years"
+msgstr "%s vuotta"
+
+#. translators: %s nth
+#: i18n/subscriptions.php:46
+msgid "%sth"
+msgstr "%s"
+
+#. translators: %s nst
+#: i18n/subscriptions.php:48
+msgid "%sst"
+msgstr "%s"
+
+#. translators: %s nnd
+#: i18n/subscriptions.php:50
+msgid "%snd"
+msgstr "%s"
+
+#. translators: %s nrd
+#: i18n/subscriptions.php:52
+msgid "%srd"
+msgstr "%s"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:56
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:58
+msgid " %1$s every %2$s"
+msgstr ""
+"<ph id=\"mtc_1\" equiv-text=\"base64:JTEkcw==\"/> joka <ph id=\"mtc_2\" "
+"equiv-text=\"base64:JTIkcw==\"/>"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:61
+msgid "%1$s for %2$s"
+msgstr "%1$s - %2$s"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:63
+msgid "%1$s with %2$s free trial"
+msgstr "%1$s, %2$s ilmainen kokeilujakso"
+
+#. translators: %s something
+#: i18n/subscriptions.php:66
+msgid "%s day"
+msgstr "%s päivä"
+
+#. translators: %s something
+#: i18n/subscriptions.php:68
+msgid "a %s-day"
+msgstr "%s päivä"
+
+#. translators: %s something
+#: i18n/subscriptions.php:70
+msgid "%s week"
+msgstr "%s viikko"
+
+#. translators: %s something
+#: i18n/subscriptions.php:72
+msgid "a %s-week"
+msgstr "%s viikko"
+
+#. translators: %s something
+#: i18n/subscriptions.php:74
+msgid "%s month"
+msgstr "%s kuukausi"
+
+#. translators: %s something
+#: i18n/subscriptions.php:76
+msgid "a %s-month"
+msgstr "%s-kuukautta"
+
+#. translators: %s something
+#: i18n/subscriptions.php:78
+msgid "%s year"
+msgstr "%s vuosi"
+
+#. translators: %s something
+#: i18n/subscriptions.php:80
+msgid "a %s-year"
+msgstr "a %s-vuosi"
+
+#. translators: %1$s something %2$s something
+#: i18n/subscriptions.php:83
+msgid "%1$s and a %2$s sign-up fee"
+msgstr "%1$s ja %2$s liittymismaksu"
+
+#: includes/class-wc-pos-ajax.php:203
+msgid "Product "
+msgstr "Tuote "
+
+#: includes/class-wc-pos-ajax.php:213
+msgid " stock increased by "
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:279
+msgid "In stock"
+msgstr "Varastossa"
+
+#: includes/class-wc-pos-ajax.php:458
+msgid "Invalid register ID"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:464
+msgid "Could not get session"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:475
+msgid "Could not update session"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:494
+msgid "You can use this code"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:513
+msgid "User not found"
+msgstr "Käyttäjää ei löydy"
+
+#: includes/class-wc-pos-ajax.php:578
+msgid "Register not found."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:611
+msgid "Register not found"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:790
+msgid "No tiles to be deleted!"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:819
+msgid "Tile could not be moved."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:835
+msgid "No data sent"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:1023
+msgid "Could not retrieve receipt printing URL"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:45
+msgid "Barcode Label Printing"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:46
+msgid ""
+"Barcode labels for your store can be printed here. To change the the fields "
+"to print in the label, you can check the boxes for the labels to print in "
+"the panel to the right."
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:49
+msgid ""
+"<strong>Connection lost.</strong> Saving has been disabled until you&#8217;"
+"re reconnected."
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:50
+msgid "We&#8217;re backing up this post in your browser, just in case."
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:66
+msgid "Print Settings"
+msgstr "Tulostusasetukset"
+
+#: includes/class-wc-pos-barcodes.php:70
+msgid "Number of Labels"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:74
+msgid "Label Type"
+msgstr "Tarratyyppi"
+
+#: includes/class-wc-pos-barcodes.php:76
+msgid "Continuous"
+msgstr "Jatkuva"
+
+#: includes/class-wc-pos-barcodes.php:77
+msgid "Continuous Feed"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:78
+msgid "Continuous Feed (4cm x 3cm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:79
+msgid "Continuous Feed (40mm x 20mm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:81
+msgid "A4"
+msgstr "A4"
+
+#: includes/class-wc-pos-barcodes.php:82
+msgid "2 x 7"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:83
+msgid "3 x 7"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:84
+msgid "3 x 9"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:86
+msgid "Letter"
+msgstr "Kirje"
+
+#: includes/class-wc-pos-barcodes.php:87
+msgid "4 x 5"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:88
+msgid "3 x 10"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:89
+msgid "4 x 20"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:91
+msgid "Other"
+msgstr "Muu"
+
+#: includes/class-wc-pos-barcodes.php:92
+msgid "Jewellery Tag (50mm x 10mm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:97
+msgid "Product Fields"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:98,
+#: includes/views/html-admin-barcode-options.php:21
+msgid "Barcode"
+msgstr "Viivakoodi"
+
+#: includes/class-wc-pos-barcodes.php:100
+msgid "SKU Label"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:104
+msgid "Variation Label"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:107
+msgid ""
+"Note: set your paper size to the corresponding template size. Printing "
+"margins should be set to none to ensure accurate printing."
+msgstr ""
+
+#: includes/class-wc-pos-grid.php:162
+msgid "Error saving grid."
+msgstr ""
+
+#: includes/class-wc-pos-install.php:192,
+#: includes/updates/wc_pos-update-5.0.0.php:106
+msgid "Default Receipt"
+msgstr ""
+
+#: includes/class-wc-pos-install.php:221,
+#: includes/updates/wc_pos-update-5.0.0.php:136
+msgid "Default Outlet"
+msgstr ""
+
+#: includes/class-wc-pos-install.php:249,
+#: includes/updates/wc_pos-update-5.0.0.php:161
+msgid "Default Register"
+msgstr ""
+
+#. translators: user role
+#: includes/class-wc-pos-install.php:311
+msgctxt "User role"
+msgid "Register clerk"
+msgstr ""
+
+#. translators: user role
+#: includes/class-wc-pos-install.php:313
+msgctxt "User role"
+msgid "Outlet manager"
+msgstr ""
+
+#: includes/class-wc-pos-my-account.php:39,
+#: includes/class-wc-pos-my-account.php:49, includes/class-wc-pos.php:195,
+#: includes/admin/class-wc-pos-admin-menus.php:40,
+#: includes/admin/class-wc-pos-admin-menus.php:41,
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:250,
+#: includes/admin/class-wc-pos-admin-orders-page.php:169,
+#: includes/admin/class-wc-pos-admin.php:307,
+#: includes/admin/class-wc-pos-admin.php:633,
+#: includes/views/html-admin-pos.php:17,
+#: includes/admin/views/html-quick-edit-product.php:13
+msgid "Point of Sale"
+msgstr "Kassajärjestelmä"
+
+#: includes/class-wc-pos-post-types.php:43,
+#: includes/class-wc-pos-post-types.php:45,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:98,
+#: includes/admin/settings/wc-pos-settings-general.php:60,
+#: includes/admin/views/notices/html-notice-install.php:17
+msgid "Registers"
+msgstr "Kassa"
+
+#: includes/class-wc-pos-post-types.php:46
+msgctxt "Admin menu name"
+msgid "Registers"
+msgstr "Kassa"
+
+#: includes/class-wc-pos-post-types.php:47,
+#: includes/class-wc-pos-post-types.php:94,
+#: includes/class-wc-pos-post-types.php:145,
+#: includes/class-wc-pos-post-types.php:196,
+#: includes/class-wc-pos-post-types.php:247
+msgid "Add New"
+msgstr "Lisää uusi"
+
+#: includes/class-wc-pos-post-types.php:48
+msgid "Add new register"
+msgstr "Lisää uudet kassakoneet"
+
+#: includes/class-wc-pos-post-types.php:50
+msgid "Edit register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:51
+msgid "New register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:52
+msgid "View register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:53
+msgid "View registers"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:54
+msgid "Search registers"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:55
+msgid "No registers found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:56
+msgid "No registers found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:57
+msgid "Parent register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:58
+msgid "Insert into register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:59
+msgid "Uploaded to this register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:60
+msgid "Filter registers"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:61
+msgid "Registers navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:62
+msgid "Registers list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:64
+msgid "This is where you can add new registers to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:90,
+#: includes/class-wc-pos-post-types.php:92,
+#: includes/admin/settings/wc-pos-settings-general.php:61,
+#: includes/admin/views/notices/html-notice-install.php:18
+msgid "Outlets"
+msgstr "Myymälät"
+
+#: includes/class-wc-pos-post-types.php:93
+msgctxt "Admin menu name"
+msgid "Outlets"
+msgstr "Toimipistetarkastukset"
+
+#: includes/class-wc-pos-post-types.php:95
+msgid "Add new outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:97
+msgid "Edit outlet"
+msgstr "Muokkaa myymälä"
+
+#: includes/class-wc-pos-post-types.php:98
+msgid "New outlet"
+msgstr "Uusi alennusmyynti"
+
+#: includes/class-wc-pos-post-types.php:99
+msgid "View outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:100
+msgid "View outlets"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:101
+msgid "Search outlets"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:102
+msgid "No outlets found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:103
+msgid "No outlets found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:104
+msgid "Parent outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:105
+msgid "Outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:106
+msgid "Set outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:107
+msgid "Remove outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:108
+msgid "Use as outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:109
+msgid "Insert into outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:110
+msgid "Uploaded to this outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:111
+msgid "Filter outlets"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:112
+msgid "Outlets navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:113
+msgid "Outlets list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:115
+msgid "This is where you can add new outlets to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:142,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:92
+msgid "Grid"
+msgstr "Ruudukko"
+
+#: includes/class-wc-pos-post-types.php:144
+msgctxt "Admin menu name"
+msgid "Grids"
+msgstr "Ruudukot"
+
+#: includes/class-wc-pos-post-types.php:146
+msgid "Add new grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:148
+msgid "Edit grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:149
+msgid "New grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:150
+msgid "View grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:151
+msgid "View grids"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:152
+msgid "Search grids"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:153
+msgid "No grids found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:154
+msgid "No grids found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:155
+msgid "Parent grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:156
+msgid "Grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:157
+msgid "Set grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:158
+msgid "Remove grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:159
+msgid "Use as grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:160
+msgid "Insert into grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:161
+msgid "Uploaded to this grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:162
+msgid "Filter grids"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:163
+msgid "Grids navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:164
+msgid "Grids list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:166,
+#: includes/class-wc-pos-post-types.php:217
+msgid "This is where you can add new grids to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:192,
+#: includes/class-wc-pos-post-types.php:194
+msgid "Receipts"
+msgstr "Kuitit"
+
+#: includes/class-wc-pos-post-types.php:195
+msgctxt "Admin menu name"
+msgid "Receipts"
+msgstr "Kuitit"
+
+#: includes/class-wc-pos-post-types.php:197
+msgid "Add new receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:199
+msgid "Edit receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:200
+msgid "New receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:201
+msgid "View receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:202
+msgid "View receipts"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:203
+msgid "Search receipts"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:204
+msgid "No receipts found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:205
+msgid "No receipts found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:206
+msgid "Parent receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:207
+msgid "Receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:208
+msgid "Set receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:209
+msgid "Remove receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:210
+msgid "Use as receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:211
+msgid "Insert into receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:212
+msgid "Uploaded to this receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:213
+msgid "Filter receipts"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:214
+msgid "Receipts navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:215
+msgid "Receipts list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:243,
+#: includes/class-wc-pos-post-types.php:245
+msgid "Sessions"
+msgstr "Istunnot"
+
+#: includes/class-wc-pos-post-types.php:244
+msgid "Session"
+msgstr "Istunto"
+
+#: includes/class-wc-pos-post-types.php:246
+msgctxt "Admin menu name"
+msgid "Sessions"
+msgstr "Istunnot"
+
+#: includes/class-wc-pos-post-types.php:248
+msgid "Add new session"
+msgstr "Lisää uusi reitintekosessio"
+
+#: includes/class-wc-pos-post-types.php:250
+msgid "Edit session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:251
+msgid "New session"
+msgstr "_Uusi istunto"
+
+#: includes/class-wc-pos-post-types.php:252
+msgid "View session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:253
+msgid "View sessions"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:254
+msgid "Search sessions"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:255
+msgid "No sessions found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:256
+msgid "No sessions found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:257
+msgid "Parent session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:258
+msgid "Session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:259
+msgid "Set session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:260
+msgid "Remove session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:261
+msgid "Use as session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:262
+msgid "Insert into session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:263
+msgid "Uploaded to this session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:264
+msgid "Filter sessions"
+msgstr "Suodata istuntoja"
+
+#: includes/class-wc-pos-post-types.php:265
+msgid "Sessions navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:266
+msgid "Sessions list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:268
+msgid "This is where you can add new sessions to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-sell.php:174, includes/class-wc-pos.php:872
+msgid "You are not allowed to view this page."
+msgstr "Sinulla ei ole riittäviä oikeuksia näyttää tätä sivua."
+
+#: includes/class-wc-pos-stocks.php:54
+msgid "Stock Controller"
+msgstr ""
+
+#: includes/class-wc-pos-stocks.php:55
+msgid ""
+"Manage your stock instantly using the barcode scanner. Simply scan the SKU "
+"and the product will load below with the option to enter updated stock value."
+msgstr ""
+
+#: includes/class-wc-pos-stocks.php:63
+msgid "Find"
+msgstr "Etsi"
+
+#: includes/class-wc-pos-stocks.php:74
+msgid "Image"
+msgstr "Kuva"
+
+#: includes/class-wc-pos-stocks.php:75,
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:22
+msgid "Name"
+msgstr "Nimi"
+
+#: includes/class-wc-pos-stocks.php:78
+msgid "Update Stock"
+msgstr ""
+
+#: includes/class-wc-pos-stocks.php:79
+msgid "Action"
+msgstr "Toiminta"
+
+#: includes/class-wc-pos-stocks.php:276
+msgid "Barcode Template created."
+msgstr ""
+
+#: includes/class-wc-pos-stocks.php:277
+msgid "Barcode Template updated."
+msgstr ""
+
+#: includes/class-wc-pos-subscriptions.php:32,
+#: includes/class-wc-pos-subscriptions.php:91
+msgid "Subscription"
+msgstr "Tilaus"
+
+#. translators: $s currency symbol
+#: includes/class-wc-pos-subscriptions.php:98
+msgid "Sign-up Fee (%s)"
+msgstr "Liittymismaksu (%s)"
+
+#: includes/class-wc-pos-subscriptions.php:101
+msgid "Interval"
+msgstr "Väli"
+
+#: includes/class-wc-pos-subscriptions.php:102
+msgid "Period"
+msgstr "Ajanjakso"
+
+#: includes/class-wc-pos-subscriptions.php:103
+msgid "Length"
+msgstr "Pituus"
+
+#: includes/class-wc-pos.php:560, includes/class-wc-pos.php:609,
+#: includes/admin/class-wc-pos-admin.php:97,
+#: includes/admin/views/html-quick-edit-product.php:27
+msgid "POS Only"
+msgstr "Vain kassa"
+
+#: includes/class-wc-pos.php:568, includes/class-wc-pos.php:610,
+#: includes/admin/class-wc-pos-admin.php:98,
+#: includes/admin/views/html-quick-edit-product.php:28
+msgid "Online Only"
+msgstr "Vain verkkokauppa"
+
+#: includes/class-wc-pos.php:600
+msgid "POS Status"
+msgstr "Kassan tila"
+
+#: includes/class-wc-pos.php:607
+msgid "— No Change —"
+msgstr "-- Ei muutosta --"
+
+#: includes/class-wc-pos.php:608
+msgid "POS & Online"
+msgstr ""
+
+#: includes/class-wc-pos.php:649,
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:199,
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:276,
+#: includes/admin/class-wc-pos-admin-notices.php:108,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-grid-options.php:42,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:79,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-register-options.php:67,
+#: includes/gateways/paymentsense/class-wc-pos-paymentsense.php:92
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Toiminto epäonnistui. Päivitä sivu ja yritä uudelleen."
+
+#: includes/class-wc-pos.php:718
+msgid "Incorrect Permalinks Structure."
+msgstr ""
+
+#: includes/class-wc-pos.php:718
+msgid "Change Permalinks"
+msgstr ""
+
+#: includes/class-wc-pos.php:788
+msgid "Reprints receipts"
+msgstr ""
+
+#: includes/class-wc-pos.php:1000
+msgid "%"
+msgstr "%"
+
+#: includes/wc-pos-register-functions.php:44
+msgid "Categories Layout"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:125
+msgid ""
+"Orders placed by the deleted register will be assigned to the Default "
+"Register."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:126
+msgid ""
+"Orders placed by the deleted registers will be assigned to the Default "
+"Register."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:143
+msgid "Select an option&hellip;"
+msgstr "Valitse joku vaihtoehto&hellip;"
+
+#: includes/admin/class-wc-pos-admin-assets.php:144
+msgid "Please enter in a valid email address."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:145
+msgid "Please enter in a valid phone number."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:146
+msgid "Please enter in a valid fax number."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:147
+msgid "Please enter in a valid URL."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:148
+msgid "Are you sure you want to fill out the fields from the store address?"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:159
+msgid ""
+"Are you sure you want to delete all tiles in this grid? This cannot be "
+"undone."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:160
+msgid "Are you sure you want to delete this tile? This cannot be undone."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:172
+msgid "The field “Receipt Name” cannot be empty."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:173
+msgid "The field “Receipt Width” cannot be empty."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:174
+msgid "The field “Receipt Width” cannot be a negative value."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:185
+msgid "Are you sure you want to remove the selected items?"
+msgstr "Haluatko varmasti poistaa valitut tuotteet?"
+
+#: includes/admin/class-wc-pos-admin-assets.php:186,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:107
+msgid "Search for a category&hellip;"
+msgstr "Etsi kategoria&hellip;"
+
+#: includes/admin/class-wc-pos-admin-assets.php:197,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:38
+msgid "Coin"
+msgstr "Metallirahat"
+
+#: includes/admin/class-wc-pos-admin-assets.php:198,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:24,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:44
+msgid "Remove"
+msgstr "Poista"
+
+#: includes/admin/class-wc-pos-admin-menus.php:52,
+#: includes/admin/class-wc-pos-admin-menus.php:53
+msgid "Barcodes"
+msgstr "Viivakoodit"
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:108
+msgid "Register data"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:109
+msgid "Register actions"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:113
+msgid "Outlet data"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:114
+msgid "Outlet actions"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:118
+msgid "Tile options"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:119,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:93,
+#: includes/admin/settings/wc-pos-settings-tiles.php:25
+msgid "Tiles"
+msgstr "Laatat"
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:120
+msgid "Grid actions"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:125
+msgid "Product grids"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-notices.php:112
+msgid "You don&#8217;t have permission to do this."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:58
+msgid ""
+"<span class=\"order-type tips\" data-tip=\"Order Type\">Order Type</span>"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:83
+msgid "<span class=\"order-type-web tips\" data-tip=\"Website\"><span>"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:89
+msgid "<span class=\"order-type-pos tips\" data-tip=\"Point of Sale\"><span>"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:108
+msgid "All types"
+msgstr "Kaikki tyypit"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:109
+msgid "Online"
+msgstr "Online"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:110,
+#: includes/admin/class-wc-pos-admin.php:145,
+#: includes/admin/class-wc-pos-admin.php:637
+msgid "POS"
+msgstr "Kassa"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:129,
+#: includes/admin/class-wc-pos-admin.php:647,
+#: includes/admin/class-wc-pos-admin.php:650
+msgid "All registers"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:149
+msgid "All outlets"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:184
+msgid "Register:"
+msgstr "Rekisteri:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:188
+msgid "Cashier:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:191
+msgid "Total:"
+msgstr "Yhteensä:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:194
+msgid "Tendered:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:198
+msgid "Change:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:203
+msgid "Amount Due:"
+msgstr "Maksettava summa:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:207
+msgid "Order #:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:221
+msgid "Discount Reason:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:232
+msgid "View Receipt"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:234,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:98,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:17
+msgid "Print Receipt"
+msgstr "Tulosta kuitti"
+
+#: includes/admin/class-wc-pos-admin-post-types.php:159
+msgid "Register Updated."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:160
+msgid "Register Created."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:166
+msgid "Outlet Updated."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:167
+msgid "Outlet Created."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:173
+msgid "Grid Updated."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:174
+msgid "Grid Created."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:202
+msgid "Register name"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:205
+msgid "Outlet name"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:208
+msgid "Grid name"
+msgstr ""
+
+#. translators: %s Display name
+#: includes/admin/class-wc-pos-admin-post-types.php:270
+msgid "This register is opened by %s and cannot be deleted at the moment."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:274
+msgid ""
+"This register is opened and cannot be deleted at the moment. Please make "
+"sure to close the register before you can delete it."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-settings.php:76
+msgid "Your settings have been saved."
+msgstr "Asetuksesi on tallennettu."
+
+#: includes/admin/class-wc-pos-admin.php:96,
+#: includes/admin/views/html-quick-edit-product.php:26
+msgid "POS &amp; Online"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:102
+msgid "POS visibility:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:118,
+#: includes/admin/settings/wc-pos-settings-advanced.php:60
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/class-wc-pos-admin.php:148
+msgid "Sales by register"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:154
+msgid "Sales by outlet"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:160
+msgid "Sales by cashier"
+msgstr "Myynti per myyjä"
+
+#: includes/admin/class-wc-pos-admin.php:310
+msgid "Assigned Outlets"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:316
+msgid "Ensure the user is logged out before changing the outlet."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:334
+msgid "Card Number"
+msgstr "Kortin numero"
+
+#: includes/admin/class-wc-pos-admin.php:340
+msgid "Tender Orders"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:359
+msgid "View Settings"
+msgstr "Näkymäasetukset"
+
+#: includes/admin/class-wc-pos-admin.php:375
+msgid "View Documentation"
+msgstr "Näytä ohjeet"
+
+#: includes/admin/class-wc-pos-admin.php:375
+msgid "Docs"
+msgstr "Ohjeet"
+
+#: includes/admin/class-wc-pos-admin.php:376
+msgid "Visit Support"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:376
+msgid "Support"
+msgstr "Tuki"
+
+#: includes/admin/class-wc-pos-admin.php:446,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:44
+msgid "Product Grid"
+msgstr ""
+
+#. translators: %s grid name
+#: includes/admin/class-wc-pos-admin.php:487
+msgid "Add to %s"
+msgstr "Lisää kohteeseen <ph id=\"mtc_1\" equiv-text=\"base64:JXM=\"/>"
+
+#: includes/api/class-wc-pos-api-orders-refunds.php:28
+msgid "Invalid order ID."
+msgstr "Varausnumero ei kelpaa."
+
+#: includes/api/class-wc-pos-api-orders-refunds.php:32
+msgid "Refund amount must be greater than zero."
+msgstr ""
+
+#: includes/api/class-wc-pos-api-orders-refunds.php:52
+msgid "Cannot create order refund, please try again."
+msgstr ""
+
+#: includes/api/class-wc-pos-api-orders.php:153
+msgid "You do not have permission to create orders."
+msgstr ""
+
+#: includes/api/class-wc-pos-api.php:68
+msgid "User not authorized to access WooCommerce POS"
+msgstr "Käyttäjällä ei ole oikeutta käyttää kassajärjestelmää"
+
+#: includes/api/class-wc-pos-api.php:355, includes/api/class-wc-pos-api.php:409
+msgid "Via"
+msgstr "Kautta"
+
+#: includes/api/class-wc-pos-api.php:361, includes/api/class-wc-pos-api.php:362
+msgid "Unpublished"
+msgstr "Julkaisematon"
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:61
+msgid "New POS account"
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:62
+msgid ""
+"New customer accocunt emails are sent to the customer when a new account is "
+"being created for them via the Point of Sale."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:76
+msgid "Your {site_title} account has been created!"
+msgstr "Sinulle on luotu asiakastili MSG Siivouspalvelut -sivustolla!"
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:85
+msgid "Welcome to {site_title}"
+msgstr "Tervetuloa  MSG Siivouspalvelut varausjärjestelmään"
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:165
+msgid "We look forward to seeing you soon."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:34,
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:62,
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:72
+msgid "End of Day Report"
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:35
+msgid ""
+"End of day reports are sent to chosen recipient(s) when a register is closed."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:151
+msgid "Congratulations on the sales"
+msgstr ""
+
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:172,
+#: includes/emails/class-wc-pos-email-new-order.php:171
+msgid "Available placeholders: %s"
+msgstr "Käytettävissä olevat paikanpitäjät: %s"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:175,
+#: includes/emails/class-wc-pos-email-new-order.php:175,
+#: includes/gateways/class-wc-pos-gateway-cash.php:93,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:78,
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:52,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:43,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:52
+msgid "Enable/Disable"
+msgstr "Päällä / Pois"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:177,
+#: includes/emails/class-wc-pos-email-new-order.php:177
+msgid "Enable this email notification"
+msgstr "Ota käyttöön tämä sähköpostihuomautus"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:181,
+#: includes/emails/class-wc-pos-email-new-order.php:181
+msgid "Recipient(s)"
+msgstr "Vastaanottaja(t)"
+
+#. translators: %s: WP admin email
+#. translators: %s: WP admin email
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:184,
+#: includes/emails/class-wc-pos-email-new-order.php:184
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Kirjoita tämän viestin vastaanottajat. Erota pilkulla. Oletus <code>%s</"
+"code>."
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:190,
+#: includes/emails/class-wc-pos-email-new-order.php:190
+msgid "Subject"
+msgstr "Aihe"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:198,
+#: includes/emails/class-wc-pos-email-new-order.php:198
+msgid "Email heading"
+msgstr "Sähköpostin otsikko"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:206,
+#: includes/emails/class-wc-pos-email-new-order.php:206
+msgid "Additional content"
+msgstr "Lisäsisältö"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:207,
+#: includes/emails/class-wc-pos-email-new-order.php:207
+msgid "Text to appear below the main email content."
+msgstr "Teksti, joka näkyy sähköpostin pääsisällön alla."
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:209,
+#: includes/emails/class-wc-pos-email-new-order.php:209
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:215,
+#: includes/emails/class-wc-pos-email-new-order.php:215
+msgid "Email type"
+msgstr "Sähköpostin muoto"
+
+#: includes/emails/class-wc-pos-email-end-of-day-report.php:217,
+#: includes/emails/class-wc-pos-email-new-order.php:217
+msgid "Choose which format of email to send."
+msgstr "Valitse, missä muodossa sähköpostiviestit lähetetään."
+
+#: includes/emails/class-wc-pos-email-new-order.php:29
+msgid "New POS order"
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-new-order.php:30
+msgid ""
+"New order emails are sent to chosen recipient(s) when a new Point of Sale "
+"order is received."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-new-order.php:91
+msgid "[{site_title}]: New order #{order_number}"
+msgstr "[MSG Siivouspalvelut] Uusi tilaus ({order_number})"
+
+#: includes/emails/class-wc-pos-email-new-order.php:100
+msgid "New Order: #{order_number}"
+msgstr "Uusi tarjouspyyntö: nro. {order_number}"
+
+#: includes/emails/class-wc-pos-email-new-order.php:148
+msgid "Congratulations on the sale!"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:24
+msgid "Have your customers pay with cash (or by other means)."
+msgstr ""
+
+#. translators: %1$s shipping method name.
+#: includes/gateways/class-wc-pos-gateway-cash.php:66
+msgid "Any &quot;%1$s&quot; method"
+msgstr ""
+
+#. translators: %1$s shipping method title, %2$s shipping method id.
+#: includes/gateways/class-wc-pos-gateway-cash.php:81
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (nro %2$s)"
+
+#. translators: %1$s zone name, %2$s shipping method instance name.
+#: includes/gateways/class-wc-pos-gateway-cash.php:84
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s&ndash;%2$s"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:94
+msgid "Enable Cash for POS"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:100,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:86,
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:22,
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:59,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:49,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:58
+msgid "Title"
+msgstr "Otsikko"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:102,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:88
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Maksutavan kuvaus, jonka asiakas näkee kassalla."
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:109,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:96,
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:68
+msgid "Payment method description that the customer will see on your website."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:110
+msgid "Pay with cash."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:114
+msgid "Instructions"
+msgstr "Ohjeet"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:116
+msgid "Instructions that will be added to the thank you page."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:117
+msgid "Thank you for your purchase."
+msgstr "Kiitos tilauksestasi!"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:121
+msgid "Enable for shipping methods"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:126
+msgid ""
+"If the payment method is only available for certain methods, set it up here. "
+"Leave blank to enable for all methods."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:130
+msgid "Select shipping methods"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:134
+msgid "Accept for virtual orders"
+msgstr "Hyväksy virtuaalisseille tilauksille"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:135
+msgid "Accept only if the order is virtual"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:266,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:134
+msgid "Payment to be made upon delivery."
+msgstr ""
+
+#. translators: %s gateway number
+#. translators: %s gateway number
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:67,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:90
+msgid "Chip &amp; PIN%s"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:68
+msgid "Chip & PIN payment gateway."
+msgstr ""
+
+#. translators: %s gateway number
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:80
+msgid "Enable Chip & PIN%s"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:97
+msgid "Pay via Chip & PIN."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:103
+msgid "Require reference number"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:104
+msgid "Check this box to make the reference number mandatory filed."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:142
+msgid "Success!"
+msgstr "Onnistui!"
+
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:490,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:476,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:467,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:467
+msgid "%s average daily sales"
+msgstr "%s keskimääräinen päivittäinen myynti"
+
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:495,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:481,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:472,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:472
+msgid "%s average monthly sales"
+msgstr ""
+"<ph id=\"mtc_1\" equiv-text=\"base64:JXM=\"/> keskimääräinen kuukausittainen "
+"myynti"
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:501
+msgid "%s gross sales"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:502,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:488,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:479,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:479
+msgid ""
+"This is the sum of the order totals after any refunds and including shipping "
+"and taxes."
+msgstr ""
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:508
+msgid "%s net sales"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:509,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:495,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:486,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:486
+msgid ""
+"This is the sum of the order totals after any refunds and excluding shipping "
+"and taxes."
+msgstr ""
+"Tämä on tilausten yhteenlaskettu määrä hyvitysten jälkeen, ei sisällä "
+"toimituskuluja ja veroja."
+
+#. translators: %s saved sales
+#. translators: %s saved sales
+#. translators: %s saved sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:520,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:506,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:497
+msgid "%s sales from this register for saved orders"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:521,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:507,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:498,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:498
+msgid ""
+"This is the sum of the saved order totals after any refunds and including "
+"shipping and taxes."
+msgstr ""
+
+#. translators: %s number of orders
+#. translators: %s number of orders
+#. translators: %s number of orders
+#. translators: %s number of orders
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:527,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:513,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:504,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:504
+msgid "%s orders placed"
+msgstr "%s tarjouspyyntöä"
+
+#. translators: $s number of items
+#. translators: %s number of items
+#. translators: %s number of items
+#. translators: %s number of items
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:534,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:520,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:511,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:511
+msgid "%s items purchased"
+msgstr "%s palvelua ostettu"
+
+#. translators: %s total shipping
+#. translators: %s total shipping
+#. translators: %s total shipping
+#. translators: %s total shipping
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:541,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:527,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:518,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:518
+msgid "%s charged for shipping"
+msgstr "%s toimituskulut"
+
+#. translators: %s total refunds
+#. translators: %s total refunds
+#. translators: %s total refunds
+#. translators: %s total refunds
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:547,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:533,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:524,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:524
+msgid "%s in refunds"
+msgstr ""
+
+#. translators: %s total coupons
+#. translators: %s total coupons
+#. translators: %s total coupons
+#. translators: %s total coupons
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:553,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:539,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:530,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:530
+msgid "%s worth of coupons used"
+msgstr "%s arvoisen kuponkeja käytetään"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:567,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:553,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:544,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:544
+msgid "Year"
+msgstr "Vuosi"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:568,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:554,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:545,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:545
+msgid "Last Month"
+msgstr "Viime kuukausi"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:569,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:555,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:546,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:546
+msgid "This Month"
+msgstr "Tämä Kuukausi"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:570,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:556,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:547,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:547
+msgid "Last 7 Days"
+msgstr "Viimeiset 7 päivää"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:607,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:593,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:584,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:584
+msgid "Showing reports for:"
+msgstr "Näytetään raportteja aiheelle:"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:653
+msgid "Search Cashier"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:657
+msgid "Search for a cashier&hellip;"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:658,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:632,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:629,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:629
+msgid "Show"
+msgstr "Näytä"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:704
+msgid "Top cashiers"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:768,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:732,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:724,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:724
+msgid "Top Earners"
+msgstr "Eniten ansainneet"
+
+#. translators:  %1$s total worth %2$d last number of days
+#. translators: $1$s total worth %2$d last number of days
+#. translators: %1$s total worth %2$d last number of days
+#. translators: %1$s total worth %2$d last number of days
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:950,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:905,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:893,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:893
+msgid "Sold %1$s worth in the last %2$d days"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:973,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:928,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:916,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:916,
+#: includes/views/html-print-receipt.php:543,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:69
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:976,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:931,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:919,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:919
+msgid "Export CSV"
+msgstr "Vie CSV"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1006
+msgid "&larr; Choose a cashier to view stats"
+msgstr ""
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:487
+msgid "%s gross sales from this outlet"
+msgstr ""
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:494
+msgid "%s net sales from this outlet"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:627
+msgid "Outlet Search"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:631
+msgid "Search for a outlet&hellip;"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:678
+msgid "Top Outlets"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:961
+msgid "&larr; Choose outlet to view stats"
+msgstr ""
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-register.php:478
+msgid "%s gross sales from this register"
+msgstr ""
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-register.php:485
+msgid "%s net sales from this register"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:624
+msgid "Register Search"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:628
+msgid "Search for a register&hellip;"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:668
+msgid "Top Registers"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:949
+msgid "&larr; Choose a register to view stats"
+msgstr ""
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-session.php:478
+msgid "%s gross sales from this session"
+msgstr ""
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-session.php:485
+msgid "%s net sales from this session"
+msgstr ""
+
+#. translators: %s saved sales
+#: includes/reports/class-wc-pos-report-sales-by-session.php:497
+msgid "%s sales from this session for saved orders"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:624
+msgid "Session Search"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:628
+msgid "Search for a session&hellip;"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:668
+msgid "Top Sessions"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:949
+msgid "&larr; Choose a session to view stats"
+msgstr ""
+
+#: includes/views/html-admin-barcode-item.php:34
+msgid "Variation ID:"
+msgstr "Muunnelma ID:"
+
+#: includes/views/html-admin-barcode-item.php:93
+msgid "Edit item"
+msgstr "Muokkaa kohdetta"
+
+#: includes/views/html-admin-barcode-item.php:94
+msgid "Delete item"
+msgstr "Poista"
+
+#: includes/views/html-admin-barcode-options.php:18,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:122
+msgid "Item"
+msgstr "Kohde"
+
+#: includes/views/html-admin-barcode-options.php:30
+msgid "Add products to generate barcodes."
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:49
+msgid "Delete selected row(s)"
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:50
+msgid "Add all variations"
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:51
+msgid "Add product(s)"
+msgstr "Lisää palvelu(t)"
+
+#: includes/views/html-admin-barcode-options.php:52
+msgid "Add category"
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:67
+msgid "Add products"
+msgstr "Lisää palveluja"
+
+#: includes/views/html-admin-barcode-options.php:69,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:56
+msgid "Close modal panel"
+msgstr "Sulje modaalinen paneeli"
+
+#: includes/views/html-admin-barcode-options.php:77,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:94
+msgid "Search for a product&hellip;"
+msgstr "Etsi tuotetta&hellip;"
+
+#: includes/views/html-admin-barcode-options.php:90,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:120
+msgid "Add"
+msgstr "Lisää"
+
+#: includes/views/html-admin-barcode-options.php:101
+msgid "Add products to generate barcodes"
+msgstr ""
+
+#: includes/views/html-my-account-tab.php:17
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: includes/views/html-my-account-tab.php:65
+msgid "No registers found."
+msgstr ""
+
+#: includes/views/html-print-receipt.php:261,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:198,
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:61
+msgid "Number of Items"
+msgstr "Kohteiden lukumäärä"
+
+#: includes/views/html-print-receipt.php:286
+msgid " (Shipping)"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:498,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:38
+msgid "Phone:"
+msgstr "Puhelin:"
+
+#: includes/views/html-print-receipt.php:499,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:39
+msgid "Fax:"
+msgstr "Fax:"
+
+#: includes/views/html-print-receipt.php:500,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:40
+msgid "Email:"
+msgstr "Sähköposti:"
+
+#: includes/views/html-print-receipt.php:501,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:41
+msgid "Website:"
+msgstr "Verkkosivu:"
+
+#: includes/views/html-print-receipt.php:504,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:44
+msgid "Wi-Fi Network:"
+msgstr "Wi-Fi tunnus:"
+
+#: includes/views/html-print-receipt.php:505,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:45
+msgid "Wi-Fi Password:"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:509,
+#: includes/views/html-print-receipt.php:698,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:48
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: includes/views/html-print-receipt.php:510,
+#: includes/views/html-print-receipt.php:699,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:49
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: includes/views/html-print-receipt.php:511,
+#: includes/views/html-print-receipt.php:700,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:50
+msgid "Instagram:"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:512,
+#: includes/views/html-print-receipt.php:701,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:51
+msgid "Snapchat:"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:546,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:72
+msgctxt "At time"
+msgid "at"
+msgstr "klo"
+
+#: includes/views/html-print-receipt.php:551,
+#: includes/admin/settings/wc-pos-settings-customer.php:25,
+#: includes/admin/settings/wc-pos-settings-customer.php:37,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:77,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:94
+msgid "Customer"
+msgstr "Asiakas"
+
+#: includes/views/html-print-receipt.php:567,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:93
+msgid "Served by"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:570
+msgid "on"
+msgstr "päällä"
+
+#: includes/views/html-print-receipt.php:574,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:100
+msgid "Order Notes"
+msgstr "Tilauksen muistiinpanot"
+
+#: includes/views/html-print-receipt.php:578,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:104,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:120
+msgid "Dining Option"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:677,
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:70
+msgid "Tax Summary"
+msgstr "Verot"
+
+#: includes/views/html-print-receipt.php:678,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:207
+msgid "Tax Name"
+msgstr "Vero"
+
+#: includes/views/html-print-receipt.php:679,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:208
+msgid "Tax Rate"
+msgstr "Verokanta"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:118
+msgid "Create your first product grid"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:119
+msgid "Learn more about grids"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:97
+msgid "Contact Details"
+msgstr "Yhteystiedot"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:141
+msgid "This is the default outlet and it cannot be deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:96,
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:40
+msgid "Number of Copies"
+msgstr "Kopioiden lukumäärä"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:97,
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:53
+msgid "Print Width"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:98
+msgid "Show Tax Summary"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:129
+msgid "This is the default receipt and it cannot be deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:95,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:95
+msgid "Status"
+msgstr "Tila"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:96,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:79
+msgid "Change Cashier"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:96
+msgid "Change User"
+msgstr "Vaihda käyttäjä"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:97,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:42
+msgid "Email Receipt"
+msgstr "Sähköpostita kuitti"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:99,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:61
+msgid "Note Request"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:100,
+#: includes/admin/settings/wc-pos-settings-register.php:41,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:108
+msgid "Cash Management"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:101
+msgid "Access"
+msgstr "Pääsy"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:145
+msgid "This is the default register and it cannot be deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:165,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:302,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:311
+msgid "Open"
+msgstr "Avaa"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:176
+msgid "User changes after sale."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:188
+msgid "Receipt is emailed to all customers."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:191
+msgid "Receipt is emailed to non-guest customers only."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:194
+msgid "Receipt is not emailed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:204
+msgid "Receipt is printed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:216
+msgid "Note is taken on save."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:219
+msgid "Note is taken on all sales."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:222
+msgid "Note is not taken."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:232
+msgid "Cash is managed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:254
+msgid "No outlet assigned."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:258
+msgid "No receipt template assigned."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:262
+msgid "Closed"
+msgstr "Suljettu"
+
+#. translators: %s: user full name
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:299
+msgid "%s is currently logged on this register."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:311
+msgid "You are not assigned to the register outlet."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:355
+msgid "Filter by outlet"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:92
+msgid "Reigser"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:94
+msgid "Opened at"
+msgstr "Avattu"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:95
+msgid "Closed at"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:96
+msgid "Opened by"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:97
+msgid "Closed by"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:53
+msgid "Contact"
+msgstr "Ota yhteyttä"
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:58
+msgid "WiFi"
+msgstr ""
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:63
+msgid "Social"
+msgstr "Some"
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-register-options.php:46,
+#: includes/admin/settings/wc-pos-settings-general.php:25
+msgid "General"
+msgstr "Yleiset"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:47
+msgid "Advanced"
+msgstr "Lisäasetukset"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:69
+msgid "Database"
+msgstr "Tietokanta"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:76
+msgid "Last Forced Update: "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:84
+msgid "POS Database Version: "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:92
+msgid "Database Update: "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:95
+msgid "Force Update"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:97
+msgid ""
+"Use with caution: this tool will update the database to the latest version - "
+"useful when settings are not being applied as per configured in settings, "
+"registers, receipts and outlets."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:103
+msgid "Settings:"
+msgstr "Asetukset:"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:107
+msgid ""
+"This tool will update the database to the latest version - useful when "
+"settings are not being applied as per configured in settings, registers, "
+"receipts and outlets."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:56
+msgid "End of Sale Actions"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:57
+msgid ""
+"The following options affect the actions presented at the end of the "
+"checkout process."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:63
+msgid "Signature Capture"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:64
+msgid "Enable signature capture"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:65
+msgid "Presents a modal window to capture the signature of user or customer."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:72
+msgid "Signature Required"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:73
+msgid "Enforce capturing of signature"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:74
+msgid ""
+"Allows you to force user to enter signature before proceeding with register "
+"commands."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:82
+msgid "Signature Commands"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:83
+msgid ""
+"Choose which commands would you like the signature panel to be shown for."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:47
+msgid "General Options"
+msgstr "Yleiset asetukset"
+
+#: includes/admin/settings/wc-pos-settings-general.php:53
+msgid "Filters"
+msgstr "Suodattimet"
+
+#: includes/admin/settings/wc-pos-settings-general.php:54
+msgid "Select which filters appear on the Orders page."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:66
+msgid "Front End Access"
+msgstr "Julkisen puolen sisäänpääsy"
+
+#: includes/admin/settings/wc-pos-settings-general.php:67
+msgid "Enable front-end access to assigned registers"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:68
+msgid ""
+"Allows cashiers to access their assigned registers from their My Account "
+"page."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:75
+msgid "Auto Logout"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:76
+msgid ""
+"Choose whether to automatically exit the register screen after inactive "
+"time. This will not close the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:82
+msgid "Disable"
+msgstr "Poista käytöstä"
+
+#: includes/admin/settings/wc-pos-settings-general.php:83
+msgid "1 min"
+msgstr "1 min"
+
+#: includes/admin/settings/wc-pos-settings-general.php:84
+msgid "5 min"
+msgstr "noin 5 min"
+
+#: includes/admin/settings/wc-pos-settings-general.php:85
+msgid "15 min"
+msgstr "15 min"
+
+#: includes/admin/settings/wc-pos-settings-general.php:86
+msgid "30 mins"
+msgstr "30 min"
+
+#: includes/admin/settings/wc-pos-settings-general.php:87
+msgid "1 hour"
+msgstr "1 tunti"
+
+#: includes/admin/settings/wc-pos-settings-general.php:88
+msgid "2 hours"
+msgstr "2 tuntia"
+
+#: includes/admin/settings/wc-pos-settings-general.php:92,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:113
+msgid "Tax Number"
+msgstr "Veronumero"
+
+#: includes/admin/settings/wc-pos-settings-general.php:94
+msgid ""
+"Enter the tax number which is applied to this particular register. This will "
+"be printed on receipts if tax number is enabled on receipt template."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:98
+msgid "Transitions and Effects"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:102
+msgid "Disable transitions and effects"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:103
+msgid ""
+"Check this box to disable transitions and effects when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:112
+msgid "Enable dining option"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:113
+msgid "Check this box to enable dining when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:122
+msgid "Status Options"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:123
+msgid ""
+"The following options affect the status of the orders when using the "
+"register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:128
+msgid "Fulfilled Orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:129
+msgid "Select the order status of completed orders when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:139
+msgid "Parked Orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:140
+msgid "Select the order status of saved orders when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:148
+msgid "Fetch Orders "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:149
+msgid "Select the order statuses of loaded orders when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:157
+msgid "Website Orders "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:161
+msgid "Load website orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:162
+msgid "Loads orders placed through the web store."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:61
+msgid "Cash Management Options"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:63
+msgid ""
+"The following options affect the settings that are applied when using the "
+"cash management function."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:67
+msgid "Order Status Criteria "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:68
+msgid "Select the order statuses to be included to the cash management."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:76
+msgid "Currency Rounding"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:77
+msgid "Enable currency rounding"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:78
+msgid ""
+"Rounds the total to the nearest value defined below. Used by some countries "
+"where not all denominations are available."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:85
+msgid "Rounding Value"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:86
+msgid ""
+"Select the rounding value which you want the register to round nearest to."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:94
+msgid "0.01"
+msgstr "0,01"
+
+#: includes/admin/settings/wc-pos-settings-register.php:95
+msgid "0.05"
+msgstr "0. 05"
+
+#: includes/admin/settings/wc-pos-settings-register.php:96
+msgid "0.10"
+msgstr "kaudessa"
+
+#: includes/admin/settings/wc-pos-settings-register.php:97
+msgid "0.50"
+msgstr "Imeytyminen"
+
+#: includes/admin/settings/wc-pos-settings-register.php:98
+msgid "1.00"
+msgstr "dasabuviiri"
+
+#: includes/admin/settings/wc-pos-settings-register.php:99
+msgid "5.00"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:311
+msgid "GTIN"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:25
+msgid "Reports"
+msgstr "Raportit"
+
+#: includes/admin/settings/wc-pos-settings-reports.php:45
+msgid "Report Options"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:46
+msgid ""
+"The following options affect the reports that are displayed when closing the "
+"register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:51
+msgid "Closing Reports"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:52
+msgid "Display end of day report when closing register"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:53
+msgid "End of day report displayed with total sales when register closes."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:60
+msgid "Report Orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:61
+msgid ""
+"Select which order statuses to include in the final counts displayed in the "
+"end of day report."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:74
+msgid "End of Day Email"
+msgstr ""
+
+#. translators: %1$s opening anchor tag %2$s closing anchor tag
+#: includes/admin/settings/wc-pos-settings-reports.php:76
+msgid ""
+"The end of day email notification can be customized in %1$sWooCommerce &gt; "
+"Emails%2$s."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:56
+msgid "Tax Calculation"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:59
+msgid "Enables the calculation of tax using the WooCommerce configurations."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:64
+msgid "Enabled (using WooCommerce configurations)"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:65
+msgid "Disabled"
+msgstr "Pois käytöstä"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:69
+msgid "Calculate Tax Based On"
+msgstr "Laske vero perustuen"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:74
+msgid "This option determines which address used to calculate tax."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:78
+msgid "Default WooCommerce"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:79
+msgid "Customer shipping address"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:80
+msgid "Customer billing address"
+msgstr "Osallistujan tiedot"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:81
+msgid "Shop base address"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:82
+msgid "Outlet address"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:91
+msgid "Tax Options"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:43
+msgid "Tile Options"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:44
+msgid "The following options affect how the tiles appear on the product grid."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:49
+msgid "Default Tile Sorting"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:50
+msgid "This controls the default sort order of the tile."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:59
+msgid "Default sorting (custom ordering + name)"
+msgstr "Oletuslajittelu (mukautettu tilaus + nimi)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:60
+msgid "Popularity (sales)"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:61
+msgid "Average Rating"
+msgstr "Arvostelujen keskiarvo"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:62
+msgid "Sort by most recent"
+msgstr "Lajittele viimeisimmän mukaan"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:63
+msgid "Sort by price (asc)"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:64
+msgid "Sort by price (desc)"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:65
+msgid "Name (asc)"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:70
+msgid "Product Previews"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:73
+msgid "Enable product preview panels"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:74
+msgid "Shows a button on each tile for cashiers to view full product details."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:82
+msgid "Enable out of stock products"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:83
+msgid "Shows out of stock products in the product grid."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:88
+msgid "Product Visiblity"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:89
+msgid "Enable product visibility control"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:90
+msgid ""
+"Allows you to show and hide products from either the POS, web or both shops."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:97,
+#: includes/admin/views/html-product-data-point-of-sale.php:21
+msgid "Unit of Measurement"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:98
+msgid "Enable decimal stock counts and change of unit of measurement."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:99
+msgid ""
+"Allows you to sell your stock in decimal quantities and set the default unit "
+"of measurement of stock values. Useful for those who want to sell weight or "
+"linear based products."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:106
+msgid "Add to Cart Behaviour"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:107
+msgid ""
+"Control what happens to the grid after a product is added to the basket."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:108
+msgid ""
+"Allows shop managers to choose the behaviour of grids when adding products "
+"to the cart."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:114
+msgid "Stay on the selected category"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:115
+msgid "Return to the category selection"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:33,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:35
+msgid "Outlet Name"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:66
+msgctxt "Receipt preview order number example"
+msgid "WC1234AE"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:78
+msgctxt "Receipt preview customer example"
+msgid "John Doe"
+msgstr "Matti Meikäläinen"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:82
+msgctxt "Receipt preview email example"
+msgid "mail@example.com"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:96
+msgctxt "Receipt preview register name example"
+msgid "on Default Register"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:101
+msgid "Please deliver this tomorrow at 12pm."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:128,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:154
+msgctxt "Receipt preview quantity example"
+msgid "2"
+msgstr "2"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:131,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:150
+msgid "Mobile Phone"
+msgstr "Matkapuhelin"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:132,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:151
+msgctxt "Receipt preview SKU example"
+msgid "SKU: PRDCT123"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:133,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:152
+msgctxt "Receipt preview product size example"
+msgid "Size: 32GB"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:134,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:153
+msgctxt "Receipt preview product color example"
+msgid "Color: Silver"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:138,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:157
+msgctxt "Receipt preview product cost example"
+msgid "£59.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:139,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:158
+msgctxt "Receipt preview product discounted cost example"
+msgid "£55.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:142,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:162
+msgctxt "Receipt preview product total example"
+msgid "£118.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:143,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:163
+msgctxt "Receipt preview product discounted total example"
+msgid "£110.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:154
+msgid "Qty:"
+msgstr "Määrä:"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:171
+msgctxt "Receipt preview subtotal example"
+msgid "£118.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:172
+msgctxt "Receipt preview discounted subtotal example"
+msgid "£110.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:178,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:217
+msgctxt "Receipt preview tax example"
+msgid "£23.60"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:179
+msgctxt "Receipt preview discounted tax example"
+msgid "£22.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:183
+msgid "Payment Type Sales"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:185
+msgctxt "Receipt preview sales example"
+msgid "£141.60"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:186
+msgctxt "Receipt preview discounted sales example"
+msgid "£132.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:191
+msgctxt "Receipt preview total example"
+msgid "£141.60"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:195
+msgctxt "Receipt preview change example"
+msgid "£0.00"
+msgstr "0,00 £"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:199
+msgctxt "Receipt preview number of items example"
+msgid "2"
+msgstr "2"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:215
+msgctxt "Receipt preview tax name example"
+msgid "GB-VAT-20"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:216
+msgctxt "Receipt preview tax rate example"
+msgid "20.00"
+msgstr "20.00"
+
+#: includes/admin/views/html-admin-receipt-customize-section-footer-text.php:15
+msgid "Text to be printed in the footer of the receipt."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:13
+msgid "Receipt Name"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:14
+msgid "Distinguish this template from other templates by giving it a name."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:23
+msgid "Print the title."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:29
+msgid "Receipt Title Position"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:30
+msgid "Choose the position of the receipt title that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:32,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:16,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:124,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:33
+msgid "Left"
+msgstr "Vasen"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:33,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:17,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:125,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:34
+msgid "Center"
+msgstr "Keskitetty"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:34,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:18,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:126,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:35
+msgid "Right"
+msgstr "Oikea"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:41
+msgid ""
+"Set the number of copies you want to print when this receipt is generated."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:43
+msgctxt "Receipt number of copies"
+msgid "1"
+msgstr "1"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:44
+msgctxt "Receipt number of copies"
+msgid "2"
+msgstr "2"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:45
+msgctxt "Receipt number of copies"
+msgid "3"
+msgstr "3"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:46
+msgctxt "Receipt number of copies"
+msgid "4"
+msgstr "4"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:47
+msgctxt "Receipt number of copies"
+msgid "5"
+msgstr "5"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:54
+msgid ""
+"Set the width (in mm) of the receipt when it is generated for printing. For "
+"dynamic width enter 0."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:55
+msgctxt "Millimeter"
+msgid "mm"
+msgstr "mm"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:60
+msgid "Receipt Type"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:62
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:63,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:45,
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:18
+msgid "Normal"
+msgstr "Normaali"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header-text.php:15
+msgid "Text to be printed in the header of the receipt."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:13
+msgid "Outlet Details Position"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:14
+msgid "Choose the position of the outlet contact details that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:26
+msgid "Shop Name"
+msgstr "Kaupan nimi"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:27
+msgid "Print the shop name."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:36
+msgid "Print the name of the outlet which the order was placed in."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:44
+msgid "Outlet Address"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:45
+msgid "Print the address of the outlet which the order was placed in."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:53
+msgid "Outlet Contact Details"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:54
+msgid "Print the contact details of the outlet which the order was placed in."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:60
+msgid "Social Details Position"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:61
+msgid "Choose the position of the social details that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:63
+msgid "Header"
+msgstr "Ylätunniste"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:64
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:72,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:22
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:80,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:35
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:88,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:48
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:96,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:61
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:104
+msgid "Wi-Fi Details"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:105
+msgid ""
+"Print the SSID and passphrase of the outlet that the order was placed in. "
+"This is set in the outlet settings."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:114
+msgid ""
+"Print the tax number of the shop. This is set under Point of Sale > Settings "
+"> General."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:121
+msgid "Tax Number Position"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:122
+msgid "Choose the position of the tax number that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:16,
+#: includes/admin/views/html-admin-receipt-customize.php:15
+msgid "Shop Logo"
+msgstr "Kaupan logo"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:17
+msgid "Upload a logo representing your shop or business."
+msgstr "Lataa logo joka edustaa kauppaa tai yritystä."
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:19
+msgid "Select image"
+msgstr "Valitse kuva"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:30
+msgid "Logo Position"
+msgstr "Logon sijainti"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:31
+msgid "Choose the position of the shop logo that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:41
+msgid "Logo Size"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:42
+msgid "Choose the size of the shop logo that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:44,
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:17
+msgid "Small"
+msgstr "Pieni"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:46,
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:19
+msgid "Large"
+msgstr "Suuri"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:24
+msgid "Order Date"
+msgstr "Tilauspäivä"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:25
+msgid "Print the order date."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:31
+msgid "Order Date Format"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:32
+msgid "Choose the format of the order date that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:46
+msgid "Order Time Format"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:47
+msgid "Choose the format of the order time that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:63
+msgid "Customer Name"
+msgstr "Asiakkaan nimi"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:64
+msgid "Print the customer name."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:72
+msgid "Customer Email"
+msgstr "Asiakkaan sähköposti"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:73
+msgid "Print the customer email."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:81
+msgid "Customer Phone"
+msgstr "Asiakkaan puhelin"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:82
+msgid "Print the customer billing phone number."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:90
+msgid "Customer Shipping Address"
+msgstr "Toimitusosoite"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:91
+msgid "Print the customer shipping address."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:99
+msgid "Cashier Name"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:100
+msgid "Print the name of the cashier that placed the order."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:106
+msgid "Cashier Name Format"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:107
+msgid "Choose the format of the cashiers name that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:109
+msgid "Nickname"
+msgstr "Lempinimi"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:110
+msgid "Display Name"
+msgstr "Näyttönimi"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:119
+msgid "Register Name"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:120
+msgid "Print name of the register that the order was placed through."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:13
+msgid "Product Details Layout"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:14
+msgid "Select how to display the product item details."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:16
+msgid "Single Line"
+msgstr "Yksirivinen"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:17
+msgid "Multiple Lines"
+msgstr "Monirivinen"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:26
+msgid "Print the product image."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:34
+msgid "Product SKU"
+msgstr "Tuotetunnus (SKU)"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:35
+msgid "Print the product SKU."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:43
+msgid "Product Price"
+msgstr "Tuotteen hinta"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:44
+msgid "Print the product cost."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:52
+msgid "Product Discount"
+msgstr " alennus %"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:53
+msgid "Print the discount."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:62
+msgid "Print the total number of items."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:71
+msgid "Print tax summary."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:79
+msgid "Order Barcode"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:80
+msgid "Print the order barcode."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:13
+msgid "Text Size"
+msgstr "Tekstin koko"
+
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:14
+msgid "Select the size of the text that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:16
+msgid "Tiny"
+msgstr "Pieni"
+
+#: includes/admin/views/html-admin-receipt-customize.php:14
+msgid "General Details"
+msgstr "Yleistiedot"
+
+#: includes/admin/views/html-admin-receipt-customize.php:16
+msgid "Header Details"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize.php:17
+msgid "Order Details"
+msgstr "Tilauksen tiedot"
+
+#: includes/admin/views/html-admin-receipt-customize.php:18
+msgid "Product Details"
+msgstr "Tuotteen tiedot"
+
+#: includes/admin/views/html-admin-receipt-customize.php:19
+msgid "Style Details"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize.php:20
+msgid "Header Text"
+msgstr "Otsikon teksti"
+
+#: includes/admin/views/html-admin-receipt-customize.php:21
+msgid "Footer Text"
+msgstr "Alatunnisteen teksti"
+
+#: includes/admin/views/html-admin-receipt-customize.php:22
+msgid "Custom CSS"
+msgstr "Mukautettu CSS"
+
+#: includes/admin/views/html-admin-receipt-customize.php:48
+msgid "You are customizing"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize.php:58
+msgid "Press return or enter to open this section"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize.php:68
+msgid "Back"
+msgstr "Takaisin"
+
+#: includes/admin/views/html-admin-receipt-customize.php:69
+msgid "Customizing"
+msgstr "Mukauttaminen"
+
+#: includes/admin/views/html-admin-settings.php:37,
+#: includes/admin/views/html-admin-settings.php:37
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: includes/admin/views/html-product-data-point-of-sale.php:22
+msgid "Change the unit of measurement of stock values."
+msgstr ""
+
+#: includes/admin/views/html-product-data-point-of-sale.php:31
+msgid "Unit"
+msgstr "Yksikkö"
+
+#: includes/admin/views/html-product-data-point-of-sale.php:32
+msgid "Select unit of measurement."
+msgstr ""
+
+#: includes/admin/views/html-product-data-point-of-sale.php:74
+msgid "Value Increment"
+msgstr ""
+
+#: includes/admin/views/html-product-data-point-of-sale.php:75
+msgid "Select incremental value when used when browsing as a tile."
+msgstr ""
+
+#: includes/admin/views/html-quick-edit-product.php:16
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+#: includes/gateways/paymentsense/class-wc-pos-paymentsense.php:65,
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:25,
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:62
+msgid "Paymentsense"
+msgstr ""
+
+#: includes/gateways/stripe/class-wc-pos-stripe.php:132,
+#: includes/admin/views/notices/html-notice-stripe-gateway.php:12
+msgid ""
+"Point of Sale Stripe payment methods require the WooCommerce Stripe Payment "
+"Gateway to be installed and active."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-actions-panel.php:21
+msgid "Publish"
+msgstr "Julkaise"
+
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:18
+msgid "Default Sort Order"
+msgstr "& Luo suodin"
+
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:23
+msgid "Custom ordering"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:27
+msgid ""
+"Determines the sort order of the products on the POS page. If using custom "
+"ordering, you can drag and drop the products in this grid."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:36,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:75
+msgid "Product Category"
+msgstr "Tuotekategoria"
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:47
+msgid "Products Count"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:67
+msgid "Delete tile"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:19
+msgid "Tile"
+msgstr "Ruudukko"
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:20
+msgid "Tile Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:40
+msgid ""
+"Tiles let you define custom grids for your register. You can add a tile that "
+"represents a product or a category."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:45
+msgid "Add Tile"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:46
+msgid "Delete All Tiles"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:54
+msgid "Add tile"
+msgstr ""
+
+#. translators: %1$s opening anchor tag %2$s closing anchor tag
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:17
+msgid ""
+"Enter the address details of the outlet or %1$sclick here%2$s to fill out "
+"the fields from the store address."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:25
+msgid "Address Line 1"
+msgstr "Osoiterivi 1"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:36
+msgid "Address Line 2"
+msgstr "Osoiterivi 2"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:47
+msgid "City"
+msgstr "Kaupunki"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:58
+msgid "Postcode/ZIP"
+msgstr "Postinumero"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:71
+msgid "Select a country&hellip;"
+msgstr "Valitse maa&hellip;"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:84
+msgid "State/County"
+msgstr "Maakunta"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:85
+msgid "State/County or state code."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:13
+msgid ""
+"Enter the contact details of the outlet as this will appear on receipts that "
+"are printed from registers at this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:21
+msgid "Enter an email address for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:33
+msgid "Phone Number"
+msgstr "Puhelinnumero"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:34
+msgid "Enter a phone number for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:46
+msgid "Fax Number"
+msgstr "Kotikaupunki"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:47
+msgid "Enter a fax number for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:60
+msgid "Enter a URL for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:15
+msgid ""
+"Enter the social details of the outlet as this will appear on receipts that "
+"are printed from registers at this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:23
+msgid ""
+"The Twitter name of the outlet. E.g. for twitter.com/acme enter just \"acme"
+"\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:36
+msgid ""
+"The Facebook name of the outlet. E.g. for facebook.com/acme enter just \"acme"
+"\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:49
+msgid ""
+"The Instagram name of the outlet. E.g. for instagram.com/acme enter just "
+"\"acme\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:62
+msgid ""
+"The Snapchat name of the outlet. E.g. for snapchat.com/acme enter just \"acme"
+"\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-wireless.php:13
+msgid ""
+"Enter the wireless details of your outlet. This is useful for shop managers "
+"who want to share their wireless internet conncectivity to paid customers by "
+"sharing their wireless details on the printed receipt."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-wireless.php:19
+msgid "Wi-Fi Network"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-wireless.php:30
+msgid "Wi-Fi Password"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-product-grids-panel.php:17
+msgid "All grids"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:18
+msgid "Check this box to print receipt at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:30
+msgid "Check this box to print gift receipt at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:47
+msgid "Yes, for all customers"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:48
+msgid "Yes, for non-guest customers only"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:52
+msgid "Select whether to email receipt at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:66
+msgid "On save"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:67
+msgid "On all sales"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:71
+msgid "Select whether to add a note at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:80
+msgid "Check this box if you want the user to be changed at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:24
+msgid "Select the outlet that this register is assigned to."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:47
+msgid "Select the product grid that this register will use."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:57
+msgid "Receipt Template"
+msgstr "Kuittipohja"
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:60
+msgid "Select the receipt template that this register will use."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:68
+msgid "Prefix"
+msgstr "Etuliite"
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:69
+msgid "Enter the prefix of the orders from this register."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:80
+msgid "Suffix"
+msgstr "Seuraava teksti"
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:81
+msgid "Enter the suffix of the orders from this register."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:96
+msgid ""
+"Select what you want the default customer to be when the register is opened."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:109
+msgid "Check this box if you want to manage the float of cash in the register."
+msgstr "Valitse tämä jos haluat hallinnoida alkukassaa ja loppukassaa."
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:131
+msgid ""
+"Select the dining option you want to be used by default in the register."
+msgstr ""
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:11
+msgid "Denomination Options"
+msgstr ""
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:13
+msgid ""
+"The following table defines the denominations that your point of sale system "
+"use when handling cash"
+msgstr ""
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:19
+msgid "Type"
+msgstr "Tyyppi"
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:20
+msgid "Color"
+msgstr "Väri"
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:50
+msgid "No denominations have been added yet."
+msgstr ""
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:57
+msgid "Add Denomination"
+msgstr ""
+
+#: includes/admin/views/notices/html-notice-install.php:12
+msgid "Dismiss"
+msgstr "Hylkää"
+
+#: includes/admin/views/notices/html-notice-install.php:14
+msgid ""
+"<strong>Welcome to WooCommerce Point of Sale</strong> &#8211; You&lsquo;re "
+"almost ready to start selling :)"
+msgstr ""
+
+#: includes/admin/views/notices/html-notice-update.php:13
+msgid ""
+"<strong>WooCommerce Point of Sale data update</strong> &#8211; We need to "
+"update your database to the latest version"
+msgstr ""
+
+#: includes/admin/views/notices/html-notice-update.php:14
+msgid "Run the updater"
+msgstr "Aja päivitystyökalu"
+
+#: includes/admin/views/notices/html-notice-update.php:18
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"On erittäin suositeltavaa, että varmuuskopioit tietokannan ennen jatkamista. "
+"Oletko varma, että haluat suorittaa Updater-toiminnon nyt?"
+
+#: includes/admin/views/notices/html-notice-wc-rest-api.php:12
+msgid ""
+"WooCommerce REST API is blocked; hence Point of Sale for WooCommerce will "
+"not be working correctly. Please contact your server administrator to "
+"unblock it."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:26
+msgid "Take payments in person via EMV. More commonly known as Chip & PIN."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:53
+msgid "Enable Paymentsense"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:61,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:60
+msgid "This controls the title which the user sees during checkout."
+msgstr "Tämä määrittelee otsikon, jonka käyttäjä näkee kassalla."
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:69
+msgid "Pay with EMV terminal."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:73
+msgid "Credentials"
+msgstr "Tunnistetiedot"
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:75
+msgid ""
+"Enter the settings given to you by Paymentsense when setting up your "
+"account. This includes the Host Address and an API Key."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:78
+msgid "Host Address"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:80
+msgid "Enter the Paymentsense Host Address."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:84
+msgid "API Key"
+msgstr "API-avain"
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:86
+msgid "Enter the Paymentsense API key."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:90
+msgid "Installer ID"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:92
+msgid "Enter the Paymentsense Installer ID."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:96
+msgid "Software House ID"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:98
+msgid "Enter the Paymentsense Software House ID."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:134,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:119
+msgid "Available Terminals"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/class-wc-pos-gateway-paymentsense.php:155
+msgid "An error occurred while checking the connection: "
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:22,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:52
+msgid "Stripe Credit Card"
+msgstr ""
+
+#. translators: %s url
+#. translators: %s url
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:24,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:28
+msgid ""
+"All other general Stripe settings can be adjusted <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:45
+msgid "Enable Stripe Cedit Card"
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:51
+msgid "This controls the title which the clerk sees during checkout."
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:57
+msgid "This controls the description which the clerk sees during checkout."
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-credit-card.php:59
+msgid "Pay with Credit Card."
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:26,
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:61
+msgid "Stripe Terminal"
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:54
+msgid "Enable Stripe Terminal"
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:66
+msgid "Payment method description that the customer will see on your website"
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:68
+msgid "Pay with Stripe Terminal."
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:72
+msgid "Simulated reader"
+msgstr ""
+
+#: includes/gateways/stripe/payment-methods/class-wc-pos-gateway-stripe-terminal.php:73
+msgid "Enable simulated reader"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/views/html-admin-register-options-paymentsense.php:30
+msgid "Terminal"
+msgstr "Terminaali"
+
+#: includes/gateways/paymentsense/includes/views/html-admin-register-options-paymentsense.php:33
+msgid "Select the EMV terminal you want to use for this register."
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/views/html-admin-register-options-paymentsense.php:39
+msgid "EOD Report"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/views/html-admin-register-options-paymentsense.php:40
+msgid "Print EOD"
+msgstr ""
+
+#: includes/gateways/paymentsense/includes/views/html-admin-register-options-paymentsense.php:41
+msgid "This will print a total of all EMV sales done for this terminal"
+msgstr ""

@@ -1,0 +1,5784 @@
+# Copyright (C) 2020 WooCommerce Point of Sale
+# This file is distributed under the same license as the WooCommerce Point of Sale package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Point of Sale\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;"
+"_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. translators: 1. URL link.
+#: woocommerce-point-of-sale.php:38
+msgid ""
+"Point of Sale for WooCommerce requires WooCommerce to be installed and "
+"active. You can download %s here."
+msgstr ""
+
+#: woocommerce-point-of-sale.php:49
+msgid ""
+"Point of Sale for WooCommerce requires the “WooCommerce POS” plugin to be "
+"deactivated to avoid conflicts."
+msgstr ""
+
+#: i18n/app.php:11
+msgid "Product doesn't exist"
+msgstr "Produkt existiert nicht"
+
+#. translators: %s product name
+#: i18n/app.php:13
+msgid "You cannot add another %s to your cart."
+msgstr ""
+
+#: i18n/app.php:14
+msgid "Sorry, this product cannot be purchased."
+msgstr "Dieses Produkt kann leider nicht gekauft werden."
+
+#. translators: %s product name
+#: i18n/app.php:16
+msgid "You cannot add %s to the cart because the product is out of stock."
+msgstr ""
+
+#. translators: %1$s product name %2$s left in stock
+#: i18n/app.php:18
+msgid ""
+"You cannot add that amount of %1$s to the cart because there is not enough "
+"stock (%2$s remaining)."
+msgstr ""
+
+#. translators: %1$s qty in stock %2$s qty added
+#: i18n/app.php:20
+msgid ""
+"You cannot add that amount to the cart &mdash; we have %1$s in stock and you "
+"already have %2$s in your cart."
+msgstr ""
+"Sie können diese Menge nicht Ihrem Warenkorb hinzufügen. Wir haben %1$s "
+"vorrätig und %2$s sind bereits in Ihrem Warenkorb."
+
+#: i18n/app.php:21
+msgid "Product added successfully"
+msgstr "Produkt erfolgreich hinzugefügt"
+
+#: i18n/app.php:22
+msgid "Please choose product options&hellip;"
+msgstr "Bitte wählen Sie Produktausführungen…"
+
+#: i18n/app.php:23
+msgid "Are you sure you want to clear all fields and start from scratch?"
+msgstr ""
+"Sind Sie sicher, dass Sie alle Felder zu löschen und von vorne anfangen "
+"wollen?"
+
+#: i18n/app.php:24
+msgid "Please add products."
+msgstr "Produkte hinzufügen."
+
+#: i18n/app.php:25
+msgid "Please select Payment method."
+msgstr "Bitte wählen Sie eine Zahlungsmethode aus."
+
+#: i18n/app.php:26
+msgid "Please enter correct amount."
+msgstr "Bitte geben Sie die richtige Summe ein."
+
+#: i18n/app.php:27
+msgid "Order successful."
+msgstr "Bestellung erfolgreich."
+
+#: i18n/app.php:28
+msgid "Successfully voided."
+msgstr "Erfolgreich gelöscht."
+
+#: i18n/app.php:29
+msgid "Order successfully saved."
+msgstr "Bestellung wurde erfolgreich gespeichert."
+
+#: i18n/app.php:30
+msgid "Please fill Billing Details."
+msgstr "Bitte Rechnungsdetails ausfüllen."
+
+#: i18n/app.php:31
+msgid "Please fill Shipping Details."
+msgstr "Bitte Versanddetails ausfüllen."
+
+#: i18n/app.php:32
+msgid "Please fill Additional Information."
+msgstr "Bitte weitere Informationen eingeben."
+
+#: i18n/app.php:33
+msgid "Shipping title is required."
+msgstr ""
+
+#: i18n/app.php:34
+msgid "Shipping price is required."
+msgstr "Versandpreis ist erforderlich."
+
+#: i18n/app.php:35
+msgid "Product title is required."
+msgstr "Produkttitel ist erforderlich."
+
+#: i18n/app.php:36
+msgid "Product price is required."
+msgstr "Produktpreis ist erforderlich."
+
+#: i18n/app.php:37
+msgid "Quantity is required."
+msgstr "Menge ist erforderlich."
+
+#: i18n/app.php:38
+msgid "Free shipping coupon"
+msgstr "Gutschein für kostenlosen Versand"
+
+#: i18n/app.php:39
+msgid "Can't load order"
+msgstr "Bestellung kann nicht geladen werden"
+
+#: i18n/app.php:41
+msgid "item"
+msgstr "Artikel"
+
+#: i18n/app.php:42
+msgid "items"
+msgstr "Artikel"
+
+#: i18n/app.php:44
+msgid "All"
+msgstr "Alle"
+
+#: i18n/app.php:45
+msgid "Please enter the password."
+msgstr "Bitte geben Sie ein neues Passwort ein."
+
+#: i18n/app.php:46
+msgid "Incorrect password."
+msgstr "Falsches Passwort."
+
+#: i18n/app.php:47
+msgid "Free!"
+msgstr "Kostenlos!"
+
+#: i18n/app.php:48
+msgid "Note successfully added."
+msgstr "Hinweis erfolgreich hinzugefügt."
+
+#: i18n/app.php:49
+msgid "Note successfully updated."
+msgstr "Hinweis erfolgreich aktualisiert."
+
+#: i18n/app.php:50
+msgid "Note deleted."
+msgstr "Notiz gelöscht."
+
+#: i18n/app.php:51
+msgid "Card not recognized."
+msgstr ""
+
+#: i18n/app.php:52
+msgid "Please enter correct data."
+msgstr "Bitte geben Sie die korrekten Daten ein."
+
+#: i18n/app.php:53
+msgid "Please fill Custom Fields."
+msgstr "Bitte füllen Sie die benutzerdefinierten Felder aus."
+
+#: i18n/app.php:54
+msgid "Invalid Barcode Scan"
+msgstr "Ungültiger Barcode-Scan"
+
+#: i18n/app.php:55
+msgid "You have logged in successfully."
+msgstr "Sie haben sich erfolgreich angemeldet."
+
+#: i18n/app.php:56
+msgid "In Stock"
+msgstr "Auf Lager"
+
+#: i18n/app.php:57, includes/admin/settings/wc-pos-settings-tiles.php:79
+msgid "Out of Stock"
+msgstr "Ausverkauft"
+
+#: i18n/app.php:58
+msgid "Back-order"
+msgstr ""
+
+#: i18n/app.php:59
+msgid "Passwords don't match"
+msgstr "Passwörter stimmen nicht überein"
+
+#: i18n/app.php:60
+msgid "Please choose a customer."
+msgstr "Bitte wählen Sie einen Kunden aus."
+
+#: i18n/app.php:61
+msgid "Offline order successful."
+msgstr "Offline-Bestellung erfolgreich."
+
+#: i18n/app.php:62
+msgid "Please enter Fee Name"
+msgstr "Bitte deinen Namen eingeben"
+
+#: i18n/app.php:63
+msgid "Item Note"
+msgstr "Artikel Notiz"
+
+#: i18n/app.php:64
+msgid "Chose tab"
+msgstr "Tab wählen"
+
+#. translators: %s spend limit
+#: i18n/app.php:66
+msgid "Spend limit for this tab is %s"
+msgstr ""
+
+#: i18n/app.php:67
+msgid ""
+"You are about to close this register. All sales will be logged for this "
+"session."
+msgstr ""
+"Sie sind dabei, dieses Register zu schließen. Alle Verkäufe werden für diese "
+"Sitzung protokolliert."
+
+#: i18n/app.php:68
+msgid "This tab already opened"
+msgstr ""
+
+#: i18n/app.php:69, i18n/app.php:254
+msgid "Opened"
+msgstr "Geöffnet"
+
+#: i18n/app.php:70
+msgid "Available"
+msgstr "Verfügbar"
+
+#: i18n/app.php:71
+msgid "Minimum title length 3 symbols"
+msgstr "Minimale Titel Länge 3 Zeichen"
+
+#: i18n/app.php:72, includes/admin/class-wc-pos-admin.php:319,
+#: includes/views/html-print-receipt.php:229
+msgid "Discount"
+msgstr "Rabatt"
+
+#: i18n/app.php:73
+msgid "Add customer"
+msgstr "Kunden erstellen"
+
+#: i18n/app.php:74
+msgid "Save customer"
+msgstr "Kunde speichern"
+
+#: i18n/app.php:75
+msgid "Sign is required"
+msgstr "Unterschrift ist erforderlich"
+
+#: i18n/app.php:76
+msgid "Searching for"
+msgstr "Suche nach"
+
+#: i18n/app.php:77
+msgid ""
+"Offline function is enabled and products are being downloaded in background"
+msgstr ""
+
+#: i18n/app.php:78
+msgid "Please generate an order ID"
+msgstr ""
+
+#: i18n/app.php:79, includes/views/html-print-receipt.php:581
+msgid "SKU:"
+msgstr "Artikelnummer:"
+
+#: i18n/app.php:80
+msgid "Stock:"
+msgstr "Vorrätig:"
+
+#: i18n/app.php:81
+msgid "Product data could not be loaded"
+msgstr ""
+
+#: i18n/app.php:82
+msgid "Full Screen"
+msgstr "Vollbild"
+
+#: i18n/app.php:83
+msgid "Lock Register"
+msgstr "Kasse sperren"
+
+#: i18n/app.php:84, includes/admin/class-wc-pos-admin-menus.php:72,
+#: includes/admin/class-wc-pos-admin-menus.php:73,
+#: includes/admin/class-wc-pos-admin.php:359,
+#: includes/admin/views/html-notice-install.php:16
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: i18n/app.php:85
+msgid "Load"
+msgstr "Laden"
+
+#: i18n/app.php:86
+msgid "Orders"
+msgstr "Bestellungen"
+
+#: i18n/app.php:87
+msgid "Tabs"
+msgstr "Tabs"
+
+#: i18n/app.php:88
+msgid "Closing Register"
+msgstr ""
+
+#: i18n/app.php:89
+msgid "Show Tiles"
+msgstr "Kacheln anzeigen"
+
+#: i18n/app.php:90
+msgid "Your device is connected to the internet."
+msgstr ""
+
+#: i18n/app.php:91
+msgid ""
+"This device is not connected to the internet and orders will not be "
+"synchronised with the shops database until an internet connection is "
+"available. This device will store orders locally until the connection is "
+"resumed."
+msgstr ""
+
+#. translators: %s time
+#: i18n/app.php:93
+msgid "Register opened %s"
+msgstr ""
+
+#. translators: %s version
+#: i18n/app.php:95
+msgid "Version %s"
+msgstr "Version %s"
+
+#: i18n/app.php:96
+msgid "Register Closed"
+msgstr ""
+
+#: i18n/app.php:97
+msgid "Sorry, we could not locate this order number."
+msgstr ""
+
+#: i18n/app.php:98, includes/class-wc-pos-post-types.php:44,
+#: includes/views/html-my-account-tab.php:15,
+#: includes/views/html-my-account-tab.php:37,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:94,
+#: includes/admin/settings/wc-pos-settings-register.php:25,
+#: includes/admin/settings/wc-pos-settings-register.php:40
+msgid "Register"
+msgstr "Registrieren"
+
+#: i18n/app.php:99
+msgid "Till Screen"
+msgstr ""
+
+#: i18n/app.php:100
+msgid "Help & Feedback"
+msgstr ""
+
+#: i18n/app.php:101
+msgid "Close Register"
+msgstr "Kasse schließen"
+
+#: i18n/app.php:102, includes/class-wc-pos-post-types.php:91,
+#: includes/views/html-my-account-tab.php:16,
+#: includes/views/html-my-account-tab.php:48,
+#: includes/views/html-my-account-tab.php:51,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:96,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:93,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:21
+msgid "Outlet"
+msgstr "Standort"
+
+#: i18n/app.php:103, includes/views/html-print-receipt.php:243,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:98
+msgid "Sales"
+msgstr "Bezahlt"
+
+#: i18n/app.php:104
+msgid "Cart"
+msgstr "Warenkorb"
+
+#: i18n/app.php:105
+msgid "Increase Quantity"
+msgstr ""
+
+#: i18n/app.php:106
+msgid "Delete"
+msgstr "Löschen"
+
+#: i18n/app.php:107
+msgid "Sale"
+msgstr "Sale"
+
+#: i18n/app.php:108,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:144
+msgid "Subtotal"
+msgstr "Zwischensumme"
+
+#: i18n/app.php:109
+msgid "Discounts"
+msgstr "Rabatte"
+
+#: i18n/app.php:110
+msgid "Coupon"
+msgstr "Gutschein"
+
+#: i18n/app.php:111
+msgid "Fees"
+msgstr "Gebühren"
+
+#: i18n/app.php:112, includes/views/html-print-receipt.php:218,
+#: includes/views/html-print-receipt.php:570,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:119,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:165
+msgid "Total"
+msgstr "Gesamt"
+
+#: i18n/app.php:113, i18n/app.php:194,
+#: includes/views/html-print-receipt.php:542,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:91
+msgid "Shipping"
+msgstr "Versand"
+
+#: i18n/app.php:114, includes/admin/settings/wc-pos-settings-general.php:108
+msgid "Dining"
+msgstr "Essräume"
+
+#: i18n/app.php:115
+msgid "Login"
+msgstr "Anmelden"
+
+#: i18n/app.php:116, includes/admin/class-wc-pos-admin-assets.php:195,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:36
+msgid "Note"
+msgstr "Hinweis"
+
+#: i18n/app.php:117
+msgid "Fee"
+msgstr "Gebühr"
+
+#: i18n/app.php:118, includes/admin/settings/wc-pos-settings-customer.php:91
+msgid "Hold"
+msgstr "Halten"
+
+#: i18n/app.php:119,
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:645,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:619,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:616,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:616
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#: i18n/app.php:120
+msgid "Clear"
+msgstr "Zurücksetzen"
+
+#: i18n/app.php:121
+msgid "Print"
+msgstr "Drucken"
+
+#: i18n/app.php:122, includes/admin/settings/wc-pos-settings-customer.php:90
+msgid "Pay"
+msgstr "Bezahlen"
+
+#. translators: %s user name
+#: i18n/app.php:124
+msgid "Add %s as new customer"
+msgstr ""
+
+#: i18n/app.php:125
+msgid "Please add items to the cart."
+msgstr ""
+
+#: i18n/app.php:126
+msgid "Please select a customer"
+msgstr "Bitte Kunde auswählen"
+
+#: i18n/app.php:127, includes/admin/class-wc-pos-admin-orders-page.php:229
+msgid "Signature"
+msgstr "Signatur"
+
+#: i18n/app.php:128, includes/admin/class-wc-pos-admin.php:119,
+#: includes/views/html-admin-barcode-options.php:55
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: i18n/app.php:129
+msgid "Done"
+msgstr "Erledigt"
+
+#: i18n/app.php:130
+msgid "State"
+msgstr "Bundesland"
+
+#: i18n/app.php:131
+msgid "Signature required to fulfill this order."
+msgstr ""
+
+#: i18n/app.php:132
+msgid "Shipping Method"
+msgstr "Versandart"
+
+#: i18n/app.php:133
+msgid "First Name"
+msgstr "Vorname"
+
+#: i18n/app.php:134
+msgid "Last Name"
+msgstr "Nachname"
+
+#: i18n/app.php:135
+msgid "Company"
+msgstr "Firma"
+
+#: i18n/app.php:136
+msgid "Street Address"
+msgstr "Straße"
+
+#: i18n/app.php:137
+msgid "Apartment, Suite, Unit, Etc. (Optional)"
+msgstr ""
+
+#: i18n/app.php:138
+msgid "Town / City"
+msgstr "Stadt"
+
+#: i18n/app.php:139
+msgid "Postcode / ZIP"
+msgstr "Postleitzahl"
+
+#: i18n/app.php:140,
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:72
+msgid "Country"
+msgstr "Land"
+
+#: i18n/app.php:141
+msgid "County"
+msgstr "Bundesland"
+
+#: i18n/app.php:142,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:65,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:124
+msgid "None"
+msgstr "Keine"
+
+#: i18n/app.php:143
+msgid "Standard Delivery"
+msgstr ""
+
+#: i18n/app.php:144
+msgid "Express Delivery"
+msgstr "Expresslieferung"
+
+#: i18n/app.php:145
+msgid "International Delivery"
+msgstr ""
+
+#: i18n/app.php:146
+msgid "Categories"
+msgstr "Kategorien"
+
+#: i18n/app.php:147, includes/class-wc-pos-post-types.php:141,
+#: includes/class-wc-pos-post-types.php:143
+msgid "Grids"
+msgstr "Izgara"
+
+#: i18n/app.php:148
+msgid "Sort by product name"
+msgstr ""
+
+#: i18n/app.php:149
+msgid "Sort by price"
+msgstr "Nach Preis sortieren"
+
+#: i18n/app.php:150
+msgid "Sort by date added"
+msgstr "Sortieren nach Datum hinzugefügt"
+
+#: i18n/app.php:151
+msgid "Sort by popularity"
+msgstr "Nach Beliebtheit sortieren"
+
+#. translators: %s number of products
+#: i18n/app.php:153
+msgid "%s products"
+msgstr "%s Produkte"
+
+#: i18n/app.php:154
+msgid "Payment"
+msgstr "Zahlung"
+
+#: i18n/app.php:155
+msgid "Amount Due"
+msgstr "Offener Betrag"
+
+#: i18n/app.php:156
+msgid "Tendered"
+msgstr "Gegeben"
+
+#: i18n/app.php:157
+msgid "Tender"
+msgstr "Angebot"
+
+#: i18n/app.php:158,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-register-options.php:51,
+#: includes/admin/settings/wc-pos-settings-customer.php:38
+msgid "End of Sale"
+msgstr ""
+
+#: i18n/app.php:159
+msgid "Thank You"
+msgstr "Vielen Dank"
+
+#: i18n/app.php:160, includes/views/html-print-receipt.php:252,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:169
+msgid "Change"
+msgstr "Zurück"
+
+#: i18n/app.php:161
+msgid "Present Card"
+msgstr ""
+
+#: i18n/app.php:162
+msgid "Pending"
+msgstr "Ausstehend"
+
+#: i18n/app.php:163
+msgid "Failed"
+msgstr "Fehlgeschlagen"
+
+#. translators: %s number of seconds
+#: i18n/app.php:165
+msgid "Changing user in %s seconds"
+msgstr ""
+
+#: i18n/app.php:166, includes/views/html-print-receipt.php:534,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:83
+msgid "Email"
+msgstr "E-Mail"
+
+#: i18n/app.php:167, includes/admin/views/html-admin-receipt-customize.php:37
+msgid "Close"
+msgstr "Schließen"
+
+#: i18n/app.php:168, i18n/app.php:323
+msgid "Continue"
+msgstr "Weiter"
+
+#: i18n/app.php:169
+msgid "Email address is required"
+msgstr "Eine E-Mail-Adresse ist erforderlich"
+
+#: i18n/app.php:170
+msgid "Customer note is required"
+msgstr ""
+
+#: i18n/app.php:171
+msgid "Order successfully completed."
+msgstr ""
+
+#: i18n/app.php:172
+msgid "Order has failed."
+msgstr ""
+
+#: i18n/app.php:173
+msgid "Please enter or select an amount to tender."
+msgstr ""
+
+#: i18n/app.php:174
+msgid "Outlet Information"
+msgstr ""
+
+#: i18n/app.php:175,
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:59
+msgid "Website"
+msgstr "Webseite"
+
+#: i18n/app.php:176, includes/views/html-print-receipt.php:538,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:87
+msgid "Phone"
+msgstr "Telefon"
+
+#: i18n/app.php:177,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:48
+msgid "Address"
+msgstr "Adresse"
+
+#: i18n/app.php:178
+msgid "Wireless"
+msgstr "Kabellos"
+
+#: i18n/app.php:179
+msgid "Social Networks"
+msgstr "Soziale Netzwerke"
+
+#: i18n/app.php:180
+msgid "Search"
+msgstr "Suche"
+
+#: i18n/app.php:181
+msgid "Sort by order number"
+msgstr ""
+
+#: i18n/app.php:182, includes/class-wc-pos-barcodes.php:102,
+#: includes/class-wc-pos-stocks.php:77
+msgid "Price"
+msgstr "Preis"
+
+#: i18n/app.php:183
+msgid "Sort by date placed"
+msgstr ""
+
+#: i18n/app.php:184
+msgid ""
+"Orders that are placed by this register will appear here. If there are no "
+"orders, please check the status loading options are correctly set by your "
+"shop manager."
+msgstr ""
+
+#: i18n/app.php:185
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: i18n/app.php:186
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+#: i18n/app.php:187
+msgid "On-Hold"
+msgstr "In der Warteschleife"
+
+#: i18n/app.php:188, includes/admin/class-wc-pos-admin-orders-page.php:44
+msgid "Walk-in Customer"
+msgstr ""
+
+#: i18n/app.php:189
+msgid "(No Name)"
+msgstr "(Kein Name)"
+
+#: i18n/app.php:190
+msgid "No billing address set."
+msgstr "Keine Rechnungsadresse angegeben."
+
+#: i18n/app.php:191
+msgid "The receipt is being generated."
+msgstr ""
+
+#: i18n/app.php:192
+msgid "Reorder"
+msgstr "Neu ordnen"
+
+#: i18n/app.php:193
+msgid "Billing"
+msgstr "Rechnung"
+
+#: i18n/app.php:195
+msgid "Website Order"
+msgstr "Webseitenbestellung"
+
+#: i18n/app.php:196
+msgid "Products"
+msgstr "Produkte"
+
+#: i18n/app.php:197
+msgid "Customer Note"
+msgstr "Anmerkung des Kunden"
+
+#: i18n/app.php:198, includes/views/html-print-receipt.php:568,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:117,
+#: includes/admin/meta-boxes/views/html-grid-tile.php:12,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:74
+msgid "Product"
+msgstr "Produkt"
+
+#: i18n/app.php:199, includes/views/html-admin-barcode-options.php:19,
+#: includes/views/html-print-receipt.php:569,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:118
+msgid "Cost"
+msgstr "Kosten"
+
+#: i18n/app.php:200, includes/views/html-admin-barcode-options.php:20,
+#: includes/views/html-print-receipt.php:566,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:115
+msgid "Qty"
+msgstr "Menge"
+
+#: i18n/app.php:201, includes/views/html-print-receipt.php:618,
+#: includes/admin/settings/wc-pos-settings-tax.php:25,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:151,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:185
+msgid "Tax"
+msgstr "Steuer"
+
+#: i18n/app.php:202,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:34,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:99
+msgid "Guest"
+msgstr "Gast"
+
+#: i18n/app.php:203
+msgid "No shipping address set."
+msgstr "Keine Lieferadresse angegeben."
+
+#: i18n/app.php:204,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:287
+msgid "Open Register"
+msgstr ""
+
+#: i18n/app.php:205
+msgid "Float"
+msgstr "Fließend"
+
+#: i18n/app.php:206, includes/api/class-wc-pos-api.php:369,
+#: includes/api/class-wc-pos-api.php:393,
+#: includes/api/class-wc-pos-api.php:396,
+#: includes/api/class-wc-pos-api.php:399,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:162
+msgid "Yes"
+msgstr "Ja"
+
+#: i18n/app.php:207
+msgid "Order Note"
+msgstr "Notiz zur Bestellung"
+
+#: i18n/app.php:208, includes/views/html-admin-barcode-options.php:56
+msgid "Save"
+msgstr "Speichern"
+
+#: i18n/app.php:209, includes/class-wc-pos-post-types.php:49,
+#: includes/class-wc-pos-post-types.php:96,
+#: includes/class-wc-pos-post-types.php:147,
+#: includes/class-wc-pos-post-types.php:198,
+#: includes/class-wc-pos-post-types.php:249,
+#: includes/admin/class-wc-pos-admin.php:107
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. translators: %s cart action
+#: i18n/app.php:211
+msgid "You have items in the cart. Are you sure you want to %s the cart?"
+msgstr ""
+
+#: i18n/app.php:212,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:162,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:46
+msgid "No"
+msgstr "Nein"
+
+#: i18n/app.php:213
+msgid "Scan or enter card number"
+msgstr ""
+
+#: i18n/app.php:214,
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:15
+msgid "Product Image"
+msgstr "Produktbild"
+
+#: i18n/app.php:215, includes/class-wc-pos-stocks.php:76,
+#: includes/admin/class-wc-pos-admin-menus.php:62,
+#: includes/admin/class-wc-pos-admin-menus.php:63
+msgid "Stock"
+msgstr "Lager"
+
+#: i18n/app.php:216, includes/class-wc-pos-barcodes.php:99,
+#: includes/class-wc-pos-stocks.php:61,
+#: includes/admin/meta-boxes/views/html-grid-tile.php:29
+msgid "SKU"
+msgstr "SKU"
+
+#: i18n/app.php:217, includes/gateways/class-wc-pos-gateway-cash.php:107,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:75,
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:60
+msgid "Description"
+msgstr "Beschreibung"
+
+#: i18n/app.php:218, includes/views/html-print-receipt.php:557,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:106,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:120
+msgid "Dining Option"
+msgstr "Gastronomie Einstellungen"
+
+#: i18n/app.php:219, i18n/app.php:245
+msgid "Password"
+msgstr "Passwort"
+
+#: i18n/app.php:220
+msgid "Password is required"
+msgstr "Passwort ist notwendig"
+
+#: i18n/app.php:221
+msgid "Invalid credentials"
+msgstr "Ungültige Zugangsdaten"
+
+#: i18n/app.php:222
+msgid "Fee Name"
+msgstr "Name der Gebühr"
+
+#: i18n/app.php:223
+msgid "Taxable"
+msgstr "Besteuerbar"
+
+#: i18n/app.php:224
+msgid "Apply"
+msgstr "Übernehmen"
+
+#: i18n/app.php:225
+msgid "Fee name is required."
+msgstr "Der Name der Gebühr wird benötigt."
+
+#: i18n/app.php:226
+msgid "Discount Reason"
+msgstr ""
+
+#: i18n/app.php:227
+msgid "Wastage"
+msgstr "Verlust"
+
+#: i18n/app.php:228
+msgid "Damaged"
+msgstr "Beschädigte"
+
+#: i18n/app.php:229
+msgid "Managed Approved"
+msgstr ""
+
+#: i18n/app.php:230
+msgid "General Discount"
+msgstr "Allgemeiner Rabatt"
+
+#: i18n/app.php:231
+msgid "Student Discount"
+msgstr "Studentenrabatt"
+
+#: i18n/app.php:232
+msgid "Member Discount"
+msgstr ""
+
+#. translators: %s something off
+#: i18n/app.php:234
+msgid "%s off"
+msgstr "%s Vorauszahlungsrabatt"
+
+#: i18n/app.php:235, includes/views/html-print-receipt.php:104,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:125
+msgid "Eat In"
+msgstr ""
+
+#: i18n/app.php:236, includes/views/html-print-receipt.php:107,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:107,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:126
+msgid "Take Away"
+msgstr "Wegnehmen"
+
+#: i18n/app.php:237, includes/views/html-print-receipt.php:110,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:127
+msgid "Delivery"
+msgstr "Lieferung"
+
+#: i18n/app.php:238
+msgid "Add Product"
+msgstr "Produkt hinzufügen"
+
+#: i18n/app.php:239
+msgid "Quantity"
+msgstr "Menge"
+
+#: i18n/app.php:240
+msgid "Quantity required"
+msgstr ""
+
+#: i18n/app.php:241
+msgid "Update Customer"
+msgstr "Kunde aktualisieren"
+
+#: i18n/app.php:242
+msgid "Company Name"
+msgstr "Firmenname"
+
+#: i18n/app.php:243,
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:20
+msgid "Email Address"
+msgstr "E-Mail Adresse"
+
+#: i18n/app.php:244,
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:93
+msgid "Username"
+msgstr "Benutzername"
+
+#: i18n/app.php:246
+msgid "First Name, Last Name, Email Address will also be updated."
+msgstr ""
+
+#: i18n/app.php:247, includes/class-wc-pos-barcodes.php:101
+msgid "Product Name"
+msgstr "Produktname"
+
+#: i18n/app.php:248
+msgid "Product Attributes"
+msgstr "Produkt-Attribute"
+
+#: i18n/app.php:249
+msgid "Label"
+msgstr "Beschriftung"
+
+#: i18n/app.php:250,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:18
+msgid "Value"
+msgstr "Wert"
+
+#: i18n/app.php:251
+msgid "Publish Product"
+msgstr ""
+
+#: i18n/app.php:252
+msgid "Add Attribute"
+msgstr "Eigenschaft hinzufügen"
+
+#: i18n/app.php:253
+msgid "Coupon Code"
+msgstr "Gutscheincode"
+
+#: i18n/app.php:255
+msgid "Closing"
+msgstr "Abschluss"
+
+#: i18n/app.php:256
+msgid "Closing Notes"
+msgstr "Abschliessende Hinweise"
+
+#: i18n/app.php:257
+msgid "Expected"
+msgstr "Erwartet"
+
+#: i18n/app.php:258
+msgid "Counted"
+msgstr "Gezählt"
+
+#: i18n/app.php:259
+msgid "Difference"
+msgstr "Differenz"
+
+#: i18n/app.php:260, includes/gateways/class-wc-pos-gateway-cash.php:23,
+#: includes/gateways/class-wc-pos-gateway-cash.php:103
+msgid "Cash"
+msgstr "Barzahlung"
+
+#: i18n/app.php:261
+msgid "Chip & Pin"
+msgstr ""
+
+#. translators: %s opening cash amount
+#: i18n/app.php:263
+msgid "Opening cash amount: %s"
+msgstr ""
+
+#. translators: %s note
+#: i18n/app.php:265
+msgid "Note: %s"
+msgstr "Fragen und Wünsche: %s"
+
+#. translators: %s cash
+#: i18n/app.php:267
+msgid "Cash: %s"
+msgstr ""
+
+#. translators: %s cash in
+#: i18n/app.php:269
+msgid "Cash In: %s"
+msgstr ""
+
+#. translators: %s total
+#: i18n/app.php:271
+msgid "Total: %s"
+msgstr "Gesamt: %s"
+
+#: i18n/app.php:272
+msgid "Edit Product"
+msgstr "Produkt bearbeiten"
+
+#: i18n/app.php:273
+msgid "Update Product"
+msgstr "Produkt aktualisieren"
+
+#: i18n/app.php:274
+msgid "Tax Class"
+msgstr "Steuerklasse"
+
+#: i18n/app.php:275, includes/gateways/class-wc-pos-gateway-chip-and-pin.php:82
+msgid "Reference Number"
+msgstr "Referenznummer"
+
+#: i18n/app.php:276, includes/class-wc-pos-ajax.php:848,
+#: includes/class-wc-pos-post-types.php:193,
+#: includes/views/html-print-receipt.php:11,
+#: includes/views/html-print-receipt.php:301,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:95,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:30
+msgid "Receipt"
+msgstr "Rechnung"
+
+#: i18n/app.php:277
+msgid "Printing..."
+msgstr "Drucke..."
+
+#: i18n/app.php:278
+msgid "No product results"
+msgstr ""
+
+#. translators: %1$s product name %2$s left in stock
+#: i18n/app.php:280
+msgid "You cannot add %1$s to the cart because there are only %2$s in stock."
+msgstr ""
+
+#. translators: %1$s numer of products cached %2$s total number of products
+#: i18n/app.php:282
+msgid "%1$s out of %2$s products cached"
+msgstr ""
+
+#. translators: %1$s numer of orders cached %2$s total number of orders
+#: i18n/app.php:284
+msgid "%1$s out of %2$s orders cached"
+msgstr ""
+
+#: i18n/app.php:285
+msgid "Search customer"
+msgstr "Klient suchen"
+
+#: i18n/app.php:286
+msgid "pcs"
+msgstr "Stk"
+
+#: i18n/app.php:287
+msgid "View"
+msgstr "Anzeigen"
+
+#: i18n/app.php:288
+msgid "Counted Value"
+msgstr ""
+
+#: i18n/app.php:289
+msgid "Minimum 1"
+msgstr ""
+
+#: i18n/app.php:290, includes/class-wc-pos-ajax.php:545
+msgid "An error occurred"
+msgstr "Ein Fehler ist aufgetreten"
+
+#: i18n/app.php:291, includes/views/html-print-receipt.php:518,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:67
+msgid "Order"
+msgstr "Bestellung"
+
+#. translators: %s product name
+#: i18n/app.php:293
+msgid "Product %s not found"
+msgstr ""
+
+#. translators: %s amount
+#: i18n/app.php:295
+msgid "Free shipping needs min.%s of cart total or coupon with free shipping"
+msgstr ""
+
+#. translators: %s amount
+#: i18n/app.php:297
+msgid "Free shipping needs min.%s of cart total and coupon with free shipping`"
+msgstr ""
+
+#: i18n/app.php:298
+msgid "Free shipping needs coupon with free shipping`"
+msgstr ""
+
+#. translators: %s amount
+#: i18n/app.php:300
+msgid "Free shipping needs min.%s of cart total`"
+msgstr ""
+
+#: i18n/app.php:301
+msgid "Invalid requirement for free shipping`"
+msgstr ""
+
+#: i18n/app.php:302
+msgid "Invalid cost value`"
+msgstr ""
+
+#: i18n/app.php:303
+msgid "Refund"
+msgstr "Rückerstattung"
+
+#: i18n/app.php:304
+msgid "Refund Reason"
+msgstr "Grund für Rückerstattung"
+
+#: i18n/app.php:305
+msgid "Select items to refund"
+msgstr ""
+
+#: i18n/app.php:306
+msgid "Recover Stock"
+msgstr ""
+
+#: i18n/app.php:307
+msgid "Scan SKU barcode"
+msgstr ""
+
+#: i18n/app.php:308
+msgid "Search products"
+msgstr "Produkte suchen"
+
+#: i18n/app.php:309
+msgid "Search Orders"
+msgstr "Bestellungen suchen"
+
+#: i18n/app.php:310
+msgid "Copy Billing"
+msgstr ""
+
+#: i18n/app.php:311
+msgid "Edit Shipping"
+msgstr ""
+
+#: i18n/app.php:312
+msgid "Shipping Title"
+msgstr "Titel der Versandmethode"
+
+#: i18n/app.php:313
+msgid "Shipping Price"
+msgstr "Versandkosten"
+
+#: i18n/app.php:314
+msgid "Cancel Saved Order"
+msgstr ""
+
+#: i18n/app.php:315
+msgid "Do you want to cancel this saved order?"
+msgstr ""
+
+#: i18n/app.php:316
+msgid "Yes, cancel it"
+msgstr "Ja, bitte stornieren"
+
+#: i18n/app.php:317
+msgid "No, keep it as is"
+msgstr ""
+
+#: i18n/app.php:318
+msgid "Order cancelled sucessfully."
+msgstr ""
+
+#: i18n/app.php:319
+msgid "Order could not be cancelled."
+msgstr ""
+
+#: i18n/app.php:320
+msgid "Cancelled"
+msgstr "Abgebrochen"
+
+#: i18n/app.php:321
+msgid "Order Status"
+msgstr "Bestellstatus"
+
+#: i18n/app.php:322
+msgid ""
+"There are products in the basket that will be cleared when you close the "
+"register. Do you want to continue?"
+msgstr ""
+
+#: i18n/app.php:324
+msgid "Switch User?"
+msgstr ""
+
+#: i18n/app.php:325
+msgid ""
+"There are products in the basket, do you want to keep them for later or "
+"clear them?."
+msgstr ""
+
+#: i18n/app.php:326
+msgid "Keep"
+msgstr "Behalten"
+
+#: i18n/app.php:327
+msgid "Refunded"
+msgstr "Rückerstattet"
+
+#: i18n/app.php:328
+msgid "Tender amount should be equal or greater than cart total"
+msgstr ""
+
+#: i18n/app.php:329
+msgid "Unauthorized"
+msgstr "Nicht autorisiert"
+
+#: i18n/app.php:330
+msgid "Sorry, You are not allowed to view this page."
+msgstr ""
+
+#: i18n/coupon.php:13
+msgid "Coupon is not valid."
+msgstr "Der Gutschein ist ungültig."
+
+#. translators: %s coupon code
+#: i18n/coupon.php:15
+msgid ""
+"Sorry, it seems the coupon \"%s\" is invalid - it has now been removed from "
+"your order."
+msgstr ""
+"Leider scheint der Gutschein „%s“ ungültig zu sein – er wurde jetzt aus "
+"Ihrer Bestellung entfernt."
+
+#. translators: %s coupon code
+#: i18n/coupon.php:17
+msgid ""
+"Sorry, it seems the coupon \"%s\" is not yours - it has now been removed "
+"from your order."
+msgstr ""
+"Leider scheint der Gutschein „%s“ nicht zu Ihnen zu gehören – er wurde von "
+"Ihrer Bestellung entfernt."
+
+#: i18n/coupon.php:18
+msgid "Coupon code already applied!"
+msgstr "Der Gutscheincode wurde bereits angewendet!"
+
+#. translators: %s coupon code
+#: i18n/coupon.php:20
+msgid ""
+"Sorry, coupon \"%s\" has already been applied and cannot be used in "
+"conjunction with other coupons."
+msgstr ""
+"Entschuldigung, der Gutschein “%s” wurde bereits verwendet und kann nicht "
+"mit anderen Gutscheinen zusammen verwendet werden."
+
+#. translators: %s coupon code
+#: i18n/coupon.php:22
+msgid "Coupon \"%s\" does not exist!"
+msgstr "Der Gutschein „%s“ existiert nicht!"
+
+#: i18n/coupon.php:23
+msgid "Coupon usage limit has been reached."
+msgstr "Der Coupon wurde schon eingelöst."
+
+#: i18n/coupon.php:24
+msgid "This coupon has expired."
+msgstr "Dieser Gutschein ist abgelaufen."
+
+#. translators: %s minimum spend
+#: i18n/coupon.php:26
+msgid "The minimum spend for this coupon is %s."
+msgstr "Der Mindestbestellwert für diesen Gutschein beträgt %s."
+
+#: i18n/coupon.php:27
+msgid "Sorry, this coupon is not applicable to your cart contents."
+msgstr ""
+"Leider ist dieser Gutschein nicht auf den Inhalt Ihres Warenkorbs anwendbar."
+
+#: i18n/coupon.php:28
+msgid "Sorry, this coupon is not valid for sale items."
+msgstr ""
+"Entschuldigung, dieser Gutschein ist nicht gültig für Produkte mit "
+"Aktionspreis."
+
+#: i18n/coupon.php:29
+msgid "Please enter a coupon code."
+msgstr "Bitte geben Sie einen Gutscheincode ein."
+
+#. translators: %s maximum spend
+#: i18n/coupon.php:31
+msgid "The maximum spend for this coupon is %s."
+msgstr "Der Maximalbetrag für diesen Gutschein beträgt %s."
+
+#. translators: %s products
+#: i18n/coupon.php:33
+msgid "Sorry, this coupon is not applicable to the products: %s."
+msgstr "Leider ist dieser Gutschein nicht für diese Produkte anwendbar: %s."
+
+#. translators: %s categories
+#: i18n/coupon.php:35
+msgid "Sorry, this coupon is not applicable to the categories: %s."
+msgstr "Leider ist dieser Gutschein nicht für diese Kategorien anwendbar: %s."
+
+#: i18n/coupon.php:36
+msgid "Coupon code applied successfully."
+msgstr "Der Gutscheincode wurde erfolgreich angewendet."
+
+#: i18n/coupon.php:37
+msgid "Coupon code removed successfully."
+msgstr "Gutscheincode erfolgreich entfernt."
+
+#: i18n/coupon.php:38
+msgid "Discount added successfully."
+msgstr "Rabatt erfolgreich angewendet."
+
+#: i18n/coupon.php:39
+msgid "Discount updated successfully."
+msgstr "Rabattcode aktualisiert."
+
+#: i18n/product-addons.php:11
+msgid "Options total"
+msgstr "Optionen gesamt"
+
+#: i18n/product-addons.php:12
+msgid "Grand total"
+msgstr "Gesamtpreis"
+
+#: i18n/product-addons.php:13
+msgid "characters remaining"
+msgstr "verbleibende Zeichen"
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:15
+msgid "The minimum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:17
+msgid "The maximum allowed length for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:19
+msgid "The minimum allowed amount for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s something
+#: i18n/product-addons.php:21
+msgid "The maximum allowed amount for \"%1$s - %2$s\" is %3$s."
+msgstr ""
+
+#. translators: %1$s something %2$s something %3$s
+#: i18n/product-addons.php:23
+msgid "Please enter a value greater than 0 for \"%1$s - %2$s\"."
+msgstr ""
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:25
+msgid "Only letters are allowed for \"%1$s - %2$s\"."
+msgstr "Es sind nur Buchstaben für \"%1$s - %2$s\" erlaubt."
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:27
+msgid "Only digits are allowed for \"%1$s - %2$s\"."
+msgstr ""
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:29
+msgid "Only letters and digits are allowed for \"%1$s - %2$s\"."
+msgstr ""
+
+#. translators: %1$s something %2$s something
+#: i18n/product-addons.php:31
+msgid "A valid email address is required for \"%1$s - %2$s\"."
+msgstr ""
+
+#: i18n/subscriptions.php:11
+msgid ""
+"A subscription renewal has been removed from your cart. Multiple "
+"subscriptions can not be purchased at the same time."
+msgstr ""
+"Eine Abonnementerneuerung wurde aus Ihrem Warenkorb entfernt. Mehrere "
+"Abonnements können nicht zur gleichen Zeit erworben werden."
+
+#: i18n/subscriptions.php:12
+msgid ""
+"A subscription has been removed from your cart. Due to payment gateway "
+"restrictions, different subscription products can not be purchased at the "
+"same time."
+msgstr ""
+"Ein Abonnement wurde aus Ihrem Warenkorb entfernt. Aufgrund von "
+"Einschränkungen bei der Zahlungsschnittstelle können verschiedene Abonnement-"
+"Produkte nicht zur gleichen Zeit erworben werden."
+
+#: i18n/subscriptions.php:13
+msgid ""
+"A subscription has been removed from your cart. Products and subscriptions "
+"can not be purchased at the same time."
+msgstr ""
+"Ein Abonnement wurde aus dem Warenkorb entfernt. Einzelne Artikel und "
+"Abonnements können nicht zur gleichen Zeit gekauft werden."
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:15
+msgid "%1$s every %2$s"
+msgstr "%1$s jeden %2$s"
+
+#. translators: %1$s number %2$s number %3$s day
+#: i18n/subscriptions.php:17
+msgid "%1$s every %2$s on %3$s"
+msgstr "%1$s jeden %2$s am %3$s"
+
+#. translators: %s number
+#: i18n/subscriptions.php:19
+msgid "%s on the last day of each month"
+msgstr "%s am letzten Tag jeden Monats"
+
+#. translators: %1$s number %2$s nth
+#: i18n/subscriptions.php:21
+msgid "%1$s on the %2$s of each month"
+msgstr "%1$s am %2$sn jeden Monats"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:23
+msgid "%1$s on the last day of every %2$s month"
+msgstr "%1$s am letzten Tag jedes %2$s Monats"
+
+#. translators: %1$s number %2$s nth %1$s number
+#: i18n/subscriptions.php:25
+msgid "%1$s on the %2$s day of every %3$s month"
+msgstr "%1$s am %2$s Tag jedes %3$s Monats"
+
+#. translators: %1$s number %2$s number %3$s number
+#: i18n/subscriptions.php:27
+msgid "%1$s on %2$s %3$s each year"
+msgstr "%1$s am %2$s %3$s jedes Jahr"
+
+#. translators: %1$s number %2$s number %3$s number %4$s nth
+#: i18n/subscriptions.php:29
+msgid "%1$s on %2$s %3$s every %4$s year"
+msgstr "%1$s am %2$s %3$s jedes %4$s Jahr"
+
+#: i18n/subscriptions.php:31
+msgid "day"
+msgstr "Tag"
+
+#. translators: number of days %s
+#: i18n/subscriptions.php:33
+msgid "%s days"
+msgstr "%s Tage"
+
+#: i18n/subscriptions.php:34
+msgid "week"
+msgstr "Woche"
+
+#. translators: %s number of weeks
+#: i18n/subscriptions.php:36
+msgid "%s weeks"
+msgstr "%s Wochen"
+
+#: i18n/subscriptions.php:37
+msgid "month"
+msgstr "Monat"
+
+#. translators: %s number of months
+#: i18n/subscriptions.php:39
+msgid "%s months"
+msgstr "%s Monate"
+
+#: i18n/subscriptions.php:40
+msgid "year"
+msgstr "Jahr"
+
+#. translators: %s number of years
+#: i18n/subscriptions.php:42
+msgid "%s years"
+msgstr "%s Jahre"
+
+#. translators: %s nth
+#: i18n/subscriptions.php:46
+msgid "%sth"
+msgstr "%s"
+
+#. translators: %s nst
+#: i18n/subscriptions.php:48
+msgid "%sst"
+msgstr "%s"
+
+#. translators: %s nnd
+#: i18n/subscriptions.php:50
+msgid "%snd"
+msgstr "%s"
+
+#. translators: %s nrd
+#: i18n/subscriptions.php:52
+msgid "%srd"
+msgstr "%s"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:56
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:58
+msgid " %1$s every %2$s"
+msgstr " %1$s jeden %2$s"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:61
+msgid "%1$s for %2$s"
+msgstr "%1$s für %2$s"
+
+#. translators: %1$s number %2$s number
+#: i18n/subscriptions.php:63
+msgid "%1$s with %2$s free trial"
+msgstr "%1$s mit einer %2$s kostenlosen Probephase"
+
+#. translators: %s something
+#: i18n/subscriptions.php:66
+msgid "%s day"
+msgstr "%s Tag"
+
+#. translators: %s something
+#: i18n/subscriptions.php:68
+msgid "a %s-day"
+msgstr "%s tägiger"
+
+#. translators: %s something
+#: i18n/subscriptions.php:70
+msgid "%s week"
+msgstr "%s Woche"
+
+#. translators: %s something
+#: i18n/subscriptions.php:72
+msgid "a %s-week"
+msgstr "pro %s-Woche"
+
+#. translators: %s something
+#: i18n/subscriptions.php:74
+msgid "%s month"
+msgstr "%s Monat"
+
+#. translators: %s something
+#: i18n/subscriptions.php:76
+msgid "a %s-month"
+msgstr "ein %s-Monat"
+
+#. translators: %s something
+#: i18n/subscriptions.php:78
+msgid "%s year"
+msgstr "%s Jahr"
+
+#. translators: %s something
+#: i18n/subscriptions.php:80
+msgid "a %s-year"
+msgstr "pro %s Jahr"
+
+#. translators: %1$s something %2$s something
+#: i18n/subscriptions.php:83
+msgid "%1$s and a %2$s sign-up fee"
+msgstr "%1$s zzgl. %2$s Einrichtungsgebühr"
+
+#: includes/class-wc-pos-ajax.php:201
+msgid "Product "
+msgstr "Produkt "
+
+#: includes/class-wc-pos-ajax.php:211
+msgid " stock increased by "
+msgstr " Bestand erhöht um "
+
+#: includes/class-wc-pos-ajax.php:214
+msgid " stock replaced by "
+msgstr " Bestand ersetzt durch "
+
+#: includes/class-wc-pos-ajax.php:220
+msgid " stock reduced by "
+msgstr " Bestand reduziert um "
+
+#: includes/class-wc-pos-ajax.php:277, includes/class-wc-pos-ajax.php:292
+msgid "In stock"
+msgstr "Auf Lager"
+
+#: includes/class-wc-pos-ajax.php:279, includes/class-wc-pos-ajax.php:294
+msgid "Out of stock"
+msgstr "Ausverkauft"
+
+#: includes/class-wc-pos-ajax.php:456
+msgid "Invalid register ID"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:462
+msgid "Could not get session"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:473
+msgid "Could not update session"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:492
+msgid "You can use this code"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:494
+msgid "Sorry, this code is already present"
+msgstr "Leider ist dieser Code bereits benutzt"
+
+#: includes/class-wc-pos-ajax.php:511
+msgid "User not found"
+msgstr "Benutzer nicht gefunden"
+
+#: includes/class-wc-pos-ajax.php:576
+msgid "Register not found."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:609
+msgid "Register not found"
+msgstr "Kasse nicht gefunden"
+
+#: includes/class-wc-pos-ajax.php:788
+msgid "No tiles to be deleted!"
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:817
+msgid "Tile could not be moved."
+msgstr ""
+
+#: includes/class-wc-pos-ajax.php:833
+msgid "No data sent"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:45
+msgid "Barcode Label Printing"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:46
+msgid ""
+"Barcode labels for your store can be printed here. To change the the fields "
+"to print in the label, you can check the boxes for the labels to print in "
+"the panel to the right."
+msgstr ""
+"Barcode-Etiketten können hier gedruckt werden. Um die Felder zu ändern, die "
+"auf das Etikett gedruckt werden sollen, können Sie die gewünschten "
+"Kontrollkästchen für die Etiketten aktivieren, die im Bedienfeld rechts "
+"angezeigt werden."
+
+#: includes/class-wc-pos-barcodes.php:49
+msgid ""
+"<strong>Connection lost.</strong> Saving has been disabled until you&#8217;"
+"re reconnected."
+msgstr ""
+"<strong>Verbindung verloren.</strong> Speichern wurde deaktiviert, bis Sie "
+"wieder verbunden sind."
+
+#: includes/class-wc-pos-barcodes.php:50
+msgid "We&#8217;re backing up this post in your browser, just in case."
+msgstr "Wir sichern diesen Beitrag in deinem Browser, nur für den Fall."
+
+#: includes/class-wc-pos-barcodes.php:66
+msgid "Print Settings"
+msgstr "Druckeinstellungen"
+
+#: includes/class-wc-pos-barcodes.php:70
+msgid "Number of Labels"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:74
+msgid "Label Type"
+msgstr "Beschriftungsart"
+
+#: includes/class-wc-pos-barcodes.php:76
+msgid "Continuous"
+msgstr "Kontinuierlich"
+
+#: includes/class-wc-pos-barcodes.php:77
+msgid "Continuous Feed"
+msgstr "Kontinuierlicher Vorschub"
+
+#: includes/class-wc-pos-barcodes.php:78
+msgid "Continuous Feed (4cm x 3cm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:79
+msgid "Continuous Feed (40mm x 20mm)"
+msgstr "Kontinuierlicher Vorschub (40mm x 20mm)"
+
+#: includes/class-wc-pos-barcodes.php:81
+msgid "A4"
+msgstr "A4"
+
+#: includes/class-wc-pos-barcodes.php:82
+msgid "2 x 7"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:83
+msgid "3 x 7"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:84
+msgid "3 x 9"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:86
+msgid "Letter"
+msgstr "Buchstaben"
+
+#: includes/class-wc-pos-barcodes.php:87
+msgid "4 x 5"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:88
+msgid "3 x 10"
+msgstr "3 x 10"
+
+#: includes/class-wc-pos-barcodes.php:89
+msgid "4 x 20"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:91
+msgid "Other"
+msgstr "Andere"
+
+#: includes/class-wc-pos-barcodes.php:92
+msgid "Jewellery Tag (50mm x 10mm)"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:97
+msgid "Product Fields"
+msgstr "Produktfelder"
+
+#: includes/class-wc-pos-barcodes.php:98,
+#: includes/views/html-admin-barcode-options.php:21
+msgid "Barcode"
+msgstr "Barcode"
+
+#: includes/class-wc-pos-barcodes.php:100
+msgid "SKU Label"
+msgstr "Artikelnummern Beschriftung"
+
+#: includes/class-wc-pos-barcodes.php:103
+msgid "Variation"
+msgstr "Varianten"
+
+#: includes/class-wc-pos-barcodes.php:104
+msgid "Variation Label"
+msgstr ""
+
+#: includes/class-wc-pos-barcodes.php:107
+msgid ""
+"Note: set your paper size to the corresponding template size. Printing "
+"margins should be set to none to ensure accurate printing."
+msgstr ""
+
+#: includes/class-wc-pos-grid.php:162
+msgid "Error saving grid."
+msgstr ""
+
+#: includes/class-wc-pos-install.php:187,
+#: includes/updates/wc_pos-update-5.0.0.php:347
+msgid "Default Receipt"
+msgstr "Standard Rechnung"
+
+#: includes/class-wc-pos-install.php:214,
+#: includes/updates/wc_pos-update-5.0.0.php:376
+msgid "Default Outlet"
+msgstr ""
+
+#: includes/class-wc-pos-install.php:242,
+#: includes/updates/wc_pos-update-5.0.0.php:406
+msgid "Default Register"
+msgstr ""
+
+#: includes/class-wc-pos-install.php:301
+msgid "Cashier"
+msgstr "Kassierer"
+
+#: includes/class-wc-pos-install.php:313
+msgid "POS Manager"
+msgstr "POS Manager"
+
+#: includes/class-wc-pos-my-account.php:39,
+#: includes/class-wc-pos-my-account.php:49, includes/class-wc-pos.php:195,
+#: includes/admin/class-wc-pos-admin-menus.php:40,
+#: includes/admin/class-wc-pos-admin-menus.php:41,
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:250,
+#: includes/admin/class-wc-pos-admin-orders-page.php:169,
+#: includes/admin/class-wc-pos-admin.php:307,
+#: includes/admin/class-wc-pos-admin.php:633,
+#: includes/views/html-admin-pos.php:17,
+#: includes/admin/views/html-quick-edit-product.php:13
+msgid "Point of Sale"
+msgstr "Kasse"
+
+#: includes/class-wc-pos-post-types.php:43,
+#: includes/class-wc-pos-post-types.php:45,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:98,
+#: includes/admin/settings/wc-pos-settings-general.php:60,
+#: includes/admin/views/html-notice-install.php:17
+msgid "Registers"
+msgstr "Kassen"
+
+#: includes/class-wc-pos-post-types.php:46
+msgctxt "Admin menu name"
+msgid "Registers"
+msgstr "Kassen"
+
+#: includes/class-wc-pos-post-types.php:47,
+#: includes/class-wc-pos-post-types.php:94,
+#: includes/class-wc-pos-post-types.php:145,
+#: includes/class-wc-pos-post-types.php:196,
+#: includes/class-wc-pos-post-types.php:247
+msgid "Add New"
+msgstr "Neu hinzufügen"
+
+#: includes/class-wc-pos-post-types.php:48
+msgid "Add new register"
+msgstr "Neues Register hinzufügen"
+
+#: includes/class-wc-pos-post-types.php:50
+msgid "Edit register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:51
+msgid "New register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:52
+msgid "View register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:53
+msgid "View registers"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:54
+msgid "Search registers"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:55
+msgid "No registers found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:56
+msgid "No registers found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:57
+msgid "Parent register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:58
+msgid "Insert into register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:59
+msgid "Uploaded to this register"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:60
+msgid "Filter registers"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:61
+msgid "Registers navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:62
+msgid "Registers list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:64
+msgid "This is where you can add new registers to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:90,
+#: includes/class-wc-pos-post-types.php:92,
+#: includes/admin/settings/wc-pos-settings-general.php:61,
+#: includes/admin/views/html-notice-install.php:18
+msgid "Outlets"
+msgstr "Standorte"
+
+#: includes/class-wc-pos-post-types.php:93
+msgctxt "Admin menu name"
+msgid "Outlets"
+msgstr "Standorte"
+
+#: includes/class-wc-pos-post-types.php:95
+msgid "Add new outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:97
+msgid "Edit outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:98
+msgid "New outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:99
+msgid "View outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:100
+msgid "View outlets"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:101
+msgid "Search outlets"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:102
+msgid "No outlets found"
+msgstr "Keine Outlets gefunden"
+
+#: includes/class-wc-pos-post-types.php:103
+msgid "No outlets found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:104
+msgid "Parent outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:105
+msgid "Outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:106
+msgid "Set outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:107
+msgid "Remove outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:108
+msgid "Use as outlet image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:109
+msgid "Insert into outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:110
+msgid "Uploaded to this outlet"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:111
+msgid "Filter outlets"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:112
+msgid "Outlets navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:113
+msgid "Outlets list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:115
+msgid "This is where you can add new outlets to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:142,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:92
+msgid "Grid"
+msgstr "Raster"
+
+#: includes/class-wc-pos-post-types.php:144
+msgctxt "Admin menu name"
+msgid "Grids"
+msgstr "Izgara"
+
+#: includes/class-wc-pos-post-types.php:146
+msgid "Add new grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:148
+msgid "Edit grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:149
+msgid "New grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:150
+msgid "View grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:151
+msgid "View grids"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:152
+msgid "Search grids"
+msgstr "Raster durchsuchen"
+
+#: includes/class-wc-pos-post-types.php:153
+msgid "No grids found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:154
+msgid "No grids found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:155
+msgid "Parent grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:156
+msgid "Grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:157
+msgid "Set grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:158
+msgid "Remove grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:159
+msgid "Use as grid image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:160
+msgid "Insert into grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:161
+msgid "Uploaded to this grid"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:162
+msgid "Filter grids"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:163
+msgid "Grids navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:164
+msgid "Grids list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:166,
+#: includes/class-wc-pos-post-types.php:217
+msgid "This is where you can add new grids to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:192,
+#: includes/class-wc-pos-post-types.php:194
+msgid "Receipts"
+msgstr "Belege"
+
+#: includes/class-wc-pos-post-types.php:195
+msgctxt "Admin menu name"
+msgid "Receipts"
+msgstr "Belege"
+
+#: includes/class-wc-pos-post-types.php:197
+msgid "Add new receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:199
+msgid "Edit receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:200
+msgid "New receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:201
+msgid "View receipt"
+msgstr "Beleg ansehen"
+
+#: includes/class-wc-pos-post-types.php:202
+msgid "View receipts"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:203
+msgid "Search receipts"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:204
+msgid "No receipts found"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:205
+msgid "No receipts found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:206
+msgid "Parent receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:207
+msgid "Receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:208
+msgid "Set receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:209
+msgid "Remove receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:210
+msgid "Use as receipt image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:211
+msgid "Insert into receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:212
+msgid "Uploaded to this receipt"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:213
+msgid "Filter receipts"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:214
+msgid "Receipts navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:215
+msgid "Receipts list"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:243,
+#: includes/class-wc-pos-post-types.php:245
+msgid "Sessions"
+msgstr "Sitzungen"
+
+#: includes/class-wc-pos-post-types.php:244
+msgid "Session"
+msgstr "Sitzung"
+
+#: includes/class-wc-pos-post-types.php:246
+msgctxt "Admin menu name"
+msgid "Sessions"
+msgstr "Sitzungen"
+
+#: includes/class-wc-pos-post-types.php:248
+msgid "Add new session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:250
+msgid "Edit session"
+msgstr "Session bearbeiten"
+
+#: includes/class-wc-pos-post-types.php:251
+msgid "New session"
+msgstr "Neue Session"
+
+#: includes/class-wc-pos-post-types.php:252
+msgid "View session"
+msgstr "Vorträge anzeigen"
+
+#: includes/class-wc-pos-post-types.php:253
+msgid "View sessions"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:254
+msgid "Search sessions"
+msgstr "Vorträge suchen"
+
+#: includes/class-wc-pos-post-types.php:255
+msgid "No sessions found"
+msgstr "Keine Vorträge gefunden"
+
+#: includes/class-wc-pos-post-types.php:256
+msgid "No sessions found in trash"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:257
+msgid "Parent session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:258
+msgid "Session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:259
+msgid "Set session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:260
+msgid "Remove session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:261
+msgid "Use as session image"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:262
+msgid "Insert into session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:263
+msgid "Uploaded to this session"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:264
+msgid "Filter sessions"
+msgstr "Sessions filtern"
+
+#: includes/class-wc-pos-post-types.php:265
+msgid "Sessions navigation"
+msgstr ""
+
+#: includes/class-wc-pos-post-types.php:266
+msgid "Sessions list"
+msgstr "Liste Sitzungen"
+
+#: includes/class-wc-pos-post-types.php:268
+msgid "This is where you can add new sessions to the Point of Sale."
+msgstr ""
+
+#: includes/class-wc-pos-stocks.php:54
+msgid "Stock Controller"
+msgstr "Lagerkontrolle"
+
+#: includes/class-wc-pos-stocks.php:55
+msgid ""
+"Manage your stock instantly using the barcode scanner. Simply scan the SKU "
+"and the product will load below with the option to enter updated stock value."
+msgstr ""
+"Verwalten Sie Ihren Vorrat sofort mit dem Barcode-Scanner. Scannen Sie "
+"einfach den SKU und das Produkt lädt unten mit der Option, den "
+"aktualisierten Aktienwert einzugeben."
+
+#: includes/class-wc-pos-stocks.php:63
+msgid "Find"
+msgstr "Suchen"
+
+#: includes/class-wc-pos-stocks.php:74
+msgid "Image"
+msgstr "Bild"
+
+#: includes/class-wc-pos-stocks.php:75,
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:22
+msgid "Name"
+msgstr "Name"
+
+#: includes/class-wc-pos-stocks.php:78
+msgid "Update Stock"
+msgstr "Lagerbestand aktualisieren"
+
+#: includes/class-wc-pos-stocks.php:79
+msgid "Action"
+msgstr "Aktion"
+
+#: includes/class-wc-pos-stocks.php:276
+msgid "Barcode Template created."
+msgstr "Barcode Vorlage erstellt."
+
+#: includes/class-wc-pos-stocks.php:277
+msgid "Barcode Template updated."
+msgstr "Barcode Vorlage aktualisiert."
+
+#: includes/class-wc-pos-subscriptions.php:32,
+#: includes/class-wc-pos-subscriptions.php:91
+msgid "Subscription"
+msgstr "Abonnement"
+
+#. translators: $s currency symbol
+#: includes/class-wc-pos-subscriptions.php:98
+msgid "Sign-up Fee (%s)"
+msgstr "Einrichtungsgebühr (%s)"
+
+#: includes/class-wc-pos-subscriptions.php:101
+msgid "Interval"
+msgstr "Intervall"
+
+#: includes/class-wc-pos-subscriptions.php:102
+msgid "Period"
+msgstr "Zeitraum"
+
+#: includes/class-wc-pos-subscriptions.php:103
+msgid "Length"
+msgstr "Länge"
+
+#: includes/class-wc-pos.php:522, includes/class-wc-pos.php:571,
+#: includes/admin/class-wc-pos-admin.php:97,
+#: includes/admin/views/html-quick-edit-product.php:27
+msgid "POS Only"
+msgstr "Nur POS"
+
+#: includes/class-wc-pos.php:530, includes/class-wc-pos.php:572,
+#: includes/admin/class-wc-pos-admin.php:98,
+#: includes/admin/views/html-quick-edit-product.php:28
+msgid "Online Only"
+msgstr "Nur online"
+
+#: includes/class-wc-pos.php:562
+msgid "POS Status"
+msgstr "Kassen Status"
+
+#: includes/class-wc-pos.php:569
+msgid "— No Change —"
+msgstr "— Keine Änderung —"
+
+#: includes/class-wc-pos.php:570
+msgid "POS & Online"
+msgstr "POS & Online"
+
+#: includes/class-wc-pos.php:611,
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:199,
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:276,
+#: includes/admin/class-wc-pos-admin-notices.php:107,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-grid-options.php:42,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:79,
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-register-options.php:67
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+"Aktion fehlgeschlagen. Bitte laden Sie die Seite neu und versuchen Sie es "
+"noch einmal."
+
+#: includes/class-wc-pos.php:676
+msgid "Incorrect Permalinks Structure."
+msgstr ""
+
+#: includes/class-wc-pos.php:676
+msgid "Change Permalinks"
+msgstr "Permalinks ändern"
+
+#: includes/class-wc-pos.php:746
+msgid "Reprints receipts"
+msgstr ""
+
+#: includes/class-wc-pos.php:811
+msgid "You are not allowed to view this page."
+msgstr "Du darfst diese Seite nicht ansehen."
+
+#: includes/class-wc-pos.php:944
+msgid "%"
+msgstr "%"
+
+#: includes/wc-pos-register-functions.php:42
+msgid "Categories Layout"
+msgstr "Kategorien Layout"
+
+#: includes/wc-pos-session-functions.php:49,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:137
+msgid "Deleted Register"
+msgstr ""
+
+#: includes/wc-pos-session-functions.php:50
+msgid "Deleted Outlet"
+msgstr ""
+
+#: includes/wc-pos-session-functions.php:51,
+#: includes/wc-pos-session-functions.php:52
+msgid "Deleted User"
+msgstr "Gelöschte Benutzer"
+
+#: includes/admin/class-wc-pos-admin-assets.php:124
+msgid ""
+"Orders placed by the deleted register will be assigned to the Default "
+"Register."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:125
+msgid ""
+"Orders placed by the deleted registers will be assigned to the Default "
+"Register."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:142
+msgid "Select an option&hellip;"
+msgstr "Wählen Sie eine Option&hellip;"
+
+#: includes/admin/class-wc-pos-admin-assets.php:143
+msgid "Please enter in a valid email address."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:144
+msgid "Please enter in a valid phone number."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:145
+msgid "Please enter in a valid fax number."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:146
+msgid "Please enter in a valid URL."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:147
+msgid "Are you sure you want to fill out the fields from the store address?"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:158
+msgid ""
+"Are you sure you want to delete all tiles in this grid? This cannot be "
+"undone."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:159
+msgid "Are you sure you want to delete this tile? This cannot be undone."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:171
+msgid "The field “Receipt Name” cannot be empty."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:172
+msgid "The field “Receipt Width” cannot be empty."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:173
+msgid "The field “Receipt Width” cannot be a negative value."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-assets.php:184
+msgid "Are you sure you want to remove the selected items?"
+msgstr "Sind Sie sicher, dass Sie den ausgewählten Eintrag entfernen wollen?"
+
+#: includes/admin/class-wc-pos-admin-assets.php:185,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:107
+msgid "Search for a category&hellip;"
+msgstr "Suche nach einer category&hellip;"
+
+#: includes/admin/class-wc-pos-admin-assets.php:196,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:38
+msgid "Coin"
+msgstr "Münze"
+
+#: includes/admin/class-wc-pos-admin-assets.php:197,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:24,
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:44
+msgid "Remove"
+msgstr "Entfernen"
+
+#: includes/admin/class-wc-pos-admin-menus.php:52,
+#: includes/admin/class-wc-pos-admin-menus.php:53
+msgid "Barcodes"
+msgstr "Barcode"
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:108
+msgid "Register data"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:109
+msgid "Register actions"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:113
+msgid "Outlet data"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:114
+msgid "Outlet actions"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:118
+msgid "Tile options"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:119,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:93,
+#: includes/admin/settings/wc-pos-settings-tiles.php:25
+msgid "Tiles"
+msgstr "Kacheln"
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:120
+msgid "Grid actions"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:125
+msgid "Product grids"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:310
+msgid "Move to Trash"
+msgstr "In den Papierkorb verschieben"
+
+#: includes/admin/class-wc-pos-admin-meta-boxes.php:310
+msgid "Delete Permanently"
+msgstr "Dauerhaft löschen"
+
+#: includes/admin/class-wc-pos-admin-notices.php:111
+msgid "You don&#8217;t have permission to do this."
+msgstr "Sie haben keine Berechtigung, %s zu bearbeiten."
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:58
+msgid ""
+"<span class=\"order-type tips\" data-tip=\"Order Type\">Order Type</span>"
+msgstr ""
+"<span class=\"order-type tips\" data-tip=\"Order Type\">Bestelltyp</span>"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:83
+msgid "<span class=\"order-type-web tips\" data-tip=\"Website\"><span>"
+msgstr "<span class=\"order-type-web tips\" data-tip=\"Webseite\"><span>"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:85
+msgid "<span class=\"order-type-staff tips\" data-tip=\"Manual\"><span>"
+msgstr "<span class=\"order-type-staff tips\" data-tip=\"Handbuch\"><span>"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:89
+msgid "<span class=\"order-type-pos tips\" data-tip=\"Point of Sale\"><span>"
+msgstr "<span class=\"order-type-pos tips\" data-tip=\"Point of Sale\"><span>"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:108
+msgid "All types"
+msgstr "Alle Typen"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:109
+msgid "Online"
+msgstr "Online"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:110,
+#: includes/admin/class-wc-pos-admin.php:145,
+#: includes/admin/class-wc-pos-admin.php:637
+msgid "POS"
+msgstr "POS"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:129,
+#: includes/admin/class-wc-pos-admin.php:647,
+#: includes/admin/class-wc-pos-admin.php:650
+msgid "All registers"
+msgstr "Alle Kassen"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:149
+msgid "All outlets"
+msgstr "Alle Standorte"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:184
+msgid "Register:"
+msgstr "Registrieren:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:188
+msgid "Cashier:"
+msgstr "Kassierer:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:191
+msgid "Total:"
+msgstr "Gesamt:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:194
+msgid "Tendered:"
+msgstr "Ausgeschrieben:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:198
+msgid "Change:"
+msgstr "Wechsel:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:203
+msgid "Amount Due:"
+msgstr "Fälliger Betrag:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:207
+msgid "Order #:"
+msgstr "Bestellung #:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:221
+msgid "Discount Reason:"
+msgstr "Rabattgrund:"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:232
+msgid "View Receipt"
+msgstr "Bestellbestätigung ansehen"
+
+#: includes/admin/class-wc-pos-admin-orders-page.php:234,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:98,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:17
+msgid "Print Receipt"
+msgstr "Quittung drucken"
+
+#: includes/admin/class-wc-pos-admin-post-types.php:159
+msgid "Register Updated."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:160
+msgid "Register Created."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:166
+msgid "Outlet Updated."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:167
+msgid "Outlet Created."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:173
+msgid "Grid Updated."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:174
+msgid "Grid Created."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:202
+msgid "Register name"
+msgstr "Registername"
+
+#: includes/admin/class-wc-pos-admin-post-types.php:205
+msgid "Outlet name"
+msgstr "Outlet-Name"
+
+#: includes/admin/class-wc-pos-admin-post-types.php:208
+msgid "Grid name"
+msgstr ""
+
+#. translators: %s Display name
+#: includes/admin/class-wc-pos-admin-post-types.php:270
+msgid "This register is opened by %s and cannot be deleted at the moment."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-post-types.php:274
+msgid ""
+"This register is opened and cannot be deleted at the moment. Please make "
+"sure to close the register before you can delete it."
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin-settings.php:76
+msgid "Your settings have been saved."
+msgstr "Ihre Einstellungen wurden gespeichert."
+
+#: includes/admin/class-wc-pos-admin.php:96,
+#: includes/admin/views/html-quick-edit-product.php:26
+msgid "POS &amp; Online"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:102
+msgid "POS visibility:"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:118,
+#: includes/admin/settings/wc-pos-settings-advanced.php:55
+msgid "OK"
+msgstr "OK"
+
+#: includes/admin/class-wc-pos-admin.php:148
+msgid "Sales by register"
+msgstr "Verkäufe nach Kasse"
+
+#: includes/admin/class-wc-pos-admin.php:154
+msgid "Sales by outlet"
+msgstr "Umsatz nach Outlet"
+
+#: includes/admin/class-wc-pos-admin.php:160
+msgid "Sales by cashier"
+msgstr "Umsatz nach Kassier"
+
+#: includes/admin/class-wc-pos-admin.php:249
+msgid "Change Card Number"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:310
+msgid "Assigned Outlets"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:316
+msgid "Ensure the user is logged out before changing the outlet."
+msgstr ""
+"Stellen Sie sicher, dass der Benutzer abgemeldet ist, bevor Sie die Kasse "
+"wechseln."
+
+#: includes/admin/class-wc-pos-admin.php:334
+msgid "Card Number"
+msgstr "Kartennummer"
+
+#: includes/admin/class-wc-pos-admin.php:340
+msgid "Tender Orders"
+msgstr ""
+
+#: includes/admin/class-wc-pos-admin.php:359
+msgid "View Settings"
+msgstr "Einstellungen anzeigen"
+
+#: includes/admin/class-wc-pos-admin.php:375
+msgid "View Documentation"
+msgstr "Dokumentation ansehen"
+
+#: includes/admin/class-wc-pos-admin.php:375
+msgid "Docs"
+msgstr "Dokumentation"
+
+#: includes/admin/class-wc-pos-admin.php:376
+msgid "Visit Support"
+msgstr "Support besuchen"
+
+#: includes/admin/class-wc-pos-admin.php:376
+msgid "Support"
+msgstr "Support"
+
+#: includes/admin/class-wc-pos-admin.php:446,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:44
+msgid "Product Grid"
+msgstr "Produkt-Gitter"
+
+#. translators: %s grid name
+#: includes/admin/class-wc-pos-admin.php:487
+msgid "Add to %s"
+msgstr "Hinzufügen zu %s"
+
+#: includes/api/class-wc-pos-api-orders.php:153
+msgid "You do not have permission to create orders."
+msgstr ""
+
+#: includes/api/class-wc-pos-api-orders.php:169
+msgid "Guest checkout is not allowed."
+msgstr ""
+
+#: includes/api/class-wc-pos-api-orders.php:177
+msgid "Customer ID is invalid."
+msgstr "Kunden-ID ist ungültig."
+
+#: includes/api/class-wc-pos-api-orders.php:182
+msgid "Customer ID does not belong to this site."
+msgstr ""
+
+#: includes/api/class-wc-pos-api-orders.php:280
+msgid "Order item ID provided is not associated with order."
+msgstr "Vielen Dank für Ihre Bestellung."
+
+#: includes/api/class-wc-pos-api-orders.php:345
+msgid "Coupon code is required."
+msgstr "Gutschein-Code wird benötigt."
+
+#. translators: %1$d: points redeemed. %2$s: points reward label. %3$s: discount amount.
+#: includes/api/class-wc-pos-api-orders.php:383
+msgid "%1$d %2$s redeemed for a %3$s discount."
+msgstr "%1$d %2$s für einen %3$s Rabatt eingelöst."
+
+#: includes/api/class-wc-pos-api.php:67
+msgid "User not authorized to access WooCommerce POS"
+msgstr "Benutzer nicht autorisiert für WooCommerce POS"
+
+#: includes/api/class-wc-pos-api.php:353, includes/api/class-wc-pos-api.php:407
+msgid "Via"
+msgstr "Via"
+
+#: includes/api/class-wc-pos-api.php:359, includes/api/class-wc-pos-api.php:360
+msgid "Unpublished"
+msgstr "Unveröffentlicht"
+
+#: includes/api/class-wc-pos-api.php:362
+msgid "Y/m/d g:i:s A"
+msgstr "Y/m/d g:i:s A"
+
+#: includes/api/class-wc-pos-api.php:363
+msgid "Y/m/d"
+msgstr "Y/m/d"
+
+#. translators:  %d notes count
+#: includes/api/class-wc-pos-api.php:396
+msgid "plus %d other note"
+msgid_plural "plus %d other notes"
+msgstr[0] "plus %d sonstiger Hinweis"
+msgstr[1] "plus %d sonstige Hinweise"
+
+#. translators:  %d notes count
+#: includes/api/class-wc-pos-api.php:399
+msgid "%d note"
+msgid_plural "%d notes"
+msgstr[0] "% d Notiz"
+msgstr[1] "%d Notizen"
+
+#: includes/data-stores/class-wc-pos-grid-data-store-cpt.php:82
+msgid "Invalid grid."
+msgstr ""
+
+#: includes/data-stores/class-wc-pos-outlet-data-store-cpt.php:82
+msgid "Invalid outlet."
+msgstr ""
+
+#: includes/data-stores/class-wc-pos-receipt-data-store-cpt.php:82
+msgid "Invalid receipt."
+msgstr ""
+
+#: includes/data-stores/class-wc-pos-register-data-store-cpt.php:82
+msgid "Invalid register."
+msgstr ""
+
+#: includes/data-stores/class-wc-pos-session-data-store-cpt.php:88
+msgid "Invalid session."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:61
+msgid "New POS account"
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:62
+msgid ""
+"New customer accocunt emails are sent to the customer when a new account is "
+"being created for them via the Point of Sale."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:76
+msgid "Your {site_title} account has been created!"
+msgstr "Ihr {site_title}-Kundenkonto wurde erstellt!"
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:85
+msgid "Welcome to {site_title}"
+msgstr "Willkommen bei {site_title}"
+
+#: includes/emails/class-wc-pos-email-customer-new-account.php:165
+msgid "We look forward to seeing you soon."
+msgstr "Wir freuen uns auf ein baldiges Wiedersehen."
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:34,
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:62,
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:72
+msgid "End of Sale Report"
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:35
+msgid ""
+"End of Sale reports are sent to chosen recipient(s) when a register is "
+"closed."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:151
+msgid "Congratulations on the sales"
+msgstr ""
+
+#. translators: %s: list of placeholders
+#. translators: %s: list of placeholders
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:159,
+#: includes/emails/class-wc-pos-email-new-order.php:158
+msgid "Available placeholders: %s"
+msgstr "Verfügbare Platzhalter: %s"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:162,
+#: includes/emails/class-wc-pos-email-new-order.php:162,
+#: includes/gateways/class-wc-pos-gateway-cash.php:93,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:61,
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:47
+msgid "Enable/Disable"
+msgstr "Aktivieren/Deaktivieren"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:164,
+#: includes/emails/class-wc-pos-email-new-order.php:164
+msgid "Enable this email notification"
+msgstr "Diese E-Mail-Benachrichtigung aktivieren"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:168,
+#: includes/emails/class-wc-pos-email-new-order.php:168
+msgid "Recipient(s)"
+msgstr "Empfänger"
+
+#. translators: %s: WP admin email
+#. translators: %s: WP admin email
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:171,
+#: includes/emails/class-wc-pos-email-new-order.php:171
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+"Geben Sie Empfänger (durch Komma getrennt) für diese E-Mail an. Der "
+"Standardwert ist %s."
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:177,
+#: includes/emails/class-wc-pos-email-new-order.php:177
+msgid "Subject"
+msgstr "Betreff"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:185,
+#: includes/emails/class-wc-pos-email-new-order.php:185
+msgid "Email heading"
+msgstr "E-Mail-Überschrift"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:193,
+#: includes/emails/class-wc-pos-email-new-order.php:193
+msgid "Additional content"
+msgstr "Zusätzlicher Inhalt"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:194,
+#: includes/emails/class-wc-pos-email-new-order.php:194
+msgid "Text to appear below the main email content."
+msgstr "Text, der unter dem Haupt-E-Mail-Inhalt angezeigt wird."
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:196,
+#: includes/emails/class-wc-pos-email-new-order.php:196
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:202,
+#: includes/emails/class-wc-pos-email-new-order.php:202
+msgid "Email type"
+msgstr "E-Mail-Typ"
+
+#: includes/emails/class-wc-pos-email-end-of-sale-report.php:204,
+#: includes/emails/class-wc-pos-email-new-order.php:204
+msgid "Choose which format of email to send."
+msgstr "Format für E-Mail-Versand auswählen."
+
+#: includes/emails/class-wc-pos-email-new-order.php:29
+msgid "New POS order"
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-new-order.php:30
+msgid ""
+"New order emails are sent to chosen recipient(s) when a new Point of Sale "
+"order is received."
+msgstr ""
+
+#: includes/emails/class-wc-pos-email-new-order.php:91
+msgid "[{site_title}]: New order #{order_number}"
+msgstr "[{site_title}]: Neue Bestellung Nr. {order_number}"
+
+#: includes/emails/class-wc-pos-email-new-order.php:100
+msgid "New Order: #{order_number}"
+msgstr "Neue Bestellung: #{order_number}"
+
+#: includes/emails/class-wc-pos-email-new-order.php:148
+msgid "Congratulations on the sale!"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:24
+msgid "Have your customers pay with cash (or by other means)."
+msgstr ""
+
+#. translators: %1$s shipping method name.
+#: includes/gateways/class-wc-pos-gateway-cash.php:66
+msgid "Any &quot;%1$s&quot; method"
+msgstr "Suchergebnis für &quot;%1$s&quot;"
+
+#. translators: %1$s shipping method title, %2$s shipping method id.
+#: includes/gateways/class-wc-pos-gateway-cash.php:81
+msgid "%1$s (#%2$s)"
+msgstr "%1$s (%2$s)"
+
+#. translators: %1$s zone name, %2$s shipping method instance name.
+#: includes/gateways/class-wc-pos-gateway-cash.php:84
+msgid "%1$s &ndash; %2$s"
+msgstr "%1$s &ndash; %2$s"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:84
+msgid "Other locations"
+msgstr "Weitere Standorte"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:94
+msgid "Enable Cash for POS"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:100,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:68,
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:22,
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:53
+msgid "Title"
+msgstr "Titel"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:102,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:70
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Beschreibung der Zahlungsart, die Kunden auf Ihrer Website sehen."
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:109,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:77
+msgid "Payment method description that the customer will see on your website."
+msgstr "Beschreibung der Zahlungsart, die Kunden auf Ihrer Website sehen."
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:110
+msgid "Pay with cash."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:114
+msgid "Instructions"
+msgstr "Anweisungen"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:116
+msgid "Instructions that will be added to the thank you page."
+msgstr "Instruktionen, die auf Dankesseite eingefügt werden."
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:117
+msgid "Thank you for your purchase."
+msgstr "Vielen Dank für deinen Einkauf"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:121
+msgid "Enable for shipping methods"
+msgstr "Für Versandarten aktivieren"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:126
+msgid ""
+"If the payment method is only available for certain methods, set it up here. "
+"Leave blank to enable for all methods."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:130
+msgid "Select shipping methods"
+msgstr "Versandart auswählen"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:134
+msgid "Accept for virtual orders"
+msgstr "Für virtuelle Bestellungen akzeptieren"
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:135
+msgid "Accept only if the order is virtual"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-cash.php:266,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:115
+msgid "Payment to be made upon delivery."
+msgstr "Zahlung bei Zustellung der Ware."
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:50,
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:71
+msgid "Chip & PIN"
+msgstr "Kartenzahlung"
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:51
+msgid "Replace this with a description for the Chip & PIN payment method."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:62
+msgid "Enable Chip & PIN"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:78
+msgid "Pay via Chip & PIN."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:84
+msgid "Require reference number"
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:85
+msgid "Check this box to make the reference number mandatory filed."
+msgstr ""
+
+#: includes/gateways/class-wc-pos-gateway-chip-and-pin.php:123
+msgid "Success!"
+msgstr "Erfolgreich!"
+
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:490,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:476,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:467,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:467
+msgid "%s average daily sales"
+msgstr "%s durchschnittliche Tagesumsätze"
+
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#. translators: %s average sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:495,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:481,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:472,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:472
+msgid "%s average monthly sales"
+msgstr "%s durchschnittlicher Monatsumsatz"
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:501
+msgid "%s gross sales"
+msgstr "%s Bruttoumsatz"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:502,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:488,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:479,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:479
+msgid ""
+"This is the sum of the order totals after any refunds and including shipping "
+"and taxes."
+msgstr ""
+"Entspricht der Summe aller Bestellungen (ohne Rückerstattungen) mit "
+"Versandkosten und Steuern."
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:508
+msgid "%s net sales"
+msgstr "%s Nettoumsatz"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:509,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:495,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:486,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:486
+msgid ""
+"This is the sum of the order totals after any refunds and excluding shipping "
+"and taxes."
+msgstr ""
+"Entspricht der Summe aller Bestellungen (ohne Rückerstattungen) ohne "
+"Versandkosten und Steuern."
+
+#. translators: %s saved sales
+#. translators: %s saved sales
+#. translators: %s saved sales
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:520,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:506,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:497
+msgid "%s sales from this register for saved orders"
+msgstr "%s Verkäufe aus diesem Register für gespeicherte Aufträge"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:521,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:507,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:498,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:498
+msgid ""
+"This is the sum of the saved order totals after any refunds and including "
+"shipping and taxes."
+msgstr ""
+
+#. translators: %s number of orders
+#. translators: %s number of orders
+#. translators: %s number of orders
+#. translators: %s number of orders
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:527,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:513,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:504,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:504
+msgid "%s orders placed"
+msgstr "%s erhaltene Bestellungen"
+
+#. translators: $s number of items
+#. translators: %s number of items
+#. translators: %s number of items
+#. translators: %s number of items
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:534,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:520,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:511,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:511
+msgid "%s items purchased"
+msgstr "%s verkaufte Artikel"
+
+#. translators: %s total shipping
+#. translators: %s total shipping
+#. translators: %s total shipping
+#. translators: %s total shipping
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:541,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:527,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:518,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:518
+msgid "%s charged for shipping"
+msgstr "%s für Versandkosten berechnet"
+
+#. translators: %s total refunds
+#. translators: %s total refunds
+#. translators: %s total refunds
+#. translators: %s total refunds
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:547,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:533,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:524,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:524
+msgid "%s in refunds"
+msgstr ""
+
+#. translators: %s total coupons
+#. translators: %s total coupons
+#. translators: %s total coupons
+#. translators: %s total coupons
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:553,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:539,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:530,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:530
+msgid "%s worth of coupons used"
+msgstr "%s Wert der genutzten Gutscheine"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:567,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:553,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:544,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:544
+msgid "Year"
+msgstr "Jahr"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:568,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:554,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:545,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:545
+msgid "Last Month"
+msgstr "Letzter Monat"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:569,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:555,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:546,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:546
+msgid "This Month"
+msgstr "Aktueller Monat"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:570,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:556,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:547,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:547
+msgid "Last 7 Days"
+msgstr "Letzte 7 Tage"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:607,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:593,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:584,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:584
+msgid "Showing reports for:"
+msgstr "Zeige Berichte für:"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:653
+msgid "Search Cashier"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:657
+msgid "Search for a cashier&hellip;"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:658,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:632,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:629,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:629
+msgid "Show"
+msgstr "Anzeigen"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:704
+msgid "Top cashiers"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:763,
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:825
+msgid "No cashiers found in range"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:768,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:732,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:724,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:724
+msgid "Top Earners"
+msgstr "Topverdiener"
+
+#. translators:  %1$s total worth %2$d last number of days
+#. translators: $1$s total worth %2$d last number of days
+#. translators: %1$s total worth %2$d last number of days
+#. translators: %1$s total worth %2$d last number of days
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:950,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:905,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:893,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:893
+msgid "Sold %1$s worth in the last %2$d days"
+msgstr "Verkaufter Warenwert von %1$s in den letzten %2$d Tagen"
+
+#. translators:  %1$s number of orders %2$d last number of days
+#. translators: $1$s number of orders %2$d last number of days
+#. translators: %1$d total number of orders %2$d last number of days
+#. translators: %1$d total number of orders %2$d last number of days
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:953,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:908,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:896,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:896
+msgid "%1$d order placed in the last %2$d days"
+msgid_plural "%1$d orders placed in the last %2$d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:973,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:928,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:916,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:916,
+#: includes/views/html-print-receipt.php:522,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:71
+msgid "Date"
+msgstr "Datum"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:976,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:931,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:919,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:919
+msgid "Export CSV"
+msgstr "CSV-Datei exportieren"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1006
+msgid "&larr; Choose a cashier to view stats"
+msgstr "&larr; Wählen Sie einen Kassierer, um Statistiken anzeigen zu lassen"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1054,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1009,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:997,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:997
+msgid "Number of items sold"
+msgstr "Anzahl verkaufter Artikel"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1062,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1017,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1005,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1005
+msgid "Number of orders"
+msgstr "Anzahl der Bestellungen"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1070,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1025,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1013,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1013
+msgid "Average sales amount"
+msgstr "Durchschnittliche Verkaufsmenge"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1080,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1035,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1023,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1023
+msgid "Coupon amount"
+msgstr "Gutscheinbetrag"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1090,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1045,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1033,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1033
+msgid "Refund amount"
+msgstr "Rückerstattungsbetrag"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1100,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1055,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1043,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1043
+msgid "Shipping amount"
+msgstr "Versandkosten"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1110,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1065,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1053,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1053
+msgid "Gross Sales amount"
+msgstr "Bruttoumsatz"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1120,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1075,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1063,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1063
+msgid "Net Sales amount"
+msgstr "Nettoumsatz"
+
+#: includes/reports/class-wc-pos-report-sales-by-cashier.php:1130,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:1085,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:1073,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:1073
+msgid "Sales amount for saved orders"
+msgstr ""
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:487
+msgid "%s gross sales from this outlet"
+msgstr "%s Bruttoverkaufserlöse aus dieser Filiale"
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:494
+msgid "%s net sales from this outlet"
+msgstr "%s Nettoumsatzes dieser Filiale"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:627
+msgid "Outlet Search"
+msgstr "Standort suchen"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:631
+msgid "Search for a outlet&hellip;"
+msgstr "Nach einem Verkaufsstandort suchen&hellip;"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:678
+msgid "Top Outlets"
+msgstr "Top Outlets"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:727,
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:782
+msgid "No outlets found in range"
+msgstr "Keine Outlets in Reichweite gefunden"
+
+#: includes/reports/class-wc-pos-report-sales-by-outlet.php:961
+msgid "&larr; Choose outlet to view stats"
+msgstr "&larr; Wählen Sie ein Outlet, um Statistiken anzuzeigen"
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-register.php:478
+msgid "%s gross sales from this register"
+msgstr "%s Bruttoumsatz aus diesem Register"
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-register.php:485
+msgid "%s net sales from this register"
+msgstr "%s Umsatz aus diesem Register"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:624
+msgid "Register Search"
+msgstr "Kasse Suchen"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:628
+msgid "Search for a register&hellip;"
+msgstr "Suche nach einer Kasse&hellip;"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:668
+msgid "Top Registers"
+msgstr "Top Kasse"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:719,
+#: includes/reports/class-wc-pos-report-sales-by-register.php:774
+msgid "No registers found in range"
+msgstr "Keine Kasse in Reichweite gefunden"
+
+#: includes/reports/class-wc-pos-report-sales-by-register.php:949
+msgid "&larr; Choose a register to view stats"
+msgstr "&larr; Wählen Sie eine Kasse, um Statistiken anzuzeigen"
+
+#. translators: %s total sales
+#: includes/reports/class-wc-pos-report-sales-by-session.php:478
+msgid "%s gross sales from this session"
+msgstr ""
+
+#. translators: %s net sales
+#: includes/reports/class-wc-pos-report-sales-by-session.php:485
+msgid "%s net sales from this session"
+msgstr ""
+
+#. translators: %s saved sales
+#: includes/reports/class-wc-pos-report-sales-by-session.php:497
+msgid "%s sales from this session for saved orders"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:624
+msgid "Session Search"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:628
+msgid "Search for a session&hellip;"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:668
+msgid "Top Sessions"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:719,
+#: includes/reports/class-wc-pos-report-sales-by-session.php:774
+msgid "No sessions found in range"
+msgstr ""
+
+#: includes/reports/class-wc-pos-report-sales-by-session.php:949
+msgid "&larr; Choose a session to view stats"
+msgstr ""
+
+#: includes/views/html-admin-barcode-item.php:34
+msgid "Variation ID:"
+msgstr "ID der Variante:"
+
+#: includes/views/html-admin-barcode-item.php:93
+msgid "Edit item"
+msgstr "Bestellposition bearbeiten"
+
+#: includes/views/html-admin-barcode-item.php:94
+msgid "Delete item"
+msgstr "Artikel löschen"
+
+#: includes/views/html-admin-barcode-options.php:18
+msgid "Item"
+msgstr "Artikel"
+
+#: includes/views/html-admin-barcode-options.php:30
+msgid "Add products to generate barcodes."
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:49
+msgid "Delete selected row(s)"
+msgstr "Ausgewählte Zeile(n) löschen"
+
+#: includes/views/html-admin-barcode-options.php:50
+msgid "Add all variations"
+msgstr ""
+
+#: includes/views/html-admin-barcode-options.php:51
+msgid "Add product(s)"
+msgstr "Produkt(e) hinzufügen"
+
+#: includes/views/html-admin-barcode-options.php:52
+msgid "Add category"
+msgstr "Kategorie hinzufügen"
+
+#: includes/views/html-admin-barcode-options.php:67
+msgid "Add products"
+msgstr "Produkte hinzufügen"
+
+#: includes/views/html-admin-barcode-options.php:69,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:56
+msgid "Close modal panel"
+msgstr "Modal Panel schließen"
+
+#: includes/views/html-admin-barcode-options.php:77,
+#: includes/views/html-admin-barcode-options.php:82,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:94
+msgid "Search for a product&hellip;"
+msgstr "Nach einem Produkt suchen&hellip;"
+
+#: includes/views/html-admin-barcode-options.php:90,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:120
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: includes/views/html-admin-barcode-options.php:101
+msgid "Add products to generate barcodes"
+msgstr ""
+
+#: includes/views/html-my-account-tab.php:17
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/views/html-my-account-tab.php:53,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:286
+msgid "Enter"
+msgstr "Eingabe"
+
+#: includes/views/html-my-account-tab.php:53,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:165,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:286,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:302,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:304,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:311
+msgid "Open"
+msgstr "Offen"
+
+#: includes/views/html-my-account-tab.php:65
+msgid "No registers found."
+msgstr "Keine Kassen gefunden."
+
+#: includes/views/html-print-receipt.php:11,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:29
+msgid "Gift Receipt"
+msgstr "Geschenk Quittung"
+
+#: includes/views/html-print-receipt.php:259,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:173,
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:51
+msgid "Number of Items"
+msgstr "Anzahl"
+
+#: includes/views/html-print-receipt.php:284
+msgid " (Shipping)"
+msgstr " (Versand)"
+
+#: includes/views/html-print-receipt.php:486,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:35,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:35
+msgid "Outlet Name"
+msgstr "Standort"
+
+#: includes/views/html-print-receipt.php:489,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:40
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: includes/views/html-print-receipt.php:490,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:41
+msgid "Fax:"
+msgstr "Fax:"
+
+#: includes/views/html-print-receipt.php:491,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:42
+msgid "Email:"
+msgstr "E-Mail:"
+
+#: includes/views/html-print-receipt.php:492,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:43
+msgid "Website:"
+msgstr "Webseite:"
+
+#: includes/views/html-print-receipt.php:495,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:46
+msgid "Wi-Fi Network:"
+msgstr ""
+
+#: includes/views/html-print-receipt.php:496,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:47
+msgid "Wi-Fi Password:"
+msgstr "WiFi-Passwort:"
+
+#: includes/views/html-print-receipt.php:500,
+#: includes/views/html-print-receipt.php:636,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:50
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: includes/views/html-print-receipt.php:501,
+#: includes/views/html-print-receipt.php:637,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:51
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: includes/views/html-print-receipt.php:502,
+#: includes/views/html-print-receipt.php:638,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:52
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: includes/views/html-print-receipt.php:503,
+#: includes/views/html-print-receipt.php:639,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:53
+msgid "Snapchat:"
+msgstr "Snapchat:"
+
+#: includes/views/html-print-receipt.php:525,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:74
+msgctxt "At time"
+msgid "at"
+msgstr "um"
+
+#: includes/views/html-print-receipt.php:530,
+#: includes/admin/settings/wc-pos-settings-customer.php:25,
+#: includes/admin/settings/wc-pos-settings-customer.php:37,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:79,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:94
+msgid "Customer"
+msgstr "Kunde"
+
+#: includes/views/html-print-receipt.php:546,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:95
+msgid "Served by"
+msgstr "Es bediente Sie"
+
+#: includes/views/html-print-receipt.php:549
+msgid "on"
+msgstr "am"
+
+#: includes/views/html-print-receipt.php:553,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:102
+msgid "Order Notes"
+msgstr "Anmerkungen zur Bestellung"
+
+#: includes/views/html-print-receipt.php:615,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:182,
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:60
+msgid "Tax Summary"
+msgstr "Steuerüberblick"
+
+#: includes/views/html-print-receipt.php:616,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:183
+msgid "Tax Name"
+msgstr "Steuername"
+
+#: includes/views/html-print-receipt.php:617,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:184
+msgid "Tax Rate"
+msgstr "Steuersatz"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:118
+msgid "Create your first product grid"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:119
+msgid "Learn more about grids"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-grids.php:127,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:121,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:121,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:131
+msgid "(no-title)"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:97
+msgid "Contact Details"
+msgstr "Kontaktdetails"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-outlets.php:141
+msgid "This is the default outlet and it cannot be deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:96,
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:40
+msgid "Number of Copies"
+msgstr "Anzahl Exemplare"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:97,
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:53
+msgid "Print Width"
+msgstr "Druckbreite"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:98
+msgid "Show Tax Summary"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:129
+msgid "This is the default receipt and it cannot be deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:155,
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:55
+msgctxt "Millimeter"
+msgid "mm"
+msgstr "mm"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-receipts.php:155
+msgid "Dynamic"
+msgstr "Dynamisch"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:95,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:95
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:96,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:79
+msgid "Change Cashier"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:96
+msgid "Change User"
+msgstr "Benutzer wechseln"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:97,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:42
+msgid "Email Receipt"
+msgstr "Email Beleg"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:99,
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:61
+msgid "Note Request"
+msgstr "Notiz Anfrage"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:100,
+#: includes/admin/settings/wc-pos-settings-register.php:41,
+#: includes/admin/meta-boxes/views/html-register-options-general.php:108
+msgid "Cash Management"
+msgstr "Cash Management"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:101
+msgid "Access"
+msgstr "Zugang"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:129
+msgid "Category Layout"
+msgstr "Kategorielayout"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:134
+msgid "located in"
+msgstr "befindet sich in"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:145
+msgid "This is the default register and it cannot be deleted."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:167,
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:262
+msgid "Closed"
+msgstr "Geschlossen"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:176
+msgid "User changes after sale."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:178
+msgid "User does not change after sale."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:188
+msgid "Receipt is emailed to all customers."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:191
+msgid "Receipt is emailed to non-guest customers only."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:194
+msgid "Receipt is not emailed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:204
+msgid "Receipt is printed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:206
+msgid "Receipt is not printed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:216
+msgid "Note is taken on save."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:219
+msgid "Note is taken on all sales."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:222
+msgid "Note is not taken."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:232
+msgid "Cash is managed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:234
+msgid "Cash is not managed."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:254
+msgid "No outlet assigned."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:258
+msgid "No receipt template assigned."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:287
+msgid "Enter Register"
+msgstr ""
+
+#. translators: %s: user full name
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:299
+msgid "%s is currently logged on this register."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:311
+msgid "You are not assigned to the register outlet."
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-registers.php:353
+msgid "Filter by outlet"
+msgstr "Filter nach Standort"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:92
+msgid "Reigser"
+msgstr ""
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:94
+msgid "Opened at"
+msgstr "Geöffnet am/um"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:95
+msgid "Closed at"
+msgstr "Schließt um"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:96
+msgid "Opened by"
+msgstr "Geöffnet von"
+
+#: includes/admin/list-tables/class-wc-pos-admin-list-table-sessions.php:97
+msgid "Closed by"
+msgstr "Geschlossen von"
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:53
+msgid "Contact"
+msgstr "Kontakt"
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:58
+msgid "WiFi"
+msgstr "WiFi"
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-outlet-options.php:63
+msgid "Social"
+msgstr "Social"
+
+#: includes/admin/meta-boxes/class-wc-pos-meta-box-register-options.php:46,
+#: includes/admin/settings/wc-pos-settings-general.php:25
+msgid "General"
+msgstr "Allgemein"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:42
+msgid "Advanced"
+msgstr "Erweitert"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:64
+msgid "Database"
+msgstr "Datenbank"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:71
+msgid "Last Forced Update: "
+msgstr "Letztes erzwungenes Update: "
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:74
+msgid "No forced update made"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:79
+msgid "POS Database Version: "
+msgstr "POS-Datenbank Version: "
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:87
+msgid "Database Update: "
+msgstr "Datenbankupdate: "
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:90
+msgid "Force Update"
+msgstr "Erzwinge Aktualisierung"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:92
+msgid ""
+"Use with caution: this tool will update the database to the latest version - "
+"useful when settings are not being applied as per configured in settings, "
+"registers, receipts and outlets."
+msgstr ""
+"Mit Vorsicht verwenden: Dieses Tool aktualisiert die Datenbank auf die "
+"neueste Version - nützlich, wenn Einstellungen nicht gemäß Konfigurationen, "
+"Kassen, Belegen und Verkaufsstandorten angewendet werden."
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:98
+msgid "Settings:"
+msgstr "Einstellungen:"
+
+#: includes/admin/settings/wc-pos-settings-advanced.php:102
+msgid ""
+"This tool will update the database to the latest version - useful when "
+"settings are not being applied as per configured in settings, registers, "
+"receipts and outlets."
+msgstr ""
+"Verwenden Sie mit Vorsicht: Dieses Tool wird die Datenbank auf die neueste "
+"Version aktualisieren-nützlich, wenn die Einstellungen nicht gemäß "
+"konfiguriert in Einstellungen, Registern, Quittungen und Outlets  angewendet "
+"werden."
+
+#: includes/admin/settings/wc-pos-settings-customer.php:57
+msgid "End of Sale Actions"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:58
+msgid ""
+"The following options affect the actions presented at the end of the "
+"checkout process."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:64
+msgid "Signature Capture"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:65
+msgid "Enable signature capture"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:66
+msgid "Presents a modal window to capture the signature of user or customer."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:73
+msgid "Signature Required"
+msgstr "Unterschrift erforderlich"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:74
+msgid "Enforce capturing of signature"
+msgstr "Erfassen der Signatur erzwingen"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:75
+msgid ""
+"Allows you to force user to enter signature before proceeding with register "
+"commands."
+msgstr ""
+"Ermöglicht es Ihnen, den Benutzer zur Eingabe einer Signatur zu zwingen, "
+"bevor Sie fortfahren können."
+
+#: includes/admin/settings/wc-pos-settings-customer.php:83
+msgid "Signature Commands"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:84
+msgid ""
+"Choose which commands would you like the signature panel to be shown for."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:108
+msgid "Customer Options"
+msgstr "Kunden Optionen"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:109
+msgid ""
+"The following options affect the account creation process when creating "
+"customers."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:115
+msgid "Default Country"
+msgstr "Standard Land"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:116
+msgid "Sets the default country for shipping and customer accounts."
+msgstr "Auswählen des Standard-Landes für die Versand- und Kunden-Kontoangaben"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:123
+msgid "Guest Checkout"
+msgstr "Gast-Bestellung"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:126
+msgid "Enable guest checkout"
+msgstr "Bezahlvorgang (Kasse) für nicht angemeldete Nutzer (Gäste) freigeben"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:127
+msgid ""
+"Allows register cashiers to process and fulfil an order without choosing a "
+"customer."
+msgstr ""
+"Erlaubt Kassierern, Gastbestellungen ohne Angabe des Kunden zu tätigen."
+
+#: includes/admin/settings/wc-pos-settings-customer.php:132
+msgid "Customer Cards"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:133
+msgid "Enable customer cards"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:134
+msgid ""
+"Allow the ability to scan customers cards to load their account instantly."
+msgstr ""
+"Erlauben Sie die Möglichkeit, Kundenkarten zu scannen, um das Kundenkonto "
+"sofort zu laden."
+
+#: includes/admin/settings/wc-pos-settings-customer.php:141
+msgid "Required Fields"
+msgstr "Pflichtfelder"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:145
+msgid ""
+"Select the fields that are required when creating a customer through the "
+"register."
+msgstr ""
+"Wählen Sie die Felder aus, die bei der Erstellung eines Kunden über das "
+"Register benötigt werden."
+
+#: includes/admin/settings/wc-pos-settings-customer.php:147
+msgid "Billing First Name"
+msgstr "Rechnungsadresse Vorname"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:148
+msgid "Billing Last Name"
+msgstr "Rechnungsadresse Nachname"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:149
+msgid "Billing Email"
+msgstr "Rechnungs-E-Mail"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:150
+msgid "Billing Company"
+msgstr "Rechnungsadresse Unternehmen"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:151
+msgid "Billing Address 1"
+msgstr "Ihre Rechnungsadresse"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:152
+msgid "Billing Address 2"
+msgstr "Ihre Rechnungsadresse"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:153
+msgid "Billing City"
+msgstr "Rechnungsadresse Stadt/Ort"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:154
+msgid "Billing State"
+msgstr "Rechnungsadresse Bundesland"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:155
+msgid "Billing Postcode"
+msgstr "Abrechnungs-Postleitzahl"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:156
+msgid "Billing Country"
+msgstr "Rechnungsadresse Land"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:157
+msgid "Billing Phone"
+msgstr "Rechnungs-Telefon"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:158
+msgid "Shipping First Name"
+msgstr "Versand an Vorname"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:159
+msgid "Shipping Last Name"
+msgstr "Versand an Nachname"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:160
+msgid "Shipping Company"
+msgstr "Lieferadresse  Firma"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:161
+msgid "Shipping Address 1"
+msgstr "Versandadresse 1"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:162
+msgid "Shipping Address 2"
+msgstr "Lieferadresse 2"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:163
+msgid "Shipping City"
+msgstr "Versand  Ort"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:164
+msgid "Shipping State"
+msgstr "Lieferadresse Bundesland"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:165
+msgid "Shipping Postcode"
+msgstr "Versender Postleitzahl"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:166
+msgid "Shipping Country"
+msgstr "Versand  Land"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:182
+msgid "Optional Fields"
+msgstr "Optional Felder"
+
+#: includes/admin/settings/wc-pos-settings-customer.php:185
+msgid "Hide optional fields when adding customer"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-customer.php:186
+msgid ""
+"Optional fields will not be shown to make capturing of customer data easier "
+"for the cashier."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:47
+msgid "General Options"
+msgstr "Allgemeine Optionen"
+
+#: includes/admin/settings/wc-pos-settings-general.php:53
+msgid "Filters"
+msgstr "Filter"
+
+#: includes/admin/settings/wc-pos-settings-general.php:54
+msgid "Select which filters appear on the Orders page."
+msgstr "Wählen Sie die Filter die auf der Seite Bestellungen angezeigt werden."
+
+#: includes/admin/settings/wc-pos-settings-general.php:66
+msgid "Front End Access"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:67
+msgid "Enable front-end access to assigned registers"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:68
+msgid ""
+"Allows cashiers to access their assigned registers from their My Account "
+"page."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:75
+msgid "Auto Logout"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:76
+msgid ""
+"Choose whether to automatically exit the register screen after inactive "
+"time. This will not close the register."
+msgstr ""
+"Wählen Sie aus, ob der Kassenbildschirm nach inaktiver Zeit automatisch "
+"gesperrt werden soll. Dadurch wird die Kasse nicht geschlossen."
+
+#: includes/admin/settings/wc-pos-settings-general.php:82
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: includes/admin/settings/wc-pos-settings-general.php:83
+msgid "1 min"
+msgstr "Opto 1 verwenden"
+
+#: includes/admin/settings/wc-pos-settings-general.php:84
+msgid "5 min"
+msgstr "5 Min."
+
+#: includes/admin/settings/wc-pos-settings-general.php:85
+msgid "15 min"
+msgstr "15 min"
+
+#: includes/admin/settings/wc-pos-settings-general.php:86
+msgid "30 mins"
+msgstr "30 Min."
+
+#: includes/admin/settings/wc-pos-settings-general.php:87
+msgid "1 hour"
+msgstr "1 Stunde"
+
+#: includes/admin/settings/wc-pos-settings-general.php:88
+msgid "2 hours"
+msgstr "2 Stunden"
+
+#: includes/admin/settings/wc-pos-settings-general.php:92,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:113
+msgid "Tax Number"
+msgstr "Steuernummer"
+
+#: includes/admin/settings/wc-pos-settings-general.php:94
+msgid ""
+"Enter the tax number which is applied to this particular register. This will "
+"be printed on receipts if tax number is enabled on receipt template."
+msgstr ""
+"Geben Sie die Steuernummer ein, die auf dieses Register angewendet wird. "
+"Diese wird auf Quittungen gedruckt, wenn die Steuernummer auf der "
+"Quittungsvorlage aktiviert ist."
+
+#: includes/admin/settings/wc-pos-settings-general.php:98
+msgid "Transitions and Effects"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:102
+msgid "Disable transitions and effects"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:103
+msgid ""
+"Check this box to disable transitions and effects when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:112
+msgid "Enable dining option"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:113
+msgid "Check this box to enable dining when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:122
+msgid "Status Options"
+msgstr "Status Optionen"
+
+#: includes/admin/settings/wc-pos-settings-general.php:123
+msgid ""
+"The following options affect the status of the orders when using the "
+"register."
+msgstr ""
+"Folgende Optionen beeinflussen den Status von Bestellungen beim Verwenden "
+"der Kasse."
+
+#: includes/admin/settings/wc-pos-settings-general.php:128
+msgid "Fulfilled Orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:129
+msgid "Select the order status of completed orders when using the register."
+msgstr ""
+"Wählen Sie den Bestellstatus erfolgreich abgeschlossener Bestellungen wenn "
+"Sie die Kasse verwenden."
+
+#: includes/admin/settings/wc-pos-settings-general.php:139
+msgid "Parked Orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:140
+msgid "Select the order status of saved orders when using the register."
+msgstr ""
+"Wählen Sie den Bestellstatus erfolgreich abgeschlossener Bestellungen wenn "
+"Sie die Kasse verwenden."
+
+#: includes/admin/settings/wc-pos-settings-general.php:148
+msgid "Fetch Orders "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:149
+msgid "Select the order statuses of loaded orders when using the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:157
+msgid "Website Orders "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:161
+msgid "Load website orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-general.php:162
+msgid "Loads orders placed through the web store."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:61
+msgid "Cash Management Options"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:63
+msgid ""
+"The following options affect the settings that are applied when using the "
+"cash management function."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:67
+msgid "Order Status Criteria "
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:68
+msgid "Select the order statuses to be included to the cash management."
+msgstr ""
+"Wählen Sie, welche Bestellungen in der Kassenführung berücksichtigt werden "
+"sollen."
+
+#: includes/admin/settings/wc-pos-settings-register.php:76
+msgid "Currency Rounding"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:77
+msgid "Enable currency rounding"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:78
+msgid ""
+"Rounds the total to the nearest value defined below. Used by some countries "
+"where not all denominations are available."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:85
+msgid "Rounding Value"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:86
+msgid ""
+"Select the rounding value which you want the register to round nearest to."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:94
+msgid "0.01"
+msgstr "0,01"
+
+#: includes/admin/settings/wc-pos-settings-register.php:95
+msgid "0.05"
+msgstr "0,05"
+
+#: includes/admin/settings/wc-pos-settings-register.php:96
+msgid "0.10"
+msgstr "0,10"
+
+#: includes/admin/settings/wc-pos-settings-register.php:97
+msgid "0.50"
+msgstr "0,50"
+
+#: includes/admin/settings/wc-pos-settings-register.php:98
+msgid "1.00"
+msgstr "1,00"
+
+#: includes/admin/settings/wc-pos-settings-register.php:99
+msgid "5.00"
+msgstr "5.00"
+
+#: includes/admin/settings/wc-pos-settings-register.php:116
+msgid "Register Options"
+msgstr "Register Optionen"
+
+#: includes/admin/settings/wc-pos-settings-register.php:118
+msgid ""
+"The following options affect the settings that are applied when loading all "
+"registers."
+msgstr ""
+"Die folgenden Optionen wirken sich auf die Einstellungen aus, die beim Laden "
+"aller Kassen angewendet werden."
+
+#: includes/admin/settings/wc-pos-settings-register.php:122
+msgid "Keypad Presets"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:123
+msgid ""
+"Define the preset keys that appear when applying discounts in the register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:130
+msgid "5%"
+msgstr "5%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:131
+msgid "10%"
+msgstr "10%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:132
+msgid "15%"
+msgstr "15%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:133
+msgid "20%"
+msgstr "20%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:134
+msgid "25%"
+msgstr "25%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:135
+msgid "30%"
+msgstr "30%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:136
+msgid "35%"
+msgstr "35%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:137
+msgid "40%"
+msgstr "40%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:138
+msgid "45%"
+msgstr "45%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:139
+msgid "50%"
+msgstr "50%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:140
+msgid "55%"
+msgstr "55%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:141
+msgid "60%"
+msgstr "60%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:142
+msgid "65%"
+msgstr "65%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:143
+msgid "70%"
+msgstr "70%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:144
+msgid "75%"
+msgstr "75%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:145
+msgid "80%"
+msgstr "80%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:146
+msgid "85%"
+msgstr "85%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:147
+msgid "90%"
+msgstr "90%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:148
+msgid "95%"
+msgstr "95%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:149
+msgid "100%"
+msgstr "100%"
+
+#: includes/admin/settings/wc-pos-settings-register.php:155
+msgid "Keyboard Shortcuts"
+msgstr "Tastenkürzel"
+
+#: includes/admin/settings/wc-pos-settings-register.php:156
+msgid "Enable keyboard shortcuts"
+msgstr ""
+
+#. translators: 1: opening anchor tag for the shortcuts link 2: closing anchor tag
+#: includes/admin/settings/wc-pos-settings-register.php:158
+msgid ""
+"Allows you to use keyboard shortcuts to execute popular and frequent "
+"actions. Click %1$shere%2$s for the list of keyboard shortcuts."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:165
+msgid "Scanning Fields"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:166
+msgid ""
+"Control what fields are used when using the scanner on the register. You can "
+"select multiple fields. Default is SKU."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:172
+msgid "WooCommerce SKU"
+msgstr "Woocommerce SKU"
+
+#: includes/admin/settings/wc-pos-settings-register.php:178
+msgid "Force Logout"
+msgstr "Abmelden erzwingen"
+
+#: includes/admin/settings/wc-pos-settings-register.php:179
+msgid "Enable taking over of registers"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-register.php:180
+msgid "Allows shop managers to take over an already opened register."
+msgstr ""
+"Ermöglicht es Shop-Managern, eine bereits geöffnete Kasse zu übernehmen."
+
+#: includes/admin/settings/wc-pos-settings-register.php:248
+msgid "GTIN"
+msgstr "GTIN"
+
+#: includes/admin/settings/wc-pos-settings-reports.php:25
+msgid "Reports"
+msgstr "Berichte"
+
+#: includes/admin/settings/wc-pos-settings-reports.php:45
+msgid "Report Options"
+msgstr "Berichtoptionen"
+
+#: includes/admin/settings/wc-pos-settings-reports.php:46
+msgid ""
+"The following options affect the reports that are displayed when closing the "
+"register."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:51
+msgid "Closing Reports"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:52
+msgid "Display end of day report when closing register"
+msgstr "Ende des Tagesbericht beim Register schließen angezeigt"
+
+#: includes/admin/settings/wc-pos-settings-reports.php:53
+msgid "End of day report displayed with total sales when register closes."
+msgstr "Tagesendbericht wenn Kasse schließt."
+
+#: includes/admin/settings/wc-pos-settings-reports.php:60
+msgid "Report Orders"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:61
+msgid ""
+"Select which order statuses to include in the final counts displayed in the "
+"end of day report."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-reports.php:74
+msgid "End of Sale Email"
+msgstr ""
+
+#. translators: %1$s opening anchor tag %2$s closing anchor tag
+#: includes/admin/settings/wc-pos-settings-reports.php:76
+msgid ""
+"The end of sale email notification can be customized in %1$sWooCommerce &gt; "
+"Emails%2$s."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tax.php:56
+msgid "Tax Calculation"
+msgstr "Steuerberechnung"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:59
+msgid "Enables the calculation of tax using the WooCommerce configurations."
+msgstr ""
+"Ermöglicht die Berechnung der Steuer anhand der WooCommerce-Konfigurationen."
+
+#: includes/admin/settings/wc-pos-settings-tax.php:64
+msgid "Enabled (using WooCommerce configurations)"
+msgstr "Aktiviert (benutze WooCommerce Konfiguration)"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:65
+msgid "Disabled"
+msgstr "Deaktiviert"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:69
+msgid "Calculate Tax Based On"
+msgstr "Steuerberechnung basierend auf"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:74
+msgid "This option determines which address used to calculate tax."
+msgstr ""
+"Diese Einstellung legt fest, welche Adresse für das Berechnen der Steuer "
+"herangezogen wird."
+
+#: includes/admin/settings/wc-pos-settings-tax.php:78
+msgid "Default WooCommerce"
+msgstr "Standard WooCommerce"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:79
+msgid "Customer shipping address"
+msgstr "Lieferadresse des Kunden"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:80
+msgid "Customer billing address"
+msgstr "Rechnungsadresse des Kunden"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:81
+msgid "Shop base address"
+msgstr "Basisadresse des Shops (Basisland)"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:82
+msgid "Outlet address"
+msgstr "Standort Adresse"
+
+#: includes/admin/settings/wc-pos-settings-tax.php:91
+msgid "Tax Options"
+msgstr "Steueroptionen"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:43
+msgid "Tile Options"
+msgstr "Kachel Optionen"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:44
+msgid "The following options affect how the tiles appear on the product grid."
+msgstr ""
+"Die folgenden Optionen beeinflussen die Darstellung der Kacheln auf dem "
+"Produktgitter."
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:49
+msgid "Default Tile Sorting"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:50
+msgid "This controls the default sort order of the tile."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:59
+msgid "Default sorting (custom ordering + name)"
+msgstr "Standardsortierung (benutzerdefinierte Reihenfolge + Name)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:60
+msgid "Popularity (sales)"
+msgstr "Beliebtheit (Verkäufe)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:61
+msgid "Average Rating"
+msgstr "Durchschnittliche Bewertung"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:62
+msgid "Sort by most recent"
+msgstr "Nach neuestem Produkt sortiert"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:63
+msgid "Sort by price (asc)"
+msgstr "Nach Preis sortiert (aufsteigend)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:64
+msgid "Sort by price (desc)"
+msgstr "Nach Preis sortiert (absteigend)"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:65
+msgid "Name (asc)"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:70
+msgid "Product Previews"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:73
+msgid "Enable product preview panels"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:74
+msgid "Shows a button on each tile for cashiers to view full product details."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:82
+msgid "Enable out of stock products"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:83
+msgid "Shows out of stock products in the product grid."
+msgstr "Zeigt nicht vorrätig Produkte im Produktraster an."
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:88
+msgid "Product Visiblity"
+msgstr "Produkt Sichtbarkeit"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:89
+msgid "Enable product visibility control"
+msgstr "Ermöglichen der Produktsichtbarkeits Kontrolle"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:90
+msgid ""
+"Allows you to show and hide products from either the POS, web or both shops."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:97,
+#: includes/admin/views/html-product-data-point-of-sale.php:21
+msgid "Unit of Measurement"
+msgstr "Maßeinheit"
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:98
+msgid "Enable decimal stock counts and change of unit of measurement."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:99
+msgid ""
+"Allows you to sell your stock in decimal quantities and set the default unit "
+"of measurement of stock values. Useful for those who want to sell weight or "
+"linear based products."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:106
+msgid "Add to Cart Behaviour"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:107
+msgid ""
+"Control what happens to the grid after a product is added to the basket."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:108
+msgid ""
+"Allows shop managers to choose the behaviour of grids when adding products "
+"to the cart."
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:114
+msgid "Stay on the selected category"
+msgstr ""
+
+#: includes/admin/settings/wc-pos-settings-tiles.php:115
+msgid "Return to the category selection"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:40,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:88
+msgctxt "Receipt preview phone example"
+msgid "0161 154 6783"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:41
+msgctxt "Receipt preview fax example"
+msgid "0161 154 6784"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:50
+msgctxt "Receipt Twitter account example"
+msgid "OutletTW"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:51
+msgctxt "Receipt Facebook account example"
+msgid "OutletFB"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:52
+msgctxt "Receipt Instagram account example"
+msgid "OutletIN"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:53
+msgctxt "Receipt Snapchat account example"
+msgid "OutletSC"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:68
+msgctxt "Receipt preview order number example"
+msgid "WC1234AE"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:80
+msgctxt "Receipt preview customer example"
+msgid "John Doe"
+msgstr "Max Mustermann"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:84
+msgctxt "Receipt preview email example"
+msgid "mail@example.com"
+msgstr "mail@example.com"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:98
+msgctxt "Receipt preview register name example"
+msgid "on Default Register"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:103
+msgid "Please deliver this tomorrow at 12pm."
+msgstr "Bitte liefern Sie das morgen um 12 Uhr."
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:124
+msgctxt "Receipt preview quantity example"
+msgid "2"
+msgstr "2"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:127
+msgid "Mobile Phone"
+msgstr "Mobiltelefon"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:128
+msgctxt "Receipt preview SKU example"
+msgid "SKU: PRDCT123"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:129
+msgctxt "Receipt preview product size example"
+msgid "Size: 32GB"
+msgstr "Größe: 32 GB"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:130
+msgctxt "Receipt preview product color example"
+msgid "Color: Silver"
+msgstr "Farbe: Silber"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:133
+msgctxt "Receipt preview product cost example"
+msgid "£59.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:134
+msgctxt "Receipt preview product discounted cost example"
+msgid "£55.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:137
+msgctxt "Receipt preview product total example"
+msgid "£118.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:138
+msgctxt "Receipt preview product discounted total example"
+msgid "£110.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:146
+msgctxt "Receipt preview subtotal example"
+msgid "£118.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:147
+msgctxt "Receipt preview discounted subtotal example"
+msgid "£110.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:153,
+#: includes/admin/views/html-admin-receipt-customize-preview.php:193
+msgctxt "Receipt preview tax example"
+msgid "£23.60"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:154
+msgctxt "Receipt preview discounted tax example"
+msgid "£22.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:158
+msgid "Payment Type Sales"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:160
+msgctxt "Receipt preview sales example"
+msgid "£141.60"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:161
+msgctxt "Receipt preview discounted sales example"
+msgid "£132.00"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:166
+msgctxt "Receipt preview total example"
+msgid "£141.60"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:170
+msgctxt "Receipt preview change example"
+msgid "£0.00"
+msgstr "£0.00"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:174
+msgctxt "Receipt preview number of items example"
+msgid "2"
+msgstr "2"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:191
+msgctxt "Receipt preview tax name example"
+msgid "GB-VAT-20"
+msgstr "GB-VAT-20"
+
+#: includes/admin/views/html-admin-receipt-customize-preview.php:192
+msgctxt "Receipt preview tax rate example"
+msgid "20.00"
+msgstr "20,00"
+
+#: includes/admin/views/html-admin-receipt-customize-section-footer-text.php:15
+msgid "Text to be printed in the footer of the receipt."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:13
+msgid "Receipt Name"
+msgstr "Belegname"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:14
+msgid "Distinguish this template from other templates by giving it a name."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:23
+msgid "Print the title."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:29
+msgid "Receipt Title Position"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:30
+msgid "Choose the position of the receipt title that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:32,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:16,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:124,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:33
+msgid "Left"
+msgstr "Links"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:33,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:17,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:125,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:34
+msgid "Center"
+msgstr "Zentriert"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:34,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:18,
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:126,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:35
+msgid "Right"
+msgstr "Rechts"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:41
+msgid ""
+"Set the number of copies you want to print when this receipt is generated."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:43
+msgctxt "Receipt number of copies"
+msgid "1"
+msgstr "1"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:44
+msgctxt "Receipt number of copies"
+msgid "2"
+msgstr "2"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:45
+msgctxt "Receipt number of copies"
+msgid "3"
+msgstr "3"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:46
+msgctxt "Receipt number of copies"
+msgid "4"
+msgstr "4"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:47
+msgctxt "Receipt number of copies"
+msgid "5"
+msgstr "5"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:54
+msgid ""
+"Set the width (in mm) of the receipt when it is generated for printing. For "
+"dynamic width enter 0."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:60
+msgid "Receipt Type"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:62
+msgid "HTML"
+msgstr "HTML"
+
+#: includes/admin/views/html-admin-receipt-customize-section-general.php:63,
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:44,
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:17
+msgid "Normal"
+msgstr "Normal"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header-text.php:15
+msgid "Text to be printed in the header of the receipt."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:13
+msgid "Outlet Details Position"
+msgstr "Outlet Details Position"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:14
+msgid "Choose the position of the outlet contact details that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:26
+msgid "Shop Name"
+msgstr "Shopname"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:27
+msgid "Print the shop name."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:36
+msgid "Print the name of the outlet which the order was placed in."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:44
+msgid "Outlet Address"
+msgstr "Standort Adresse"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:45
+msgid "Print the address of the outlet which the order was placed in."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:53
+msgid "Outlet Contact Details"
+msgstr "Outlet-Kontaktdaten"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:54
+msgid "Print the contact details of the outlet which the order was placed in."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:60
+msgid "Social Details Position"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:61
+msgid "Choose the position of the social details that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:63
+msgid "Header"
+msgstr "Header"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:64
+msgid "Footer"
+msgstr "Footer"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:72,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:22
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:80,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:35
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:88,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:48
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:96,
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:61
+msgid "Snapchat"
+msgstr "Snapchat"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:104
+msgid "Wi-Fi Details"
+msgstr "W-LAN Details"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:105
+msgid ""
+"Print the SSID and passphrase of the outlet that the order was placed in. "
+"This is set in the outlet settings."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:114
+msgid ""
+"Print the tax number of the shop. This is set under Point of Sale > Settings "
+"> General."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:121
+msgid "Tax Number Position"
+msgstr "Steuernummer position"
+
+#: includes/admin/views/html-admin-receipt-customize-section-header.php:122
+msgid "Choose the position of the tax number that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:16,
+#: includes/admin/views/html-admin-receipt-customize.php:15
+msgid "Shop Logo"
+msgstr "Shop Logo"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:17
+msgid "Upload a logo representing your shop or business."
+msgstr "Laden Sie ein Logo Ihres Geschäfts oder Unternehmens hoch."
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:19
+msgid "Select image"
+msgstr "Bild auswählen"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:30
+msgid "Logo Position"
+msgstr "Logo Position"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:31
+msgid "Choose the position of the shop logo that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:41
+msgid "Logo Size"
+msgstr "Logo Größe"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:42
+msgid "Choose the size of the shop logo that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:45,
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:16
+msgid "Small"
+msgstr "Klein"
+
+#: includes/admin/views/html-admin-receipt-customize-section-logo.php:46,
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:18
+msgid "Large"
+msgstr "Groß"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:21
+msgid "Order Date"
+msgstr "Bestelldatum"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:22
+msgid "Print the order date."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:28
+msgid "Order Date Format"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:29
+msgid "Choose the format of the order date that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:34
+msgid "Custom"
+msgstr "Benutzerdefiniert"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:45
+msgid "Customer Name"
+msgstr "Kundenname"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:46
+msgid "Print the customer name."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:54
+msgid "Customer Email"
+msgstr "Kunden-E-Mail"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:55
+msgid "Print the customer email."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:63
+msgid "Customer Phone"
+msgstr "Kunden Telefonnummer"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:64
+msgid "Print the customer billing phone number."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:72
+msgid "Customer Shipping Address"
+msgstr "Lieferadresse"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:73
+msgid "Print the customer shipping address."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:81
+msgid "Cashier Name"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:82
+msgid "Print the name of the cashier that placed the order."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:88
+msgid "Cashier Name Format"
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:89
+msgid "Choose the format of the cashiers name that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:91
+msgid "Nickname"
+msgstr "Spitzname"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:92
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:101
+msgid "Register Name"
+msgstr "Kassen Name"
+
+#: includes/admin/views/html-admin-receipt-customize-section-order.php:102
+msgid "Print name of the register that the order was placed through."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:16
+msgid "Print the product image."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:24
+msgid "Product SKU"
+msgstr "Artikel SKU"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:25
+msgid "Print the product SKU."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:33
+msgid "Product Cost"
+msgstr "Produkt Preis"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:34
+msgid "Print the product cost."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:42
+msgid "Product Discount"
+msgstr "Produktrabatt"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:43
+msgid "Print the discount."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:52
+msgid "Print the total number of items."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:61
+msgid "Print tax summary."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:69
+msgid "Order Barcode"
+msgstr "Barcode der Bestellung"
+
+#: includes/admin/views/html-admin-receipt-customize-section-product.php:70
+msgid "Print the order barcode."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:13
+msgid "Text Size"
+msgstr "Schriftgröße"
+
+#: includes/admin/views/html-admin-receipt-customize-section-style.php:14
+msgid "Select the size of the text that is printed."
+msgstr ""
+
+#: includes/admin/views/html-admin-receipt-customize.php:12,
+#: includes/admin/meta-boxes/views/html-actions-panel.php:23
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: includes/admin/views/html-admin-receipt-customize.php:12,
+#: includes/admin/meta-boxes/views/html-actions-panel.php:21
+msgid "Publish"
+msgstr "Veröffentlichen"
+
+#: includes/admin/views/html-admin-receipt-customize.php:14
+msgid "General Details"
+msgstr "Allgemeine Details"
+
+#: includes/admin/views/html-admin-receipt-customize.php:16
+msgid "Header Details"
+msgstr "Kopfzeilendetails"
+
+#: includes/admin/views/html-admin-receipt-customize.php:17
+msgid "Order Details"
+msgstr "Bestelldetails"
+
+#: includes/admin/views/html-admin-receipt-customize.php:18
+msgid "Product Details"
+msgstr "Produktdetails"
+
+#: includes/admin/views/html-admin-receipt-customize.php:19
+msgid "Style Details"
+msgstr "Style Details"
+
+#: includes/admin/views/html-admin-receipt-customize.php:20
+msgid "Header Text"
+msgstr "Header Text"
+
+#: includes/admin/views/html-admin-receipt-customize.php:21
+msgid "Footer Text"
+msgstr "Footer Text"
+
+#: includes/admin/views/html-admin-receipt-customize.php:22
+msgid "Custom CSS"
+msgstr "Benutzerdefiniertes CSS"
+
+#: includes/admin/views/html-admin-receipt-customize.php:48
+msgid "You are customizing"
+msgstr "Anpassen"
+
+#: includes/admin/views/html-admin-receipt-customize.php:58
+msgid "Press return or enter to open this section"
+msgstr "Drücke zurück oder die Eingabetaste, um diesen Bereich zu öffnen"
+
+#: includes/admin/views/html-admin-receipt-customize.php:68
+msgid "Back"
+msgstr "Zurück"
+
+#: includes/admin/views/html-admin-receipt-customize.php:69
+msgid "Customizing"
+msgstr "Anpassen"
+
+#: includes/admin/views/html-admin-settings.php:37,
+#: includes/admin/views/html-admin-settings.php:37
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: includes/admin/views/html-notice-install.php:12
+msgid "Dismiss"
+msgstr "Verwerfen"
+
+#: includes/admin/views/html-notice-install.php:14
+msgid ""
+"<strong>Welcome to WooCommerce Point of Sale</strong> &#8211; You&lsquo;re "
+"almost ready to start selling :)"
+msgstr ""
+
+#: includes/admin/views/html-notice-update.php:13
+msgid ""
+"<strong>WooCommerce Point of Sale data update</strong> &#8211; We need to "
+"update your database to the latest version"
+msgstr ""
+"<stark>WooCommerce Point of Sale Datenupdate</stark> &#8211; Wir müssen Ihre "
+"Datenbank auf die neueste Version aktualisieren"
+
+#: includes/admin/views/html-notice-update.php:14
+msgid "Run the updater"
+msgstr "Updater ausführen"
+
+#: includes/admin/views/html-notice-update.php:18
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"Es wird empfohlen, dass Sie einen Backup Ihrer Datenbank und der Dateien "
+"machen, bevor Sie fortfahren. Sind Sie sicher, dass Sie den Updater jetzt "
+"ausführen möchten?"
+
+#: includes/admin/views/html-notice-wc-rest-api.php:12
+msgid ""
+"WooCommerce REST API is blocked; hence Point of Sale for WooCommerce will "
+"not be working correctly. Please contact your server administrator to "
+"unblock it."
+msgstr ""
+
+#: includes/admin/views/html-product-data-point-of-sale.php:22
+msgid "Change the unit of measurement of stock values."
+msgstr ""
+
+#: includes/admin/views/html-product-data-point-of-sale.php:31
+msgid "Unit"
+msgstr "Einheit"
+
+#: includes/admin/views/html-product-data-point-of-sale.php:32
+msgid "Select unit of measurement."
+msgstr ""
+
+#: includes/admin/views/html-product-data-point-of-sale.php:74
+msgid "Value Increment"
+msgstr ""
+
+#: includes/admin/views/html-product-data-point-of-sale.php:75
+msgid "Select incremental value when used when browsing as a tile."
+msgstr ""
+
+#: includes/admin/views/html-quick-edit-product.php:16
+msgid "Visibility"
+msgstr "Sichtbarkeit"
+
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:18
+msgid "Default Sort Order"
+msgstr "Standard Sortierreihenfolge"
+
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:23
+msgid "Custom ordering"
+msgstr "Benutzerdefinierte Sortierung"
+
+#: includes/admin/meta-boxes/views/html-grid-options-panel.php:27
+msgid ""
+"Determines the sort order of the products on the POS page. If using custom "
+"ordering, you can drag and drop the products in this grid."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:14
+msgid "Deleted Product"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:19
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:36,
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:75
+msgid "Product Category"
+msgstr "Produktkategorie"
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:38
+msgid "Deleted Category"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:47
+msgid "Products Count"
+msgstr "Produkt-Anzahl"
+
+#: includes/admin/meta-boxes/views/html-grid-tile.php:67
+msgid "Delete tile"
+msgstr "Tile löschen"
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:19
+msgid "Tile"
+msgstr "Kachel"
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:20
+msgid "Tile Type"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:40
+msgid ""
+"Tiles let you define custom grids for your register. You can add a tile that "
+"represents a product or a category."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:45
+msgid "Add Tile"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:46
+msgid "Delete All Tiles"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-grid-tiles-panel.php:54
+msgid "Add tile"
+msgstr "Kachel hinzufügen"
+
+#. translators: %1$s opening anchor tag %2$s closing anchor tag
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:17
+msgid ""
+"Enter the address details of the outlet or %1$sclick here%2$s to fill out "
+"the fields from the store address."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:25
+msgid "Address Line 1"
+msgstr "Adresszeile 1"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:36
+msgid "Address Line 2"
+msgstr "Adresszeile 2"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:47
+msgid "City"
+msgstr "Stadt"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:58
+msgid "Postcode/ZIP"
+msgstr "Postleitzahl"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:71
+msgid "Select a country&hellip;"
+msgstr "Land auswählen&hellip;"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:84
+msgid "State/County"
+msgstr "Bundesland"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-address.php:85
+msgid "State/County or state code."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:13
+msgid ""
+"Enter the contact details of the outlet as this will appear on receipts that "
+"are printed from registers at this outlet."
+msgstr ""
+"Geben Sie die Kontaktdaten des Standortes ein, die über die Kasse "
+"ausgedruckt werden."
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:21
+msgid "Enter an email address for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:33
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:34
+msgid "Enter a phone number for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:46
+msgid "Fax Number"
+msgstr "Faxnummer"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:47
+msgid "Enter a fax number for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-contact.php:60
+msgid "Enter a URL for this outlet."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:15
+msgid ""
+"Enter the social details of the outlet as this will appear on receipts that "
+"are printed from registers at this outlet."
+msgstr ""
+"Geben Sie die social Kontaktdaten des Standortes ein, die über die Kasse "
+"ausgedruckt werden."
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:23
+msgid ""
+"The Twitter name of the outlet. E.g. for twitter.com/acme enter just \"acme"
+"\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:36
+msgid ""
+"The Facebook name of the outlet. E.g. for facebook.com/acme enter just \"acme"
+"\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:49
+msgid ""
+"The Instagram name of the outlet. E.g. for instagram.com/acme enter just "
+"\"acme\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-social.php:62
+msgid ""
+"The Snapchat name of the outlet. E.g. for snapchat.com/acme enter just \"acme"
+"\"."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-wireless.php:13
+msgid ""
+"Enter the wireless details of your outlet. This is useful for shop managers "
+"who want to share their wireless internet conncectivity to paid customers by "
+"sharing their wireless details on the printed receipt."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-outlet-options-wireless.php:19
+msgid "Wi-Fi Network"
+msgstr "W-LAN Netzwerk"
+
+#: includes/admin/meta-boxes/views/html-outlet-options-wireless.php:30
+msgid "Wi-Fi Password"
+msgstr "W-LAN Passwort"
+
+#: includes/admin/meta-boxes/views/html-product-grids-panel.php:17
+msgid "All grids"
+msgstr ""
+
+#. translators: %s add new grid link
+#: includes/admin/meta-boxes/views/html-product-grids-panel.php:35
+msgid "<a href=\"%s\">Add product grids</a>"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:18
+msgid "Check this box to print receipt at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:30
+msgid "Check this box to print gift receipt at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:47
+msgid "Yes, for all customers"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:48
+msgid "Yes, for non-guest customers only"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:52
+msgid "Select whether to email receipt at end of sale."
+msgstr ""
+"Wählen Sie aus, ob Sie am Ende des Verkaufs eine E-Mail erhalten möchten."
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:66
+msgid "On save"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:67
+msgid "On all sales"
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:71
+msgid "Select whether to add a note at end of sale."
+msgstr ""
+"Wählen Sie aus, ob eine Notiz am Ende des Verkaufs hinzugefügt werden soll."
+
+#: includes/admin/meta-boxes/views/html-register-options-end-of-sale.php:80
+msgid "Check this box if you want the user to be changed at end of sale."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:24
+msgid "Select the outlet that this register is assigned to."
+msgstr "Bitte wählen die den Standort für die Kasse aus."
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:47
+msgid "Select the product grid that this register will use."
+msgstr "Produkt-Grid auswählen."
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:57
+msgid "Receipt Template"
+msgstr "Beleg Vorlage"
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:60
+msgid "Select the receipt template that this register will use."
+msgstr "Wählen Sie die Belegvorlage, die diese Kasse verwenden soll."
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:68
+msgid "Prefix"
+msgstr "Präfix"
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:69
+msgid "Enter the prefix of the orders from this register."
+msgstr "Geben Sie das Präfix der Aufträge aus dieser Kasse ein."
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:80
+msgid "Suffix"
+msgstr "Suffix"
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:81
+msgid "Enter the suffix of the orders from this register."
+msgstr "Geben Sie das Suffix der Aufträge aus dieser Kasse ein."
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:96
+msgid ""
+"Select what you want the default customer to be when the register is opened."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:109
+msgid "Check this box if you want to manage the float of cash in the register."
+msgstr ""
+
+#: includes/admin/meta-boxes/views/html-register-options-general.php:131
+msgid ""
+"Select the dining option you want to be used by default in the register."
+msgstr ""
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:11
+msgid "Denomination Options"
+msgstr "Bezeichnungsoptionen"
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:13
+msgid ""
+"The following table defines the denominations that your point of sale system "
+"use when handling cash"
+msgstr ""
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:19
+msgid "Type"
+msgstr "Typ"
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:20
+msgid "Color"
+msgstr "Farbe"
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:50
+msgid "No denominations have been added yet."
+msgstr ""
+
+#: includes/admin/settings/views/html-admin-page-register-denominations.php:57
+msgid "Add Denomination"
+msgstr "Bezeichnung hinzufügen"
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:24,
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:56
+msgid "Stripe Terminal"
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:25
+msgid "Take payments in person via Stripe Terminal."
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:49
+msgid "Enable Stripe for POS"
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:55
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dies steuert den Titel, den der Kunde während des Zahlvorgangs sieht."
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:61
+msgid "Payment method description that the customer will see on your website"
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:63
+msgid "Pay with Stripe Terminal."
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:67
+msgid "Stripe secret key"
+msgstr "Stripe Geheimschlüssel"
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:68
+msgid "Secret key of your stripe account."
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:73
+msgid "Simulated reader"
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:74
+msgid "Enable simulated reader"
+msgstr ""
+
+#: includes/gateways/stripe/includes/class-wc-pos-gateway-stripe.php:120
+msgid "Available Terminals"
+msgstr ""

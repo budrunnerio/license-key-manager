@@ -1,0 +1,144 @@
+*** Self-service Dashboard for WooCommerce Subscriptions ***
+
+2023-12-12 - version 3.0.1
+* Update - Update translation template.
+* Bug Fixing - Remove the reactivation date custom field for a paused subscription when the subscription is activated.
+* Update - Remove frequency for products that are next shipment only.
+* Bug Fixing - Fixed change next payment date email error.
+* New - Create a filter for the Change next payment date button text.
+
+2023-08-01 - version 3.0.0
+* Dev: New - Code refactoring for WooCommerce HPOS compatibility.
+* Dev: New - Create filter for the change next payment date calendar limit
+* Dev: New - Add documentation link to the settings page
+* Dev: New - Create upsell notice
+* Dev: New - Update review functionality
+* Dev: Bug Fixing - The component products of the Bundle and Composite products that are "Next shipment only" are added as regular products after subscription renewal.
+* Dev: Bug Fixing - Fix fatal error.
+* Dev: Bug Fixing - Fix warning
+
+2023-04-20 - version 2.1.2
+* Dev: Bug Fixing - Translation template file updated
+* Dev: Bug Fixing - Fix discounted price for composite/bundle product with BOS when changing subscription frequency
+* Dev: Bug Fixing - Fix discounted price when adding a composite/bundle product with BOS to a subscription
+* Dev: Bug Fixing - Fix discounted price when editing a bundle/composite product with BOS
+
+2023-03-13 - version 2.1.1
+* Dev: Bug Fixing - Error fix json_decode.
+* Dev: Bug Fixing - Error fix on register_rest_route call.
+
+2023-03-08 - version 2.1.0
+* Dev: New - Change subscription next payment date functionality.
+* Dev: New - Change subscription frequency functionality.
+* Dev: New - Add product to subscription only for next shipment functionality.
+* Dev: New - When a subscription is paused, display the date in the Status row using the WP date format.
+* Dev: New - Update minimum requirements.
+* Dev: New - Create a filter to change the date format for the date pickers.
+* Dev: New - Enable/disable action buttons according to actions taken in frontend.
+* Dev: Bug Fixing - Component quantity for Bundle/composite product is not multiplied by bundle quantity when the product is edited on an existing subscription.
+* Dev: Bug Fixing - When a BOS product with a sale price is added to a subscription, the regular price is used for calculating the discounted price.
+* Dev: Bug Fixing - The user can still interact with the [Change quantity] button while the changes are loading.
+
+2022-12-22 - version 2.0.2
+* Dev: Bug Fixing - When changing variations the BOS discounted price is not calculated correctly.
+* Dev: Bug Fixing - When products are loaded in the Add new product modal, BOS products that don't have the subscription's frequency are excluded.
+
+2022-12-08 - version 2.0.1
+* Dev: Bug Fixing - When a subscription is reactivated after it was paused, the email notification contains the updated subscription details.
+* Dev: Bug Fixing - When loading variable products/subscriptions in the Add new product modal, exclude the variations that are present on the subscription and not the whole product
+
+2022-10-12 - version 2.0.0
+* Dev: New - Replace 'Add new product' window with a modal
+* Dev: New - Get plugin ready for translation
+* Dev: New - Create back-end settings for what product types should be included in the 'Add new product' feature
+* Dev: Bug Fixing - Fix the No DB value issue in WP-Admin settings
+* Dev: Bug Fixing - When composite and bundle products which were bought with BOS are edited, the prices are not correct after page refresh
+* Dev: Bug Fixing - when a bundle/composite product is added to an active subscription and has a BOS discount set, the price is not discounted
+* Dev: Bug Fixing - The "Change quantity" button is hidden if you enter the "0" value from the keyboard
+* Dev: Bug Fixing - Fatal error for add new product.
+* Dev: Bug Fixing - Update the JS library "Add new product" trigger class.
+* Dev: Bug Fixing - Add fix for Bundle/Composite JS library loading.
+* Dev: Bug Fixing - Bos discount is lost after quantity change for bundle and composite
+* Dev: Bug Fixing - No message is displayed in the 'Add new product' window when the user searches for a product that is out of stock
+
+2022-08-03 - version 1.0.17
+* Dev: New - Add support for Bundled products.
+* Dev: New - Add support for Composite products.
+* Dev: Bug Fixing - Filter out form 'Add new product' window products already present in the subscription items list.
+* Dev: Bug Fixing - Fix notice display location when quantity changes.
+
+2022-06-15 - version 1.0.16
+* Dev: New - Add new product search bar improvements
+* Dev: New - Rename [Close] button to [Cancel] for pause functionality
+
+2022-05-10 - version 1.0.15
+* Dev: New - Add a product search in the “Add new product” screen.
+* Dev: New - Show notifications for my account actions.
+* Dev: New - Create WP Filter for Add new product window.
+* Dev: Bug Fixing - The quantity of a subscription's product is set to '1' when attempting to modify it.
+* Dev: Bug Fixing - The Paused subscriptions not getting removed from cron job.
+* Dev: Bug Fixing - Missing WC Subscriptions alert & Author Link update.
+
+2022-04-11 - version 1.0.14
+* Dev: New - Create [Cancel] button for Add new product window.
+* Dev: New - Update labels and texts in WooCommerce Self Service tab Settings options.
+* Dev: New - Implement the email notification for customer when subscription is set to Pause.
+* Dev: Bug Fixing - Remove items action buttons from email template.
+* Dev: Bug Fixing - Filter out Hidden and Out of stock products from the Add new product window.
+* Dev: Bug Fixing - Fix email body for resume email, when subscription automatically resumed.
+
+2022-03-17 - version 1.0.13
+* Dev: New - Add new setting section that allow the admin to select which functionalities will be available to their customers.
+
+2022-02-03 - version 1.0.12
+* Dev: Bug Fixing -  Fix compatibility with WooCommerce Product Bundles on "Switch item" screen.
+* Dev: New -  Display products in the Add new product window according to screen size using a responsive approach on 3, 2 or 1 column.
+* Dev: New -  Add support for "Sold individually" subscription product option: don't display Change quantity button & hide subscription in the "Add new product" window.
+* Dev: New -  Add support for "Limit to one of any status" subscription product option.
+* Dev: New -  Add support for "Limit to one active subscription" subscription product option.
+* Dev: New -  Rename the "Add" button to "Add to subscription" for every product in the Add new product window.
+
+2021-12-08 - version 1.0.11
+* Dev: New - Implement filter hook 'ssd_product_query_args', the filter allows you to change the WP_Query parameters used to get the products the user sees when adding a new item on a Subscription.
+* Dev: New - Implement filter hook 'ssd_add_new_product_list', The filter allows you to manipulate the object containing the list of products the user sees when adding a new item on a Subscription.
+
+2021-11-03 - version 1.0.10
+* Dev: Bug fixing - Don't show options for the products that have a sign-up fee.
+
+2021-11-03 - version 1.0.9
+* Dev: New - Implement action hook 'ssd_quantity_update_before_calculate_totals' fired after the subscription item quantity gets updated.
+* Dev: New - Implement action hook 'ssd_update_variable_item_before_calculate_totals' fired after the subscription variable item gets updated.
+* Dev: New - Implement action hook 'ssd_add_simple_product_before_calculate_totals' fired after a new simple product has been added to the subscription.
+* Dev: New - Implement action hook 'ssd_add_variable_product_before_calculate_totals' fired after a new variable product has been added to the subscription.
+* Dev: New - Implement action hook 'ssd_pause_subscription' fired after the subscription is paused until date.
+* Dev: Bug fixing - Fix Add new variable product in to subscription.
+* Dev: Bug fixing - Fix pause button and switch variable button display.
+
+2021-11-01 - version 1.0.8
+* Dev: Bug fixing - Fix update quantity price.
+
+2021-10-04 - version 1.0.7
+* Dev: New - Add support to display the Paused until date by shortcode [ecommtools_get_renewal_date]. The shortcode can be used with subscription_id parameter anywhere on the website (i.e. [ecommtools_get_renewal_date subscription_id="123"]) or without the parameter if you call it on the My Subscription page.
+
+2021-06-10 - version 1.0.6
+* Dev: Bug fixing - Add support for multi-site.
+
+2021-06-09 - version 1.0.5
+* Dev: New - Add back-end notes on Subscription whenever a variation is switched.
+* Dev: New - Add back-end notes on Subscription whenever the quantity is changed.
+* Dev: New - Add back-end notes on Subscription whenever a new line item is added.
+
+2021-05-28 - version 1.0.4
+* Dev: Bug fixing - The 'Add new product' button isn't functional.
+
+2021-05-28 - version 1.0.3
+* Dev: Bug fixing for 'Switch Item' form doesn't show up.
+
+2021-05-10 - version 1.0.2
+* Dev: Add 'ssd_switch_item_text' filter to control the output text for ‘Switch item’ button.
+
+2021-03-29 - version 1.0.1
+* Small bug fixes
+
+2021-02-12 - version 1.0.0
+* Initial version.

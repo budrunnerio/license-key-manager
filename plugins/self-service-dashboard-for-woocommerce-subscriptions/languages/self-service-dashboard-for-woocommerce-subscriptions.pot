@@ -1,0 +1,523 @@
+# Copyright (C) 2023 eCommerce Tools
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Self-service Dashboard for WooCommerce Subscriptions 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/self-service-dashboard-for-woocommerce-subscriptions\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-12-07T13:29:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: self-service-dashboard-for-woocommerce-subscriptions\n"
+
+#. Plugin Name of the plugin
+msgid "Self-service Dashboard for WooCommerce Subscriptions"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://woocommerce.com/products/self-service-dashboard-for-woocommerce-subscriptions/"
+msgstr ""
+
+#. Description of the plugin
+msgid "A simple self-service interface on top of WooCommerce Subscriptions that allows your customers to manage their subscriptions by themselves."
+msgstr ""
+
+#. Author of the plugin
+msgid "eCommerce Tools"
+msgstr ""
+
+#: core/class-wpr-admin.php:38
+msgid "Self-Service Dash"
+msgstr ""
+
+#: core/class-wpr-admin.php:47
+msgid "Get started"
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:88
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:100
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:112
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:124
+msgid "Add to next shipment"
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:205
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:260
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:336
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:472
+#: functions/class-wpr-update-subscription.php:2438
+#: functions/class-wpr-update-subscription.php:2532
+#: functions/class-wpr-update-subscription.php:2644
+#: functions/class-wpr-update-subscription.php:2848
+msgid "Product not added."
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:213
+#: functions/class-wpr-update-subscription.php:768
+msgid "Order ID is invalid"
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:220
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:279
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:369
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:496
+#: functions/class-wpr-update-subscription.php:2459
+#: functions/class-wpr-update-subscription.php:2557
+#: functions/class-wpr-update-subscription.php:2677
+#: functions/class-wpr-update-subscription.php:2872
+msgid "Order is invalid."
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:229
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:298
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:430
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:546
+msgid "Product added for"
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:229
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:298
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:430
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:546
+msgid "Next shipment only"
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:240
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:311
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:438
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:554
+msgid "Product added for next shipment only."
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:257
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:331
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:458
+#: functions/change-payment-date/class-change-payment-date.php:148
+#: functions/class-wpr-update-subscription.php:932
+#: functions/class-wpr-update-subscription.php:1047
+#: functions/class-wpr-update-subscription.php:1075
+#: functions/class-wpr-update-subscription.php:1090
+#: functions/class-wpr-update-subscription.php:1401
+#: functions/class-wpr-update-subscription.php:1434
+#: functions/class-wpr-update-subscription.php:1444
+#: functions/class-wpr-update-subscription.php:2527
+#: functions/class-wpr-update-subscription.php:2639
+#: functions/class-wpr-update-subscription.php:2834
+#: functions/class-wpr-update-subscription.php:3018
+msgid "Invalid data, please try again."
+msgstr ""
+
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:272
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:358
+#: functions/add-to-next-shipment/class-add-to-next-shipment.php:485
+#: functions/class-wpr-update-subscription.php:957
+#: functions/class-wpr-update-subscription.php:2448
+#: functions/class-wpr-update-subscription.php:2546
+#: functions/class-wpr-update-subscription.php:2666
+#: functions/class-wpr-update-subscription.php:2861
+msgid "Order ID is invalid."
+msgstr ""
+
+#: functions/change-frequency/class-change-frequency.php:100
+msgid "Your subscription will switch to"
+msgstr ""
+
+#: functions/change-frequency/class-change-frequency.php:100
+msgid "after your next payment date on"
+msgstr ""
+
+#: functions/change-frequency/class-change-frequency.php:315
+msgid "Customer changed the subscription frequency from"
+msgstr ""
+
+#: functions/change-frequency/class-change-frequency.php:318
+msgid "to"
+msgstr ""
+
+#: functions/change-frequency/class-change-frequency.php:431
+msgid "Available frequencies for customers"
+msgstr ""
+
+#: functions/change-frequency/class-change-frequency.php:438
+msgid "Visible: Custom Available frequencies"
+msgstr ""
+
+#: functions/change-frequency/class-change-frequency.php:445
+msgid "Hidden: Available frequencies"
+msgstr ""
+
+#: functions/change-frequency/class-wc-frequency-changed-email.php:30
+msgid "Your subscription frequency has changed"
+msgstr ""
+
+#: functions/change-frequency/class-wc-frequency-changed-email.php:31
+msgid "You changed your subscription frequency"
+msgstr ""
+
+#: functions/change-frequency/templates/admin-field-available-frequency.php:22
+msgid "Frequency"
+msgstr ""
+
+#: functions/change-frequency/templates/admin-field-available-frequency.php:42
+msgid "Add"
+msgstr ""
+
+#: functions/change-frequency/templates/admin-field-available-frequency.php:44
+msgid "This frequency is already saved"
+msgstr ""
+
+#: functions/change-frequency/templates/admin-field-available-frequency.php:52
+msgid "Defined available frequencies"
+msgstr ""
+
+#: functions/change-frequency/templates/admin-field-available-frequency.php:61
+msgid "Delete"
+msgstr ""
+
+#: functions/change-frequency/templates/change-frequency-row.php:22
+msgid "Subscription frequency"
+msgstr ""
+
+#: functions/change-frequency/templates/change-frequency-row.php:32
+msgid "Change frequency"
+msgstr ""
+
+#: functions/change-frequency/templates/change-frequency-row.php:58
+#: functions/change-payment-date/class-change-payment-date.php:125
+#: functions/class-wpr-update-subscription.php:158
+#: functions/class-wpr-update-subscription.php:717
+#: functions/class-wpr-update-subscription.php:1968
+#: functions/templates/single-product/add-to-cart/bundle.php:195
+#: functions/templates/single-product/add-to-cart/composite.php:91
+msgid "Save"
+msgstr ""
+
+#: functions/change-frequency/templates/change-frequency-row.php:59
+#: functions/change-payment-date/class-change-payment-date.php:126
+#: functions/class-wpr-update-subscription.php:149
+#: functions/class-wpr-update-subscription.php:538
+#: functions/class-wpr-update-subscription.php:718
+#: functions/class-wpr-update-subscription.php:1969
+#: functions/class-wpr-update-subscription.php:2316
+#: functions/templates/single-product/add-to-cart/bundle-add.php:104
+#: functions/templates/single-product/add-to-cart/bundle.php:196
+#: functions/templates/single-product/add-to-cart/composite-add.php:56
+#: functions/templates/single-product/add-to-cart/composite.php:92
+msgid "Cancel"
+msgstr ""
+
+#. translators: %s: Customer first name
+#. translators: Notice HTML
+#: functions/change-frequency/templates/emails/frequency-changed.php:29
+#: functions/change-frequency/templates/emails/plain/frequency-changed.php:21
+#: functions/change-payment-date/templates/emails/customer-change-payment-date-subscription.php:22
+#: functions/change-payment-date/templates/emails/plain/customer-change-payment-date-subscription.php:18
+msgid "Hi %s,"
+msgstr ""
+
+#. translators: Notice HTML
+#: functions/change-frequency/templates/emails/frequency-changed.php:30
+#: functions/change-frequency/templates/emails/plain/frequency-changed.php:23
+msgid "You have successfully changed your subscription frequency to Every %1$s, for subscription #%2$s."
+msgstr ""
+
+#: functions/change-payment-date/class-change-payment-date.php:42
+msgid "Allow payment date change"
+msgstr ""
+
+#: functions/change-payment-date/class-change-payment-date.php:44
+msgid "When checked, the [Change payment date] button will be displayed on the My Subscription page; otherwise, it will be hidden."
+msgstr ""
+
+#: functions/change-payment-date/class-change-payment-date.php:123
+#: functions/class-wpr-update-subscription.php:715
+msgid "Select a date"
+msgstr ""
+
+#: functions/change-payment-date/class-change-payment-date.php:151
+msgid "Payment date changed."
+msgstr ""
+
+#: functions/change-payment-date/class-change-payment-date.php:160
+#: functions/class-wpr-update-subscription.php:3034
+msgid "Subscription ID is invalid."
+msgstr ""
+
+#: functions/change-payment-date/class-change-payment-date.php:167
+#: functions/class-wpr-pause-subscription.php:143
+#: functions/class-wpr-update-subscription.php:3046
+msgid "Subscription is invalid."
+msgstr ""
+
+#: functions/change-payment-date/class-change-payment-date.php:227
+msgid "Change payment date"
+msgstr ""
+
+#: functions/change-payment-date/class-wc-change-payment-date-email.php:30
+#: functions/change-payment-date/class-wc-change-payment-date-email.php:31
+msgid "You changed your subscription date"
+msgstr ""
+
+#. translators: Notice HTML
+#: functions/change-payment-date/templates/emails/customer-change-payment-date-subscription.php:23
+#: functions/change-payment-date/templates/emails/plain/customer-change-payment-date-subscription.php:20
+msgid "You have successfully changed your subscription payment date to  %s."
+msgstr ""
+
+#: functions/change-payment-date/templates/emails/customer-change-payment-date-subscription.php:40
+#: functions/templates/emails/customer-active-subscription.php:45
+#: functions/templates/emails/customer-paused-subscription.php:46
+msgid "Subscription details"
+msgstr ""
+
+#. translators: placeholder is order's view url.
+#: functions/change-payment-date/templates/emails/plain/customer-change-payment-date-subscription.php:31
+#: functions/templates/emails/plain/customer-active-subscription.php:31
+#: functions/templates/emails/plain/customer-paused-subscription.php:31
+msgid "View your order: %s"
+msgstr ""
+
+#. translators: placeholder is subscription's view url.
+#: functions/change-payment-date/templates/emails/plain/customer-change-payment-date-subscription.php:50
+#: functions/templates/emails/plain/customer-active-subscription.php:53
+#: functions/templates/emails/plain/customer-paused-subscription.php:52
+msgid "View your subscription: %s"
+msgstr ""
+
+#: functions/class-wc-active-order-email.php:30
+msgid "Your subscription is set to active"
+msgstr ""
+
+#: functions/class-wc-active-order-email.php:31
+msgid "Your {blogname} subscription is set to active"
+msgstr ""
+
+#: functions/class-wc-paused-order-email.php:30
+msgid "Your subscription has been paused until {paused_date}"
+msgstr ""
+
+#: functions/class-wc-paused-order-email.php:31
+msgid "Your {blogname} subscription has been paused until {paused_date}"
+msgstr ""
+
+#: functions/class-wpr-pause-subscription.php:68
+msgid "On hold until"
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:49
+msgid "Options for changing subscriptions"
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:55
+msgid "Allow subscription pause"
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:57
+msgid "When checked, the [Pause] button will be displayed on the My Subscription page; otherwise, it will be hidden."
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:61
+msgid "Allow adding a new product"
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:63
+msgid "When checked, the [Add product] button will be displayed on the My Subscription page; otherwise, it will be hidden."
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:91
+msgid "Allow quantity change"
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:93
+msgid "When checked, the [Change quantity] button will be displayed on the My Subscription page; otherwise, it will be hidden."
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:98
+msgid "Item switching"
+msgstr ""
+
+#: functions/class-wpr-settings-tab.php:100
+msgid "When checked, the [Switch item] button will be displayed on the My Subscription page; otherwise, it will be hidden."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:113
+#: functions/class-wpr-update-subscription.php:202
+msgid "Close"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:157
+#: functions/class-wpr-update-subscription.php:3141
+msgid "Change quantity"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:160
+msgid "Change Subscription"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:161
+msgid "Please select product variations"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:162
+msgid "Please fill the search input"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:198
+msgid "Search products"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:199
+msgid "Search"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:383
+#: functions/class-wpr-update-subscription.php:392
+#: functions/class-wpr-update-subscription.php:402
+#: functions/class-wpr-update-subscription.php:409
+#: functions/class-wpr-update-subscription.php:654
+#: functions/class-wpr-update-subscription.php:657
+#: functions/class-wpr-update-subscription.php:663
+#: functions/class-wpr-update-subscription.php:2416
+msgid "There are no subscription products available."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:480
+#: functions/class-wpr-update-subscription.php:1909
+#: functions/class-wpr-update-subscription.php:2246
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:537
+#: functions/class-wpr-update-subscription.php:633
+#: functions/class-wpr-update-subscription.php:2304
+#: functions/class-wpr-update-subscription.php:2397
+#: functions/templates/single-product/add-to-cart/bundle-add.php:103
+#: functions/templates/single-product/add-to-cart/composite-add.php:55
+msgid "Add to subscription"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:551
+#: functions/class-wpr-update-subscription.php:592
+#: functions/class-wpr-update-subscription.php:628
+#: functions/class-wpr-update-subscription.php:2318
+#: functions/class-wpr-update-subscription.php:2359
+#: functions/class-wpr-update-subscription.php:2392
+msgid "Select option"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:739
+msgid "Subscription quantity not updated"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:748
+msgid "Quantity must have a value"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:756
+msgid "Quantity must be greater than 0"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:913
+msgid "Product quantity changed."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:937
+msgid "Subscription variation not updated"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:1027
+msgid "Your product has been switched."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:1052
+msgid "Subscription composite not updated"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:1381
+#: functions/class-wpr-update-subscription.php:1760
+msgid "Product edited."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:1406
+msgid "Subscription bundle not updated"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:1784
+msgid "The order item does not exist."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:1793
+msgid "The selected product does not exists."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:2004
+msgid "The subscription does not exists."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:2508
+#: functions/class-wpr-update-subscription.php:2619
+#: functions/class-wpr-update-subscription.php:2814
+#: functions/class-wpr-update-subscription.php:2998
+msgid "Product added to your subscription."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:3023
+msgid "Subscription paused."
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:3098
+msgid "Add new product"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:3172
+msgid "Switch item"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:3174
+msgid "Edit"
+msgstr ""
+
+#: functions/class-wpr-update-subscription.php:3246
+msgid "Pause"
+msgstr ""
+
+#: functions/helpers.php:62
+msgid "Enjoying the Self-service Dashboard?"
+msgstr ""
+
+#: functions/helpers.php:63
+msgid "If you're happy with our plugin please help us grow by leaving a 5-star review on the WooCommerce page. If you think it needs work, please help us make it better."
+msgstr ""
+
+#: functions/helpers.php:73
+msgid "Rate us"
+msgstr ""
+
+#: functions/helpers.php:75
+msgid "Submit feature request"
+msgstr ""
+
+#: functions/helpers.php:239
+msgid "Documentation & Filters"
+msgstr ""
+
+#: functions/templates/emails/customer-active-subscription.php:23
+msgid "Your subscription it's now active. Your order and subscription details are shown below for your reference:"
+msgstr ""
+
+#: functions/templates/emails/customer-paused-subscription.php:24
+msgid "Your subscription it's now paused. Your order and subscription details are shown below for your reference:"
+msgstr ""
+
+#: functions/templates/emails/plain/customer-active-subscription.php:17
+msgid "Your subscription it's now active. Your new order and subscription details are shown below for your reference:"
+msgstr ""
+
+#: functions/templates/emails/plain/customer-paused-subscription.php:17
+msgid "Your subscription it's now paused. Your new order and subscription details are shown below for your reference:"
+msgstr ""
